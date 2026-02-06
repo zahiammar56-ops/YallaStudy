@@ -1,0 +1,991 @@
+﻿<!doctype html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>YallaStudy | القبول بين يديك</title>
+    <meta
+      name="description"
+      content="استشارات تعليمية مجانية للتسجيل في أفضل معاهد اللغة حول العالم مع متابعة كاملة حتى القبول."
+    />
+    <meta name="theme-color" content="#0b52c1" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&family=Changa:wght@600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="styles.css" />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main" data-i18n="skip">تجاوز إلى المحتوى</a>
+
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="logo" href="#top" aria-label="YallaStudy">
+          <img
+            class="logo-image"
+            src="YallaStudyPNG.png"
+            alt="YallaStudy logo"
+            loading="eager"
+            decoding="async"
+          />
+        </a>
+
+        <nav class="site-nav" id="primary-nav" data-nav>
+          <div class="nav-panel">
+            <div class="nav-mobile-actions">
+              <div class="lang-switcher">
+                <select
+                  id="lang-select-mobile"
+                  aria-label="اللغة"
+                  data-i18n-attr="aria-label:lang.label"
+                >
+                  <option value="ar">العربية</option>
+                  <option value="en">English</option>
+                  <option value="fr">Français</option>
+                  <option value="es">Español</option>
+                  <option value="tr">Türkçe</option>
+                </select>
+              </div>
+              <button class="theme-toggle" type="button" data-theme-toggle data-i18n="theme.dark">
+                وضع ليلي
+              </button>
+              <a class="btn btn-primary btn-primary-dark" href="#contact" data-i18n="cta.register"
+                >سجل الآن</a
+              >
+            </div>
+            <ul>
+              <li><a href="#about" data-i18n="nav.about">من نحن</a></li>
+              <li><a href="#institutes" data-i18n="nav.institutes">معاهد اللغة</a></li>
+              <li><a href="#services" data-i18n="nav.services">خدماتنا</a></li>
+              <li><a href="#why-us" data-i18n="nav.why">لماذا نحن؟</a></li>
+              <li><a href="#proof" data-i18n="nav.proof">الاعتماد والتوثيق</a></li>
+              <li><a href="#faq" data-i18n="nav.faq">الأسئلة الشائعة</a></li>
+            </ul>
+          </div>
+        </nav>
+
+        <div class="header-actions">
+          <div class="lang-switcher">
+            <select
+              id="lang-select"
+              aria-label="اللغة"
+              data-i18n-attr="aria-label:lang.label"
+            >
+              <option value="ar">العربية</option>
+              <option value="en">English</option>
+              <option value="fr">Français</option>
+              <option value="es">Español</option>
+              <option value="tr">Türkçe</option>
+            </select>
+          </div>
+          <button class="theme-toggle" type="button" data-theme-toggle data-i18n="theme.dark">
+            وضع ليلي
+          </button>
+          <a class="btn btn-primary btn-primary-dark" href="#contact" data-i18n="cta.register"
+            >سجل الآن</a
+          >
+          <button
+            class="nav-toggle"
+            type="button"
+            data-nav-toggle
+            aria-expanded="false"
+            aria-controls="primary-nav"
+            aria-label="فتح القائمة"
+            data-i18n-attr="aria-label:menu.open"
+          >
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="hero" id="top">
+        <div class="hero-slides" aria-hidden="true">
+          <div
+            class="hero-slide is-active"
+            style="
+              --hero-image: url('https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?auto=format&fit=crop&w=1600&q=80');
+            "
+          ></div>
+          <div
+            class="hero-slide"
+            style="
+              --hero-image: url('https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=1600&q=80');
+            "
+          ></div>
+        </div>
+        <div class="container hero-content">
+          <p class="hero-kicker" data-i18n="hero.kicker">YallaStudy للاستشارات التعليمية</p>
+          <h1 data-i18n="hero.title">القبول بين يديك</h1>
+          <p class="hero-lead" data-i18n="hero.lead">
+            نُسهّل عليك التسجيل في أفضل معاهد اللغة حول العالم. استشارة مجانية،
+            متابعة كاملة، وخيارات تناسب ميزانيتك وخططك الدراسية.
+          </p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#contact" data-i18n="hero.ctaPrimary"
+              >احجز استشارتك مجانًا</a
+            >
+            <a class="btn btn-outline" href="#services" data-i18n="hero.ctaSecondary"
+              >تعرّف على خدماتنا</a
+            >
+          </div>
+          <div class="hero-points">
+            <div class="hero-point">
+              <span data-i18n="hero.point1.title">استجابة خلال 24 ساعة</span>
+              <small data-i18n="hero.point1.desc">فريق متابعة متخصص</small>
+            </div>
+            <div class="hero-point">
+              <span data-i18n="hero.point2.title">شبكة معاهد موثوقة</span>
+              <small data-i18n="hero.point2.desc">في أوروبا وأمريكا وكندا</small>
+            </div>
+            <div class="hero-point">
+              <span data-i18n="hero.point3.title">خطوات واضحة</span>
+              <small data-i18n="hero.point3.desc">من التسجيل حتى القبول</small>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="stats-strip" id="about">
+        <div class="container stats-grid reveal">
+          <div class="stats-copy">
+            <h2 data-i18n="about.title">من نحن</h2>
+            <p data-i18n="about.lead">
+              YallaStudy فريق استشاري متخصص في التسجيل بمعاهد اللغة والقبول
+              الأكاديمي. نساعدك على اختيار المعهد المناسب، تجهيز المستندات،
+              ومتابعة القبول خطوة بخطوة.
+            </p>
+            <ul class="tick-list">
+              <li data-i18n="about.bullet1">استشارة مجانية مع مستشار عربي متخصص.</li>
+              <li data-i18n="about.bullet2">خيارات واضحة ورسوم شفافة بدون مفاجآت.</li>
+              <li data-i18n="about.bullet3">
+                متابعة حتى إصدار القبول وإرشاد ما بعد الوصول.
+              </li>
+              <li data-i18n="about.bullet4">دعم عبر واتساب ومتابعة يومية.</li>
+            </ul>
+          </div>
+          <div class="stats-numbers">
+            <div class="stat-box">
+              <span class="stat-value">+18</span>
+              <span class="stat-label" data-i18n="stats.countries">دولة</span>
+            </div>
+            <div class="stat-box">
+              <span class="stat-value">+9</span>
+              <span class="stat-label" data-i18n="stats.years">سنوات خبرة</span>
+            </div>
+            <div class="stat-box">
+              <span class="stat-value">+K30</span>
+              <span class="stat-label" data-i18n="stats.students">طالب</span>
+            </div>
+            <div class="stat-box">
+              <span class="stat-value">+720</span>
+              <span class="stat-label" data-i18n="stats.programs">برنامج</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="institutes">
+        <div class="container">
+          <div class="section-heading reveal">
+            <h2 data-i18n="institutes.title">أفضل معاهد اللغة</h2>
+            <p data-i18n="institutes.lead">
+              نختار لك المعهد الأنسب بناءً على هدفك، ميزانيتك، ومستوى لغتك.
+            </p>
+          </div>
+          <div class="institute-grid">
+            <article class="institute-card reveal">
+              <img
+                src="https://images.unsplash.com/photo-1503676260728-1c00da094a0b?auto=format&fit=crop&w=800&q=80"
+                alt="طلاب في معهد لغة حديث"
+                loading="lazy"
+              />
+              <div class="institute-body">
+                <span class="pill" data-i18n="institutes.pill">بداية موفقة</span>
+                <h3 data-i18n="institutes.card1.title">برنامج لغة مرن</h3>
+                <p data-i18n="institutes.card1.desc">
+                  بيئة دراسية حديثة، حصص مكثفة، وبدء كل أسبوع.
+                </p>
+              </div>
+            </article>
+            <article class="institute-card reveal">
+              <img
+                src="https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=800&q=80"
+                alt="طلاب في قاعة دراسية"
+                loading="lazy"
+              />
+              <div class="institute-body">
+                <span class="pill" data-i18n="institutes.pill">بداية موفقة</span>
+                <h3 data-i18n="institutes.card2.title">خطة دراسة مكثفة</h3>
+                <p data-i18n="institutes.card2.desc">
+                  حصص صباحية ومسائية مع دعم أكاديمي كامل.
+                </p>
+              </div>
+            </article>
+            <article class="institute-card reveal">
+              <img
+                src="https://images.unsplash.com/photo-1523580846011-d3a5bc25702b?auto=format&fit=crop&w=800&q=80"
+                alt="مجموعة طلاب تدرس"
+                loading="lazy"
+              />
+              <div class="institute-body">
+                <span class="pill" data-i18n="institutes.pill">بداية موفقة</span>
+                <h3 data-i18n="institutes.card3.title">مسار أكاديمي عملي</h3>
+                <p data-i18n="institutes.card3.desc">
+                  تعلّم اللغة مع ورش مهارات مهنية وتوجيه مستمر.
+                </p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section soft" id="services">
+        <div class="container">
+          <div class="section-heading reveal">
+            <h2 data-i18n="services.title">خدماتنا</h2>
+            <p data-i18n="services.lead">خدمات متكاملة ترافقك من الاستشارة الأولى وحتى الوصول.</p>
+          </div>
+          <div class="service-grid">
+            <article class="service-card reveal">
+              <img
+                src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=600&q=80"
+                alt="استشارات دراسية"
+                loading="lazy"
+              />
+              <div class="service-body">
+                <h3 data-i18n="services.card1.title">استشارة مجانية</h3>
+                <p data-i18n="services.card1.desc">
+                  جلسة تحليل أهدافك وخطتك الدراسية مع مستشار متخصص.
+                </p>
+                <a href="#contact" data-i18n="services.card1.link">اطلب الاستشارة</a>
+              </div>
+            </article>
+            <article class="service-card reveal">
+              <img
+                src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?auto=format&fit=crop&w=600&q=80"
+                alt="اختيار المعهد"
+                loading="lazy"
+              />
+              <div class="service-body">
+                <h3 data-i18n="services.card2.title">اختيار المعهد</h3>
+                <p data-i18n="services.card2.desc">
+                  مقارنة بين المعاهد وبرامج اللغة لضمان أفضل خيار.
+                </p>
+                <a href="#contact" data-i18n="services.card2.link">اعرف الخيارات</a>
+              </div>
+            </article>
+            <article class="service-card reveal">
+              <img
+                src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=600&q=80"
+                alt="تجهيز ملفات"
+                loading="lazy"
+              />
+              <div class="service-body">
+                <h3 data-i18n="services.card3.title">تجهيز الملف</h3>
+                <p data-i18n="services.card3.desc">
+                  مراجعة المستندات وتحضير طلبات القبول بدقة.
+                </p>
+                <a href="#contact" data-i18n="services.card3.link">جهّز ملفك</a>
+              </div>
+            </article>
+            <article class="service-card reveal">
+              <img
+                src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=600&q=80"
+                alt="متابعة القبول"
+                loading="lazy"
+              />
+              <div class="service-body">
+                <h3 data-i18n="services.card4.title">متابعة القبول</h3>
+                <p data-i18n="services.card4.desc">
+                  تواصل مباشر مع المعهد وتسريع إجراءات القبول.
+                </p>
+                <a href="#contact" data-i18n="services.card4.link">ابدأ الآن</a>
+              </div>
+            </article>
+            <article class="service-card reveal">
+              <img
+                src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=600&q=80"
+                alt="السفر والإقامة"
+                loading="lazy"
+              />
+              <div class="service-body">
+                <h3 data-i18n="services.card5.title">السفر والإقامة</h3>
+                <p data-i18n="services.card5.desc">
+                  نصائح للإقامة والنقل والتجهيز قبل السفر.
+                </p>
+                <a href="#contact" data-i18n="services.card5.link">خطط لسفرك</a>
+              </div>
+            </article>
+            <article class="service-card reveal">
+              <img
+                src="https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&w=600&q=80"
+                alt="دعم ما بعد الوصول"
+                loading="lazy"
+              />
+              <div class="service-body">
+                <h3 data-i18n="services.card6.title">دعم ما بعد الوصول</h3>
+                <p data-i18n="services.card6.desc">
+                  متابعة واستشارات لضمان بداية دراسية موفقة.
+                </p>
+                <a href="#contact" data-i18n="services.card6.link">تواصل معنا</a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="why-us" id="why-us">
+        <div class="container">
+          <div class="section-heading light reveal">
+            <h2 data-i18n="why.title">لماذا نحن؟</h2>
+            <p data-i18n="why.lead">نسهّل القرار عبر خطة واضحة ودعم حقيقي في كل خطوة.</p>
+          </div>
+          <div class="why-grid">
+            <article class="why-card reveal">
+              <span class="icon-badge" aria-hidden="true">
+                <svg viewBox="0 0 24 24" role="img">
+                  <path
+                    d="M12 2l2.4 5.6 6 .5-4.6 3.8 1.4 5.9-5.2-3.1-5.2 3.1 1.4-5.9-4.6-3.8 6-.5z"
+                  />
+                </svg>
+              </span>
+              <h3 data-i18n="why.card1.title">خبرة عملية</h3>
+              <p data-i18n="why.card1.desc">شبكة شراكات قوية مع معاهد معتمدة عالميًا.</p>
+            </article>
+            <article class="why-card reveal">
+              <span class="icon-badge" aria-hidden="true">
+                <svg viewBox="0 0 24 24" role="img">
+                  <path
+                    d="M12 2a7 7 0 017 7c0 5.2-7 13-7 13S5 14.2 5 9a7 7 0 017-7zm0 9a2 2 0 100-4 2 2 0 000 4z"
+                  />
+                </svg>
+              </span>
+              <h3 data-i18n="why.card2.title">خيارات متعددة</h3>
+              <p data-i18n="why.card2.desc">نختار أفضل المدن والبرامج المناسبة لهدفك.</p>
+            </article>
+            <article class="why-card reveal">
+              <span class="icon-badge" aria-hidden="true">
+                <svg viewBox="0 0 24 24" role="img">
+                  <path d="M4 4h16v4H4zm0 6h16v10H4z" />
+                </svg>
+              </span>
+              <h3 data-i18n="why.card3.title">شفافية كاملة</h3>
+              <p data-i18n="why.card3.desc">تفاصيل الرسوم واضحة بدون أي تكاليف مخفية.</p>
+            </article>
+            <article class="why-card reveal">
+              <span class="icon-badge" aria-hidden="true">
+                <svg viewBox="0 0 24 24" role="img">
+                  <path d="M12 3l9 4.5v9L12 21 3 16.5v-9z" />
+                </svg>
+              </span>
+              <h3 data-i18n="why.card4.title">متابعة مستمرة</h3>
+              <p data-i18n="why.card4.desc">دعم فوري عبر واتساب وخدمة عملاء مخصصة.</p>
+            </article>
+            <article class="why-card reveal">
+              <span class="icon-badge" aria-hidden="true">
+                <svg viewBox="0 0 24 24" role="img">
+                  <path d="M4 12h16M12 4v16" />
+                </svg>
+              </span>
+              <h3 data-i18n="why.card5.title">حلول مرنة</h3>
+              <p data-i18n="why.card5.desc">برامج مختلفة للطلاب والمهنيين والعائلات.</p>
+            </article>
+            <article class="why-card reveal">
+              <span class="icon-badge" aria-hidden="true">
+                <svg viewBox="0 0 24 24" role="img">
+                  <path d="M5 12l4 4L19 6" />
+                </svg>
+              </span>
+              <h3 data-i18n="why.card6.title">نتائج موثوقة</h3>
+              <p data-i18n="why.card6.desc">آلاف الطلاب حصلوا على قبولهم بفضل دعمنا.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="proof">
+        <div class="container">
+          <div class="section-heading reveal">
+            <h2 data-i18n="proof.title">الاعتماد والتوثيق</h2>
+            <p data-i18n="proof.lead">
+              بياناتنا موثقة بعنوان وطني ويمكن التحقق منها رسميًا لضمان الثقة
+              والشفافية في كل خطوة.
+            </p>
+          </div>
+          <div class="proof-grid">
+            <div class="proof-media reveal">
+              <button class="proof-card proof-zoom" type="button">
+                <img
+                  src="proof-commercial-register.png"
+                  alt="شهادة السجل التجاري للمنشأة"
+                  data-i18n-attr="alt:proof.commercial.alt"
+                  loading="lazy"
+                />
+              </button>
+              <button class="proof-card proof-zoom" type="button">
+                <img
+                  src="proof-national-address.png"
+                  alt="إثبات العنوان الوطني للمنشأة"
+                  data-i18n-attr="alt:proof.address.alt"
+                  loading="lazy"
+                />
+              </button>
+              <button class="proof-card proof-zoom" type="button">
+                <img
+                  src="proof-iban-letter.png"
+                  alt="خطاب الآيبان البنكي"
+                  data-i18n-attr="alt:proof.iban.alt"
+                  loading="lazy"
+                />
+              </button>
+              <button class="proof-card proof-zoom" type="button">
+                <img
+                  src="proof-zatca-certificate.png"
+                  alt="شهادة تسجيل هيئة الزكاة والضريبة والجمارك"
+                  data-i18n-attr="alt:proof.zatca.alt"
+                  loading="lazy"
+                />
+              </button>
+            </div>
+            <div class="proof-info reveal">
+              <h3 data-i18n="proof.info.title">ثقة مبنية على وثائق قابلة للتحقق</h3>
+              <p data-i18n="proof.info.lead">
+                نلتزم بالشفافية الكاملة عبر توثيق بياناتنا الرسمية وإتاحتها
+                للتحقق عند الطلب، حتى تكون قراراتك مبنية على معلومات واضحة.
+              </p>
+              <ul class="proof-list">
+                <li data-i18n="proof.info.bullet1">عنوان وطني مسجل وموثّق.</li>
+                <li data-i18n="proof.info.bullet2">
+                  بيانات قابلة للتحقق عبر الجهات الرسمية.
+                </li>
+                <li data-i18n="proof.info.bullet3">
+                  التزام واضح بالشفافية وحماية بيانات العملاء.
+                </li>
+              </ul>
+              <a
+                class="btn btn-primary btn-primary-dark"
+                href="#contact"
+                data-i18n="proof.info.cta"
+                >تواصل للتأكد</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section soft" id="faq">
+        <div class="container faq-grid">
+          <div class="contact-card reveal" id="contact">
+            <h2 data-i18n="contact.title">هل لديك استفسارات؟</h2>
+            <p data-i18n="contact.lead">اترك بياناتك وسنتواصل معك خلال 24 ساعة.</p>
+            <form
+              class="contact-form"
+              action="https://formsubmit.co/yallastudy2030@gmail.com"
+              method="POST"
+            >
+              <input type="hidden" name="_subject" value="YallaStudy Contact Request" />
+              <input type="hidden" name="_template" value="table" />
+              <input type="hidden" name="_captcha" value="false" />
+              <input type="text" name="_honey" tabindex="-1" autocomplete="off" hidden />
+              <label>
+                <span data-i18n="contact.name">الاسم الكامل</span>
+                <input type="text" name="name" required />
+              </label>
+              <label>
+                <span data-i18n="contact.phone">رقم الجوال</span>
+                <input type="tel" name="phone" required />
+              </label>
+              <label>
+                <span data-i18n="contact.email">البريد الإلكتروني</span>
+                <input type="email" name="email" required />
+              </label>
+              <label>
+                <span data-i18n="contact.service">الاستشارة أو الخدمة المطلوبة</span>
+                <input type="text" name="service_request" />
+              </label>
+              <button class="btn btn-primary" type="submit" data-i18n="contact.submit">
+                إرسال
+              </button>
+            </form>
+          </div>
+          <div class="faq-card reveal">
+            <h2 data-i18n="faq.title">الأسئلة الشائعة</h2>
+            <div class="faq-list">
+              <details open>
+                <summary data-i18n="faq.q1">ما هي الخطوة الأولى للتسجيل؟</summary>
+                <p data-i18n="faq.a1">
+                  تبدأ باستشارة مجانية لتحديد هدفك والمعهد المناسب.
+                </p>
+              </details>
+              <details>
+                <summary data-i18n="faq.q2">كم تستغرق عملية القبول؟</summary>
+                <p data-i18n="faq.a2">
+                  عادة من 3 إلى 7 أيام عمل بعد استلام المستندات كاملة.
+                </p>
+              </details>
+              <details>
+                <summary data-i18n="faq.q3">هل هناك رسوم استشارية؟</summary>
+                <p data-i18n="faq.a3">
+                  لا، الاستشارة ومتابعة الخيارات مجانية بالكامل.
+                </p>
+              </details>
+              <details>
+                <summary data-i18n="faq.q4">هل تساعدون في السكن والتأمين؟</summary>
+                <p data-i18n="faq.a4">
+                  نعم، نرشح لك خيارات موثوقة للسكن والتأمين الصحي.
+                </p>
+              </details>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="partners">
+        <div class="container">
+          <div class="section-heading reveal">
+            <h2 data-i18n="partners.title">لأنهم فهموا أهداف طلابنا</h2>
+            <p data-i18n="partners.lead">
+              معاهد مميزة تقدم جودة تعليم عالية وفرص تطور حقيقية.
+            </p>
+          </div>
+          <div class="partner-grid">
+            <article class="partner-card reveal">
+              <img
+                src="https://images.unsplash.com/photo-1513258496099-48168024aec0?auto=format&fit=crop&w=900&q=80"
+                alt="طلاب يراجعون أسئلة للتحضير لاختبار IELTS"
+                loading="eager"
+                decoding="async"
+              />
+              <div class="partner-body">
+                <h3>IELTS Plus</h3>
+                <p data-i18n="partners.card1.desc">مسارات مكثفة للتحضير لاختبارات اللغة.</p>
+              </div>
+            </article>
+            <article class="partner-card reveal">
+              <img
+                src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=700&q=80"
+                alt="فريق أكاديمي يدعم برامج تمهيدية للجامعة"
+                loading="eager"
+                decoding="async"
+              />
+              <div class="partner-body">
+                <h3>Academic Bridge</h3>
+                <p data-i18n="partners.card2.desc">
+                  برامج تمهيدية للجامعة ودعم أكاديمي كامل.
+                </p>
+              </div>
+            </article>
+            <article class="partner-card reveal">
+              <img
+                src="https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?auto=format&fit=crop&w=900&q=80"
+                alt="طلاب دوليون في مكتبة ومعهد لغة عالمي"
+                loading="eager"
+                decoding="async"
+              />
+              <div class="partner-body">
+                <h3>Global Language</h3>
+                <p data-i18n="partners.card3.desc">
+                  معاهد متميزة في أكثر من 10 دول حول العالم.
+                </p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="student-stories">
+        <div class="container">
+          <div class="section-heading reveal">
+            <h2 data-i18n="stories.title">قصص طلابنا</h2>
+            <p data-i18n="stories.lead">
+              تجارب حقيقية لطلابنا الذين حققوا أهدافهم الدراسية معنا. 
+            </p>
+          </div>
+          <div class="stories-grid">
+            <article class="story-card reveal">
+              <a
+                class="video-thumb"
+                href="https://youtu.be/AL-bcYCFkAc?si=4AR3-CiH52L6ac-D"
+                target="_blank"
+                rel="noopener"
+                aria-label="تشغيل فيديو تجربة طالب - 1"
+              >
+                <img
+                  src="https://img.youtube.com/vi/AL-bcYCFkAc/hqdefault.jpg"
+                  alt="غلاف فيديو تجربة طالب"
+                  loading="lazy"
+                />
+                <span class="play-badge" aria-hidden="true">▶</span>
+              </a>
+              <p data-i18n="stories.card1">
+                كيف تم اختيار المعهد المناسب والخطة الدراسية الأنسب خلال وقت قياسي.
+              </p>
+            </article>
+            <article class="story-card reveal">
+              <a
+                class="video-thumb"
+                href="https://youtu.be/w4ZJkq9FIh8?si=hwDop1SJUyHDbKRk"
+                target="_blank"
+                rel="noopener"
+                aria-label="تشغيل فيديو تجربة طالب - 2"
+              >
+                <img
+                  src="https://img.youtube.com/vi/w4ZJkq9FIh8/hqdefault.jpg"
+                  alt="غلاف فيديو تجربة طالب"
+                  loading="lazy"
+                />
+                <span class="play-badge" aria-hidden="true">▶</span>
+              </a>
+              <p data-i18n="stories.card2">
+                دعم مستمر خطوة بخطوة حتى استلام خطاب القبول والاستعداد للسفر.
+              </p>
+            </article>
+            <article class="story-card reveal">
+              <a
+                class="video-thumb"
+                href="https://youtu.be/B7TA4Sn5ocM?si=4dEmltAE5Ljcjvnr"
+                target="_blank"
+                rel="noopener"
+                aria-label="تشغيل فيديو تجربة طالب - 3"
+              >
+                <img
+                  src="https://img.youtube.com/vi/B7TA4Sn5ocM/hqdefault.jpg"
+                  alt="غلاف فيديو تجربة طالب"
+                  loading="lazy"
+                />
+                <span class="play-badge" aria-hidden="true">▶</span>
+              </a>
+              <p data-i18n="stories.card3">
+                تجربة تسجيل سلسة مع توجيه واضح يناسب ميزانية الطالب وأهدافه.
+              </p>
+            </article>
+            <article class="story-card reveal">
+              <a
+                class="video-thumb"
+                href="https://youtu.be/zsEXMXqdwls?si=Qt-FJblRWugjdQGo"
+                target="_blank"
+                rel="noopener"
+                aria-label="تشغيل فيديو تجربة طالب - 4"
+              >
+                <img
+                  src="https://img.youtube.com/vi/zsEXMXqdwls/hqdefault.jpg"
+                  alt="غلاف فيديو تجربة طالب"
+                  loading="lazy"
+                />
+                <span class="play-badge" aria-hidden="true">▶</span>
+              </a>
+              <p data-i18n="stories.card4">
+                متابعة احترافية لضمان سرعة الإجراءات وتجنب الأخطاء الشائعة.
+              </p>
+            </article>
+            <article class="story-card reveal">
+              <a
+                class="video-thumb"
+                href="https://youtu.be/xuflu9sf4t8?si=a1SCEn-EaT-3M_AP"
+                target="_blank"
+                rel="noopener"
+                aria-label="تشغيل فيديو تجربة طالب - 5"
+              >
+                <img
+                  src="https://img.youtube.com/vi/xuflu9sf4t8/hqdefault.jpg"
+                  alt="غلاف فيديو تجربة طالب"
+                  loading="lazy"
+                />
+                <span class="play-badge" aria-hidden="true">▶</span>
+              </a>
+              <p data-i18n="stories.card5">
+                خدمة واضحة وتواصل سريع عبر القنوات المناسبة للطالب.
+              </p>
+            </article>
+          </div>
+          <div class="stories-social">
+            <h3 data-i18n="stories.follow">تابع قصص طلابنا</h3>
+            <div class="social-row">
+              <a
+                href="https://www.instagram.com/yallastudy2030?igsh=MTYzYzgxNXhqajJrcg%3D%3D&utm_source=qr"
+                aria-label="Instagram"
+                class="social-icon"
+                target="_blank"
+                rel="noopener"
+              >
+                <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                  <path
+                    d="M12 7.3A4.7 4.7 0 1016.7 12 4.7 4.7 0 0012 7.3zm0 7.7A3 3 0 1115 12a3 3 0 01-3 3zm6-7.9a1.1 1.1 0 11-1.1-1.1A1.1 1.1 0 0118 7.1z"
+                  />
+                  <path
+                    d="M17.6 2H6.4A4.4 4.4 0 002 6.4v11.2A4.4 4.4 0 006.4 22h11.2a4.4 4.4 0 004.4-4.4V6.4A4.4 4.4 0 0017.6 2zm2.7 15.6a2.7 2.7 0 01-2.7 2.7H6.4a2.7 2.7 0 01-2.7-2.7V6.4A2.7 2.7 0 016.4 3.7h11.2a2.7 2.7 0 012.7 2.7z"
+                  />
+                </svg>
+              </a>
+              <a
+                href="https://snapchat.com/t/isP8H6qk"
+                aria-label="Snapchat"
+                class="social-icon"
+                target="_blank"
+                rel="noopener"
+              >
+                <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                  <path
+                    d="M12 2c3.3 0 5.7 2.7 5.7 6v2.3c0 .7.6 1.1 1.2 1.4.7.3 1.6.7 1.6 1.5 0 .8-.9 1.1-1.7 1.3-1 .3-1.7.6-2.1 1.5-.3.7-.4 1.3-.5 1.8-.2 1.1-.3 1.7-2.2 2-.8.1-1.4.6-2 1.1-.5.4-1 .8-1.9.8s-1.4-.4-1.9-.8c-.6-.5-1.2-1-2-1.1-1.9-.3-2-.9-2.2-2-.1-.5-.2-1.1-.5-1.8-.4-.9-1.1-1.2-2.1-1.5-.8-.2-1.7-.5-1.7-1.3 0-.8.9-1.2 1.6-1.5.6-.3 1.2-.7 1.2-1.4V8c0-3.3 2.4-6 5.7-6z"
+                  />
+                </svg>
+              </a>
+              <a
+                href="https://www.youtube.com/@yallastudyy"
+                aria-label="YouTube"
+                class="social-icon"
+                target="_blank"
+                rel="noopener"
+              >
+                <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                  <path
+                    d="M23 12s0-3.2-.4-4.7c-.2-1-1-1.8-2-2-1.8-.5-8.6-.5-8.6-.5s-6.8 0-8.6.5c-1 .2-1.8 1-2 2C1 8.8 1 12 1 12s0 3.2.4 4.7c.2 1 1 1.8 2 2 1.8.5 8.6.5 8.6.5s6.8 0 8.6-.5c1-.2 1-1 2-2 .4-1.5.4-4.7.4-4.7zM10 15V9l5 3-5 3z"
+                  />
+                </svg>
+              </a>
+              <a
+                href="https://x.com/yallastudyy?s=21"
+                aria-label="X"
+                class="social-icon"
+                target="_blank"
+                rel="noopener"
+              >
+                <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                  <path
+                    d="M18.3 2H21l-6.3 7.2L22 22h-6.4l-4-5.3L6.7 22H4l6.8-7.8L2 2h6.6l3.6 4.8L18.3 2zm-1.1 18h1.8L8 4H6.1l11.1 16z"
+                  />
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section soft" id="feedbacks">
+        <div class="container">
+          <div class="section-heading reveal">
+            <h2 data-i18n="feedback.title">آراء طلابنا</h2>
+            <p data-i18n="feedback.lead">
+              لقطات حقيقية من طلابنا حول العالم وتجاربهم مع خدماتنا.
+            </p>
+          </div>
+          <div class="feedback-slider reveal" data-feedback-slider>
+            <div class="feedback-track" data-feedback-track>
+              <div class="feedback-card">
+                <button class="feedback-zoom" type="button">
+                  <img
+                    src="Feedbacks/feedback-1.jpeg"
+                    alt="طالب يتحدث عن تجربته"
+                    loading="lazy"
+                    data-lightbox
+                  />
+                </button>
+              </div>
+              <div class="feedback-card">
+                <button class="feedback-zoom" type="button">
+                  <img
+                    src="Feedbacks/feedback-2.jpeg"
+                    alt="طالبة تشارك تجربتها"
+                    loading="lazy"
+                    data-lightbox
+                  />
+                </button>
+              </div>
+              <div class="feedback-card">
+                <button class="feedback-zoom" type="button">
+                  <img
+                    src="Feedbacks/feedback-3.jpeg"
+                    alt="طلاب في معهد لغة"
+                    loading="lazy"
+                    data-lightbox
+                  />
+                </button>
+              </div>
+              <div class="feedback-card">
+                <button class="feedback-zoom" type="button">
+                  <img
+                    src="Feedbacks/feedback-4.jpeg"
+                    alt="طالب بعد القبول"
+                    loading="lazy"
+                    data-lightbox
+                  />
+                </button>
+              </div>
+              <div class="feedback-card">
+                <button class="feedback-zoom" type="button">
+                  <img
+                    src="Feedbacks/feedback-5.jpeg"
+                    alt="طالبة في قاعة دراسية"
+                    loading="lazy"
+                    data-lightbox
+                  />
+                </button>
+              </div>
+              <div class="feedback-card">
+                <button class="feedback-zoom" type="button">
+                  <img
+                    src="Feedbacks/feedback-6.jpeg"
+                    alt="مجموعة طلاب"
+                    loading="lazy"
+                    data-lightbox
+                  />
+                </button>
+              </div>
+              <div class="feedback-card">
+                <button class="feedback-zoom" type="button">
+                  <img
+                    src="Feedbacks/feedback-7.jpeg"
+                    alt="تعليقات إضافية من الطلاب"
+                    loading="lazy"
+                    data-lightbox
+                  />
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div class="footer-brand">
+          <a class="logo" href="#top" aria-label="YallaStudy">
+            <img
+              class="logo-image"
+              src="YallaStudyPNG.png"
+              alt="YallaStudy logo"
+              loading="lazy"
+              decoding="async"
+            />
+          </a>
+          <p data-i18n="footer.tagline">
+            استشارات دراسية موثوقة للقبول في معاهد اللغة والبرامج الأكاديمية.
+          </p>
+        </div>
+        <div>
+          <h4 data-i18n="footer.links">روابط سريعة</h4>
+          <ul>
+            <li><a href="#about" data-i18n="nav.about">من نحن</a></li>
+            <li><a href="#services" data-i18n="nav.services">خدماتنا</a></li>
+            <li><a href="#institutes" data-i18n="footer.institutes">المعاهد</a></li>
+            <li><a href="#faq" data-i18n="footer.faq">الأسئلة</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 data-i18n="footer.contact">تواصل معنا</h4>
+          <ul>
+            <li><a href="mailto:yallastudy2030@gmail.com" data-i18n="footer.email">yallastudy2030@gmail.com</a></li>
+            <li><a href="tel:+966561107137" data-i18n="footer.phone">+966 56 110 7137</a></li>
+            <li data-i18n="footer.hours">الأحد - الخميس، 9:00 - 18:00</li>
+          </ul>
+        </div>
+        <div>
+          <h4 data-i18n="footer.follow">تابعنا</h4>
+          <div class="social-row">
+            <a
+              href="https://www.instagram.com/yallastudy2030?igsh=MTYzYzgxNXhqajJrcg%3D%3D&utm_source=qr"
+              aria-label="Instagram"
+              class="social-icon"
+              target="_blank"
+              rel="noopener"
+            >
+              <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                <path
+                  d="M12 7.3A4.7 4.7 0 1016.7 12 4.7 4.7 0 0012 7.3zm0 7.7A3 3 0 1115 12a3 3 0 01-3 3zm6-7.9a1.1 1.1 0 11-1.1-1.1A1.1 1.1 0 0118 7.1z"
+                />
+                <path
+                  d="M17.6 2H6.4A4.4 4.4 0 002 6.4v11.2A4.4 4.4 0 006.4 22h11.2a4.4 4.4 0 004.4-4.4V6.4A4.4 4.4 0 0017.6 2zm2.7 15.6a2.7 2.7 0 01-2.7 2.7H6.4a2.7 2.7 0 01-2.7-2.7V6.4A2.7 2.7 0 016.4 3.7h11.2a2.7 2.7 0 012.7 2.7z"
+                />
+              </svg>
+            </a>
+            <a
+              href="https://snapchat.com/t/isP8H6qk"
+              aria-label="Snapchat"
+              class="social-icon"
+              target="_blank"
+              rel="noopener"
+            >
+              <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                <path
+                  d="M12 2c3.3 0 5.7 2.7 5.7 6v2.3c0 .7.6 1.1 1.2 1.4.7.3 1.6.7 1.6 1.5 0 .8-.9 1.1-1.7 1.3-1 .3-1.7.6-2.1 1.5-.3.7-.4 1.3-.5 1.8-.2 1.1-.3 1.7-2.2 2-.8.1-1.4.6-2 1.1-.5.4-1 .8-1.9.8s-1.4-.4-1.9-.8c-.6-.5-1.2-1-2-1.1-1.9-.3-2-.9-2.2-2-.1-.5-.2-1.1-.5-1.8-.4-.9-1.1-1.2-2.1-1.5-.8-.2-1.7-.5-1.7-1.3 0-.8.9-1.2 1.6-1.5.6-.3 1.2-.7 1.2-1.4V8c0-3.3 2.4-6 5.7-6z"
+                />
+              </svg>
+            </a>
+            <a
+              href="https://www.youtube.com/@yallastudyy"
+              aria-label="YouTube"
+              class="social-icon"
+              target="_blank"
+              rel="noopener"
+            >
+              <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                <path
+                  d="M23 12s0-3.2-.4-4.7c-.2-1-1-1.8-2-2-1.8-.5-8.6-.5-8.6-.5s-6.8 0-8.6.5c-1 .2-1.8 1-2 2C1 8.8 1 12 1 12s0 3.2.4 4.7c.2 1 1 1.8 2 2 1.8.5 8.6.5 8.6.5s6.8 0 8.6-.5c1-.2 1.8-1 2-2 .4-1.5.4-4.7.4-4.7zM10 15V9l5 3-5 3z"
+                />
+              </svg>
+            </a>
+            <a
+              href="https://x.com/yallastudyy?s=21"
+              aria-label="X"
+              class="social-icon"
+              target="_blank"
+              rel="noopener"
+            >
+              <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                <path
+                  d="M18.3 2H21l-6.3 7.2L22 22h-6.4l-4-5.3L6.7 22H4l6.8-7.8L2 2h6.6l3.6 4.8L18.3 2zm-1.1 18h1.8L8 4H6.1l11.1 16z"
+                />
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p data-i18n="footer.copyright">© 2026 YallaStudy. جميع الحقوق محفوظة.</p>
+      </div>
+    </footer>
+
+    <a
+      class="whatsapp"
+      href="https://wa.me/+966561107137"
+      target="_blank"
+      rel="noopener"
+      aria-label="WhatsApp"
+      data-i18n-attr="aria-label:whatsapp.label"
+    >
+      <span data-i18n="whatsapp.text">WhatsApp</span>
+    </a>
+
+    <div
+      class="lightbox"
+      aria-hidden="true"
+      role="dialog"
+      aria-label="عرض الصورة"
+      data-i18n-attr="aria-label:lightbox.title"
+    >
+      <div class="lightbox-backdrop" data-lightbox-close></div>
+      <div class="lightbox-content" role="document">
+        <button
+          class="lightbox-close"
+          type="button"
+          data-lightbox-close
+          aria-label="إغلاق"
+          data-i18n-attr="aria-label:lightbox.close"
+        >
+          ×
+        </button>
+        <img class="lightbox-image" alt="" />
+      </div>
+    </div>
+  </body>
+</html>
