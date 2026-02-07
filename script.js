@@ -26,7 +26,7 @@ const translations = {
     'hero.kicker': 'YallaStudy للاستشارات التعليمية',
     'hero.title': 'القبول بين يديك',
     'hero.lead':
-      'نُسهّل على الطلاب الفلبينيين التسجيل في أفضل معاهد اللغة حول العالم. استشارة مجانية، متابعة كاملة، وخيارات تناسب ميزانيتك وخططك الدراسية.',
+      'نُسهّل للطلاب السعوديين الراغبين بالدراسة في الفلبين التسجيل في معاهد اللغة والبرامج الأكاديمية المناسبة، مع خيارات دولية أخرى حسب الهدف.',
     'hero.ctaPrimary': 'احجز استشارتك مجانًا',
     'hero.ctaSecondary': 'تعرّف على خدماتنا',
     'hero.point1.title': 'استجابة خلال 24 ساعة',
@@ -37,8 +37,8 @@ const translations = {
     'hero.point3.desc': 'من التسجيل حتى القبول',
     'about.title': 'من نحن',
     'about.lead':
-      'YallaStudy فريق استشاري متخصص في التسجيل بمعاهد اللغة والقبول الأكاديمي عالميًا مع تركيز على الطلاب الفلبينيين. نساعدك على اختيار المعهد المناسب، تجهيز المستندات، ومتابعة القبول خطوة بخطوة.',
-    'about.bullet1': 'استشارة مجانية مخصصة للطلاب الفلبينيين مع مستشارين ثنائيي اللغة.',
+      'YallaStudy فريق استشاري متخصص في التسجيل بمعاهد اللغة والقبول الأكاديمي دوليًا، مع تركيز على الطلاب السعوديين الراغبين بالدراسة في الفلبين. نساعدك على اختيار المعهد المناسب، تجهيز المستندات، ومتابعة القبول خطوة بخطوة.',
+    'about.bullet1': 'استشارة مجانية مخصصة للطلاب السعوديين مع مستشارين عرب.',
     'about.bullet2': 'خيارات دولية واضحة ورسوم شفافة بدون مفاجآت.',
     'about.bullet3': 'متابعة حتى إصدار القبول وإرشاد ما بعد الوصول.',
     'about.bullet4': 'دعم عبر واتساب ومتابعة يومية عبر المناطق الزمنية المختلفة.',
@@ -57,7 +57,7 @@ const translations = {
     'institutes.card3.desc': 'تعلّم اللغة مع أنشطة مهارية وتوجيه مستمر.',
     'services.title': 'خدماتنا',
     'services.lead':
-      'خدمات دولية متكاملة ترافق الطلاب الفلبينيين من الاستشارة الأولى وحتى الوصول.',
+      'خدمات دولية متكاملة تدعم الطلاب السعوديين للدراسة في الفلبين، مع خيارات إضافية في وجهات أخرى.',
     'services.card1.title': 'استشارة مجانية',
     'services.card1.desc': 'جلسة تحليل أهدافك وخطتك الدراسية مع مستشار متخصص.',
     'services.card1.link': 'اطلب الاستشارة',
@@ -77,7 +77,7 @@ const translations = {
     'services.card6.desc': 'متابعة واستشارات لضمان بداية دراسية موفقة.',
     'services.card6.link': 'تواصل معنا',
     'why.title': 'لماذا نحن؟',
-    'why.lead': 'نسهّل القرار للطلاب الفلبينيين عبر خطة واضحة ودعم حقيقي في كل خطوة.',
+    'why.lead': 'نُسهّل قرار الطالب السعودي بخطة واضحة ودعم حقيقي في كل خطوة.',
     'why.card1.title': 'خبرة عملية',
     'why.card1.desc': 'شبكة شراكات قوية مع معاهد معتمدة عالميًا.',
     'why.card2.title': 'خيارات متعددة',
@@ -92,7 +92,7 @@ const translations = {
     'why.card6.desc': 'آلاف الطلاب حصلوا على قبولهم بفضل دعمنا.',
     'proof.title': 'الاعتماد والتوثيق',
     'proof.lead':
-      'بياناتنا موثقة ويمكن التحقق منها رسميًا لضمان الثقة والشفافية لطلابنا الفلبينيين والدوليين.',
+      'بياناتنا موثقة ويمكن التحقق منها رسميًا لضمان الثقة والشفافية للطلاب السعوديين وجميع الطلاب الدوليين.',
     'proof.commercial.alt': 'شهادة السجل التجاري للمنشأة',
     'proof.address.alt': 'إثبات العنوان الوطني للمنشأة',
     'proof.iban.alt': 'خطاب الآيبان البنكي',
@@ -120,7 +120,7 @@ const translations = {
     'faq.a3': 'لا، الاستشارة ومتابعة الخيارات مجانية بالكامل.',
     'faq.q4': 'هل تساعدون في السكن والتأمين؟',
     'faq.a4': 'نعم، نرشح لك خيارات موثوقة للسكن والتأمين الصحي.',
-    'partners.title': 'لأنهم فهموا أهداف طلابنا الفلبينيين',
+    'partners.title': 'لأنهم فهموا أهداف طلابنا السعوديين',
     'partners.lead': 'معاهد دولية مميزة تقدم جودة تعليم عالية وفرص تطور حقيقية.',
     'partners.card1.desc': 'مسارات مكثفة للتحضير لاختبارات اللغة.',
     'partners.card2.desc': 'برامج تمهيدية للجامعة ودعم أكاديمي كامل.',
@@ -137,7 +137,7 @@ const translations = {
     'feedback.title': 'آراء طلابنا',
     'feedback.lead': 'لقطات حقيقية من طلابنا حول العالم وتجاربهم مع خدماتنا.',
     'footer.tagline':
-      'استشارات دراسية دولية موثوقة للطلاب الفلبينيين للقبول في معاهد اللغة والبرامج الأكاديمية.',
+      'استشارات دراسية دولية موثوقة للطلاب السعوديين الراغبين بالدراسة في الفلبين ومعاهد اللغة حول العالم.',
     'footer.links': 'روابط سريعة',
     'footer.institutes': 'المعاهد',
     'footer.faq': 'الأسئلة',
@@ -171,7 +171,7 @@ const translations = {
     'hero.kicker': 'YallaStudy Educational Consulting',
     'hero.title': 'Admission in Your Hands',
     'hero.lead':
-      'We make it easy for Filipino students to enroll in top language institutes worldwide. Free consultation, full follow-up, and options that fit your budget and study plans.',
+      'We support Saudi students who want to study in the Philippines through trusted language institutes and academic pathways, while still offering broader international options.',
     'hero.ctaPrimary': 'Book a Free Consultation',
     'hero.ctaSecondary': 'Explore Our Services',
     'hero.point1.title': 'Response within 24 hours',
@@ -182,8 +182,8 @@ const translations = {
     'hero.point3.desc': 'From registration to admission',
     'about.title': 'Who we are',
     'about.lead':
-      'YallaStudy is a specialized consulting team for global language institute enrollment and academic admission, with a focus on Filipino students. We help you choose the right institute, prepare documents, and follow up step by step.',
-    'about.bullet1': 'Free consultation tailored for Filipino students with bilingual advisors.',
+      'YallaStudy is a specialized consulting team for language institute enrollment and academic admission worldwide, with a focus on Saudi students planning to study in the Philippines. We help you choose the right institute, prepare documents, and follow up step by step.',
+    'about.bullet1': 'Free consultation tailored for Saudi students with Arabic-speaking advisors.',
     'about.bullet2': 'Clear international options and transparent fees with no surprises.',
     'about.bullet3': 'Follow-up until admission issuance and post-arrival guidance.',
     'about.bullet4': 'WhatsApp support and daily follow-up across time zones.',
@@ -202,7 +202,7 @@ const translations = {
     'institutes.card3.title': 'Practical Academic Track',
     'institutes.card3.desc': 'Language learning paired with skills activities and continuous guidance.',
     'services.title': 'Our Services',
-    'services.lead': 'Global end-to-end services for Filipino students from first consult to arrival.',
+    'services.lead': 'End-to-end international services focused on Saudi students heading to the Philippines, with additional options in other destinations.',
     'services.card1.title': 'Free Consultation',
     'services.card1.desc': 'Session to analyze your goals and study plan with a specialist.',
     'services.card1.link': 'Request consultation',
@@ -223,7 +223,7 @@ const translations = {
     'services.card6.desc': 'Follow-up and advice to ensure a successful start.',
     'services.card6.link': 'Contact us',
     'why.title': 'Why us?',
-    'why.lead': 'We simplify decisions for Filipino students with a clear plan and real support.',
+    'why.lead': 'We simplify decisions for Saudi students with a clear plan and real support at every step.',
     'why.card1.title': 'Practical expertise',
     'why.card1.desc': 'Strong partnerships with globally accredited institutes.',
     'why.card2.title': 'Multiple options',
@@ -238,7 +238,7 @@ const translations = {
     'why.card6.desc': 'Thousands of students gained admission with our support.',
     'proof.title': 'Accreditation & Verification',
     'proof.lead':
-      'Our details are officially verified and can be checked to ensure trust and transparency for Filipino and international students.',
+      'Our details are officially verified and can be checked to ensure trust and transparency for Saudi and international students.',
     'proof.commercial.alt': 'Commercial Registration Certificate',
     'proof.address.alt': 'National Address Proof',
     'proof.iban.alt': 'IBAN bank letter',
@@ -266,7 +266,7 @@ const translations = {
     'faq.a3': 'No, the consultation and option review are completely free.',
     'faq.q4': 'Do you help with housing and insurance?',
     'faq.a4': 'Yes, we recommend trusted options for housing and health insurance.',
-    'partners.title': 'Institutes that understand Filipino student goals',
+    'partners.title': 'Institutes that understand Saudi student goals',
     'partners.lead': 'Featured global institutes offering high-quality education and real growth opportunities.',
     'partners.card1.desc': 'Intensive tracks to prepare for language exams.',
     'partners.card2.desc': 'University pathway programs with full academic support.',
@@ -283,7 +283,7 @@ const translations = {
     'feedback.title': 'Student Feedback',
     'feedback.lead': 'Real snapshots from our students worldwide and their experiences with us.',
     'footer.tagline':
-      'Trusted global education consulting for Filipino students seeking language institutes and academic programs.',
+      'Trusted international education consulting for Saudi students planning to study in the Philippines and beyond.',
     'footer.links': 'Quick links',
     'footer.institutes': 'Institutes',
     'footer.faq': 'FAQ',
@@ -317,7 +317,7 @@ const translations = {
     'hero.kicker': 'YallaStudy Conseil Éducatif',
     'hero.title': 'L’admission entre vos mains',
     'hero.lead':
-      'Nous facilitons l’inscription des étudiants philippins dans les meilleurs instituts de langues du monde. Consultation gratuite, suivi complet et options adaptées à votre budget.',
+      'Nous accompagnons les étudiants saoudiens souhaitant étudier aux Philippines via des instituts fiables, avec des options internationales supplémentaires selon leur objectif et leur budget.',
     'hero.ctaPrimary': 'Réserver une consultation gratuite',
     'hero.ctaSecondary': 'Découvrir nos services',
     'hero.point1.title': 'Réponse en 24 h',
@@ -328,8 +328,8 @@ const translations = {
     'hero.point3.desc': 'De l’inscription à l’admission',
     'about.title': 'Qui sommes-nous',
     'about.lead':
-      'YallaStudy est une équipe de conseil spécialisée dans l’inscription aux instituts de langues et l’admission académique à l’international, avec un focus sur les étudiants philippins.',
-    'about.bullet1': 'Consultation gratuite pour les étudiants philippins avec conseillers bilingues.',
+      'YallaStudy est une équipe spécialisée dans l’inscription aux instituts de langues et l’admission académique à l’international, avec un focus sur les étudiants saoudiens qui visent les Philippines.',
+    'about.bullet1': 'Consultation gratuite dédiée aux étudiants saoudiens avec conseillers arabophones.',
     'about.bullet2': 'Options internationales claires et frais transparents, sans surprises.',
     'about.bullet3': 'Suivi jusqu’à l’émission de l’admission et accompagnement après l’arrivée.',
     'about.bullet4': 'Support WhatsApp et suivi quotidien selon le fuseau horaire.',
@@ -350,7 +350,7 @@ const translations = {
     'institutes.card3.desc':
       'Apprentissage de la langue avec activités de compétences et suivi continu.',
     'services.title': 'Nos services',
-    'services.lead': 'Services internationaux complets pour étudiants philippins, de la consultation à l’arrivée.',
+    'services.lead': 'Services internationaux complets axés sur les étudiants saoudiens vers les Philippines, avec des options additionnelles dans d’autres destinations.',
     'services.card1.title': 'Consultation gratuite',
     'services.card1.desc':
       'Session d’analyse de vos objectifs et de votre plan d’études avec un spécialiste.',
@@ -372,7 +372,7 @@ const translations = {
     'services.card6.desc': 'Suivi et conseils pour garantir un bon départ.',
     'services.card6.link': 'Nous contacter',
     'why.title': 'Pourquoi nous ?',
-    'why.lead': 'Nous simplifions la décision des étudiants philippins avec un plan clair et un vrai soutien.',
+    'why.lead': 'Nous simplifions la décision des étudiants saoudiens avec un plan clair et un accompagnement réel à chaque étape.',
     'why.card1.title': 'Expertise pratique',
     'why.card1.desc': 'Partenariats solides avec des instituts accrédités mondialement.',
     'why.card2.title': 'Options multiples',
@@ -387,7 +387,7 @@ const translations = {
     'why.card6.desc': 'Des milliers d’étudiants ont obtenu leur admission grâce à nous.',
     'proof.title': 'Accréditation et vérification',
     'proof.lead':
-      'Nos informations sont officiellement vérifiées et peuvent être contrôlées pour garantir confiance et transparence aux étudiants philippins et internationaux.',
+      'Nos informations sont officiellement vérifiées afin de garantir confiance et transparence aux étudiants saoudiens et internationaux.',
     'proof.commercial.alt': 'Certificat d’immatriculation commerciale',
     'proof.address.alt': 'Preuve d’adresse nationale',
     'proof.iban.alt': 'Lettre bancaire IBAN',
@@ -416,7 +416,7 @@ const translations = {
     'faq.a3': 'Non, la consultation et l’étude des options sont gratuites.',
     'faq.q4': 'Aidez‑vous pour le logement et l’assurance ?',
     'faq.a4': 'Oui, nous recommandons des options fiables pour le logement et l’assurance santé.',
-    'partners.title': 'Des instituts qui comprennent les objectifs des étudiants philippins',
+    'partners.title': 'Des instituts qui comprennent les objectifs des étudiants saoudiens',
     'partners.lead': 'Des instituts internationaux sélectionnés offrant une éducation de qualité.',
     'partners.card1.desc': 'Parcours intensifs pour préparer les tests de langue.',
     'partners.card2.desc': 'Programmes passerelles vers l’université avec soutien académique complet.',
@@ -433,7 +433,7 @@ const translations = {
     'feedback.title': 'Avis des étudiants',
     'feedback.lead': 'Des témoignages authentiques de nos étudiants à travers le monde.',
     'footer.tagline':
-      'Conseil éducatif international fiable pour les étudiants philippins souhaitant intégrer des instituts de langues et programmes académiques.',
+      'Conseil éducatif international fiable pour les étudiants saoudiens souhaitant étudier aux Philippines et dans d’autres destinations.',
     'footer.links': 'Liens rapides',
     'footer.institutes': 'Instituts',
     'footer.faq': 'FAQ',
@@ -467,7 +467,7 @@ const translations = {
     'hero.kicker': 'YallaStudy Consultoría Educativa',
     'hero.title': 'La admisión en tus manos',
     'hero.lead':
-      'Facilitamos la inscripción de estudiantes filipinos en los mejores institutos de idiomas del mundo. Consulta gratuita, seguimiento completo y opciones según tu presupuesto.',
+      'Apoyamos a estudiantes saudíes que desean estudiar en Filipinas mediante institutos de idiomas y rutas académicas confiables, con opciones internacionales adicionales.',
     'hero.ctaPrimary': 'Reserva una consulta gratis',
     'hero.ctaSecondary': 'Conoce nuestros servicios',
     'hero.point1.title': 'Respuesta en 24 horas',
@@ -478,8 +478,8 @@ const translations = {
     'hero.point3.desc': 'Desde la inscripción hasta la admisión',
     'about.title': 'Quiénes somos',
     'about.lead':
-      'YallaStudy es un equipo de consultoría especializado en inscripción en institutos de idiomas y admisión académica internacional, con foco en estudiantes filipinos.',
-    'about.bullet1': 'Consulta gratuita para estudiantes filipinos con asesores bilingües.',
+      'YallaStudy es un equipo de consultoría especializado en inscripción en institutos de idiomas y admisión académica internacional, con enfoque en estudiantes saudíes que planean estudiar en Filipinas.',
+    'about.bullet1': 'Consulta gratuita para estudiantes saudíes con asesores arabófonos.',
     'about.bullet2': 'Opciones internacionales claras y tarifas transparentes sin sorpresas.',
     'about.bullet3': 'Seguimiento hasta la emisión de la admisión y orientación tras la llegada.',
     'about.bullet4': 'Soporte por WhatsApp y seguimiento diario según zona horaria.',
@@ -499,7 +499,7 @@ const translations = {
     'institutes.card3.desc':
       'Aprendizaje del idioma con actividades de habilidades y guía continua.',
     'services.title': 'Nuestros servicios',
-    'services.lead': 'Servicios internacionales integrales para estudiantes filipinos, de la consulta a la llegada.',
+    'services.lead': 'Servicios internacionales integrales enfocados en estudiantes saudíes que se dirigen a Filipinas, con alternativas en otros destinos.',
     'services.card1.title': 'Consulta gratuita',
     'services.card1.desc': 'Sesión para analizar tus objetivos y plan de estudios.',
     'services.card1.link': 'Solicitar consulta',
@@ -520,7 +520,7 @@ const translations = {
     'services.card6.desc': 'Seguimiento y asesoría para un buen comienzo.',
     'services.card6.link': 'Contáctanos',
     'why.title': '¿Por qué nosotros?',
-    'why.lead': 'Simplificamos la decisión de estudiantes filipinos con un plan claro y apoyo real.',
+    'why.lead': 'Simplificamos la decisión de los estudiantes saudíes con un plan claro y apoyo real en cada paso.',
     'why.card1.title': 'Experiencia práctica',
     'why.card1.desc': 'Alianzas sólidas con institutos acreditados a nivel mundial.',
     'why.card2.title': 'Opciones múltiples',
@@ -535,7 +535,7 @@ const translations = {
     'why.card6.desc': 'Miles de estudiantes obtuvieron su admisión con nuestro apoyo.',
     'proof.title': 'Acreditación y verificación',
     'proof.lead':
-      'Nuestros datos están verificados oficialmente para garantizar confianza y transparencia a estudiantes filipinos e internacionales.',
+      'Nuestros datos están verificados oficialmente para garantizar confianza y transparencia a estudiantes saudíes e internacionales.',
     'proof.commercial.alt': 'Certificado de registro comercial',
     'proof.address.alt': 'Comprobante de dirección nacional',
     'proof.iban.alt': 'Carta bancaria de IBAN',
@@ -564,7 +564,7 @@ const translations = {
     'faq.a3': 'No, la consulta y la revisión de opciones son totalmente gratuitas.',
     'faq.q4': '¿Ayudan con alojamiento y seguro?',
     'faq.a4': 'Sí, recomendamos opciones confiables de alojamiento y seguro médico.',
-    'partners.title': 'Institutos que entienden las metas de estudiantes filipinos',
+    'partners.title': 'Institutos que entienden las metas de los estudiantes saudíes',
     'partners.lead': 'Institutos internacionales destacados con educación de alta calidad.',
     'partners.card1.desc': 'Rutas intensivas para preparar exámenes de idioma.',
     'partners.card2.desc': 'Programas puente universitarios con apoyo académico completo.',
@@ -581,7 +581,7 @@ const translations = {
     'feedback.title': 'Opiniones de estudiantes',
     'feedback.lead': 'Testimonios reales de estudiantes de todo el mundo.',
     'footer.tagline':
-      'Consultoría educativa internacional confiable para estudiantes filipinos que buscan institutos de idiomas y programas académicos.',
+      'Consultoría educativa internacional confiable para estudiantes saudíes que desean estudiar en Filipinas y en otros destinos.',
     'footer.links': 'Enlaces rápidos',
     'footer.institutes': 'Institutos',
     'footer.faq': 'FAQ',
@@ -615,7 +615,7 @@ const translations = {
     'hero.kicker': 'YallaStudy Eğitim Danışmanlığı',
     'hero.title': 'Kabul Elinizde',
     'hero.lead':
-      'Filipinli öğrenciler için dünya genelindeki en iyi dil okullarına kayıt sürecini kolaylaştırıyoruz. Ücretsiz danışmanlık, tam takip ve uygun seçenekler.',
+      'Filipinlerde eğitim almak isteyen Suudi öğrencilere, güvenilir dil okulları ve akademik programlar üzerinden kayıt desteği sağlıyoruz; ayrıca diğer ülkeler için de seçenekler sunuyoruz.',
     'hero.ctaPrimary': 'Ücretsiz danışmanlık al',
     'hero.ctaSecondary': 'Hizmetleri keşfet',
     'hero.point1.title': '24 saat içinde yanıt',
@@ -626,8 +626,8 @@ const translations = {
     'hero.point3.desc': 'Kayıttan kabule',
     'about.title': 'Hakkımızda',
     'about.lead':
-      'YallaStudy, uluslararası dil okulu kayıt ve akademik kabul konusunda uzman, Filipinli öğrencilere odaklı bir danışmanlık ekibidir.',
-    'about.bullet1': 'Filipinli öğrenciler için ücretsiz danışmanlık ve iki dilli destek.',
+      'YallaStudy, uluslararası dil okulu kayıt ve akademik kabul konusunda uzman bir danışmanlık ekibidir; odağımız Filipinlerde eğitim planlayan Suudi öğrencilerdir.',
+    'about.bullet1': 'Suudi öğrenciler için Arapça destekli ücretsiz danışmanlık.',
     'about.bullet2': 'Uluslararası seçenekler, net ve şeffaf ücretler.',
     'about.bullet3': 'Kabul belgesi çıkana kadar takip ve varış sonrası yönlendirme.',
     'about.bullet4': 'WhatsApp desteği ve zaman dilimine uygun günlük takip.',
@@ -645,7 +645,7 @@ const translations = {
     'institutes.card3.title': 'Pratik akademik rota',
     'institutes.card3.desc': 'Dil eğitimi, beceri etkinlikleri ve sürekli rehberlik ile.',
     'services.title': 'Hizmetlerimiz',
-    'services.lead': 'Filipinli öğrenciler için uluslararası uçtan uca hizmet.',
+    'services.lead': 'Filipinler hedefli Suudi öğrenciler için uçtan uca uluslararası hizmet, ayrıca diğer destinasyonlar için ek seçenekler.',
     'services.card1.title': 'Ücretsiz danışmanlık',
     'services.card1.desc': 'Hedef ve eğitim planınızı uzmanla analiz edin.',
     'services.card1.link': 'Danışmanlık iste',
@@ -665,7 +665,7 @@ const translations = {
     'services.card6.desc': 'Başarılı bir başlangıç için takip ve danışmanlık.',
     'services.card6.link': 'Bize ulaş',
     'why.title': 'Neden biz?',
-    'why.lead': 'Filipinli öğrenciler için net bir plan ve her adımda gerçek destek sunuyoruz.',
+    'why.lead': 'Suudi öğrenciler için her adımda gerçek destek ve net bir plan sunarak kararı kolaylaştırıyoruz.',
     'why.card1.title': 'Uygulamalı uzmanlık',
     'why.card1.desc': 'Dünya çapında akredite okullarla güçlü iş ortaklıkları.',
     'why.card2.title': 'Çoklu seçenekler',
@@ -680,7 +680,7 @@ const translations = {
     'why.card6.desc': 'Binlerce öğrenci bizimle kabul aldı.',
     'proof.title': 'Akreditasyon ve doğrulama',
     'proof.lead':
-      'Bilgilerimiz resmi olarak doğrulanmıştır ve Filipinli ile uluslararası öğrenciler için kontrol edilebilir.',
+      'Bilgilerimiz resmi olarak doğrulanmıştır; Suudi ve uluslararası öğrenciler için güven ve şeffaflık sağlar.',
     'proof.commercial.alt': 'Ticaret Sicil Belgesi',
     'proof.address.alt': 'Ulusal Adres Belgesi',
     'proof.iban.alt': 'IBAN banka yazısı',
@@ -708,7 +708,7 @@ const translations = {
     'faq.a3': 'Hayır, danışmanlık ve seçenek değerlendirmesi tamamen ücretsizdir.',
     'faq.q4': 'Konaklama ve sigorta desteği var mı?',
     'faq.a4': 'Evet, güvenilir konaklama ve sağlık sigortası seçenekleri öneriyoruz.',
-    'partners.title': 'Filipinli öğrencilerin hedeflerini anlayan kurumlar',
+    'partners.title': 'Suudi öğrencilerin hedeflerini anlayan kurumlar',
     'partners.lead': 'Yüksek kaliteli eğitim sunan seçkin uluslararası kurumlar.',
     'partners.card1.desc': 'Dil sınavlarına hazırlık için yoğun programlar.',
     'partners.card2.desc': 'Üniversiteye geçiş programları ve tam akademik destek.',
@@ -725,7 +725,7 @@ const translations = {
     'feedback.title': 'Öğrenci yorumları',
     'feedback.lead': 'Dünya çapındaki öğrencilerimizin gerçek deneyimleri.',
     'footer.tagline':
-      'Filipinli öğrenciler için dil okulları ve akademik programlara kabulde güvenilir uluslararası danışmanlık.',
+      'Filipinler ve diğer destinasyonlarda eğitim planlayan Suudi öğrenciler için güvenilir uluslararası danışmanlık.',
     'footer.links': 'Hızlı bağlantılar',
     'footer.institutes': 'Kurumlar',
     'footer.faq': 'SSS',
@@ -1124,6 +1124,4 @@ if (feedbackSlider && feedbackTrack) {
     teardown = buildFeedbackSlider();
   });
 }
-
-
 

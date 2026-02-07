@@ -1145,6 +1145,12 @@ body.is-ltr .proof-list li::before {
   height: 22px;
 }
 
+.stories-social .social-row img {
+  width: 28px;
+  height: 28px;
+  object-fit: contain;
+}
+
 .feedback-slider {
   --feedback-visible: 3;
   --feedback-gap: var(--space-5);
@@ -1261,6 +1267,13 @@ body.is-ltr .proof-list li::before {
   color: rgba(255, 255, 255, 0.75);
 }
 
+.contact-phone {
+  direction: ltr;
+  unicode-bidi: isolate;
+  display: inline-block;
+  text-align: left;
+}
+
 .footer-brand .logo {
   color: #fff;
   padding: 0;
@@ -1324,6 +1337,12 @@ body.is-ltr .proof-list li::before {
   width: 18px;
   height: 18px;
   fill: currentColor;
+}
+
+.social-icon img {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
 }
 
 .whatsapp {
