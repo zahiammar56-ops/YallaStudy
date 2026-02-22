@@ -6,9 +6,9 @@ const langSelectMobile = document.getElementById('lang-select-mobile');
 
 const translations = {
   ar: {
-    'meta.title': 'YallaStudy | القبول بين يديك',
+    'meta.title': 'الدراسة في الفلبين للسعوديين | قبول اللغة والبرامج الأكاديمية | YallaStudy',
     'meta.description':
-      'استشارات تعليمية مجانية للتسجيل في أفضل معاهد اللغة حول العالم مع متابعة كاملة حتى القبول.',
+      'YallaStudy يقدم استشارات القبول الدراسي للطلاب السعوديين والإماراتيين: قبول دراسة اللغة في الفلبين، التسجيل في معاهد اللغة للسعوديين، وبرامج اللغة الأكاديمية مع متابعة كاملة حتى القبول.',
     skip: 'تجاوز إلى المحتوى',
     'logo.sub': 'الدراسة بالخارج',
     'lang.label': 'اللغة',
@@ -24,79 +24,80 @@ const translations = {
     'nav.faq': 'الأسئلة الشائعة',
     'cta.register': 'سجل الآن',
     'hero.kicker': 'YallaStudy للاستشارات التعليمية',
-    'hero.title': 'القبول بين يديك',
+    'hero.title': 'الدراسة في الفلبين للسعوديين | القبول بين يديك',
     'hero.lead':
-      'نُسهّل للطلاب السعوديين الراغبين بالدراسة في الفلبين التسجيل في معاهد اللغة والبرامج الأكاديمية المناسبة، مع خيارات دولية أخرى حسب الهدف.',
+      'نساعدك في قبول دراسة اللغة في الفلبين والتسجيل في معاهد اللغة للسعوديين، مع خطط واضحة للبرامج الأكاديمية واستشارات قبول دراسي من البداية حتى استلام القبول.',
     'hero.ctaPrimary': 'احجز استشارتك مجانًا',
     'hero.ctaSecondary': 'تعرّف على خدماتنا',
     'hero.point1.title': 'استجابة خلال 24 ساعة',
     'hero.point1.desc': 'فريق متابعة متخصص',
-    'hero.point2.title': 'شبكة معاهد موثوقة',
-    'hero.point2.desc': 'في أوروبا وأمريكا وكندا',
+    'hero.point2.title': 'معاهد لغة معتمدة في الفلبين',
+    'hero.point2.desc': 'خيارات مناسبة للسعوديين والخليجيين',
     'hero.point3.title': 'خطوات واضحة',
     'hero.point3.desc': 'من التسجيل حتى القبول',
-    'about.title': 'من نحن',
+    'about.title': 'استشارات القبول الدراسي للدراسة في الفلبين',
     'about.lead':
-      'YallaStudy فريق استشاري متخصص في التسجيل بمعاهد اللغة والقبول الأكاديمي دوليًا، مع تركيز على الطلاب السعوديين الراغبين بالدراسة في الفلبين. نساعدك على اختيار المعهد المناسب، تجهيز المستندات، ومتابعة القبول خطوة بخطوة.',
-    'about.bullet1': 'استشارة مجانية مخصصة للطلاب السعوديين مع مستشارين عرب.',
-    'about.bullet2': 'خيارات دولية واضحة ورسوم شفافة بدون مفاجآت.',
-    'about.bullet3': 'متابعة حتى إصدار القبول وإرشاد ما بعد الوصول.',
-    'about.bullet4': 'دعم عبر واتساب ومتابعة يومية عبر المناطق الزمنية المختلفة.',
+      'YallaStudy فريق متخصص في التسجيل في معاهد اللغة والبرامج الأكاديمية، مع تركيز على الدراسة في الفلبين للسعوديين. نساعدك في اختيار المعهد المناسب، تجهيز الملف، ومتابعة القبول خطوة بخطوة حتى السفر.',
+    'about.bullet1': 'استشارة مجانية للطلاب السعوديين والإماراتيين مع مستشارين عرب.',
+    'about.bullet2': 'خيارات معاهد لغة معتمدة ورسوم واضحة بدون مفاجآت.',
+    'about.bullet3': 'متابعة طلب قبول دراسة اللغة في الفلبين حتى إصدار القبول النهائي.',
+    'about.bullet4': 'دعم عبر واتساب وإرشاد للسكن والوصول.',
     'stats.countries': 'دولة',
     'stats.years': 'سنوات خبرة',
     'stats.students': 'طالب',
     'stats.programs': 'برنامج',
-    'institutes.title': 'أفضل معاهد اللغة',
-    'institutes.lead': 'نختار لك المعهد الأنسب بناءً على هدفك، ميزانيتك، ومستوى لغتك.',
+    'institutes.title': 'معاهد اللغة في الفلبين وبرامج اللغة الأكاديمية',
+    'institutes.lead':
+      'اختر أفضل معهد لغة في الفلبين حسب هدفك، ميزانيتك، ومستواك الحالي في اللغة الإنجليزية.',
     'institutes.pill': 'بداية موفقة',
-    'institutes.card1.title': 'برنامج لغة مرن',
-    'institutes.card1.desc': 'بيئة تعليمية حديثة مع جداول مرنة ودعم مستمر.',
-    'institutes.card2.title': 'خطة دراسة مكثفة',
-    'institutes.card2.desc': 'خيارات دراسية صباحية ومسائية مع متابعة أكاديمية.',
-    'institutes.card3.title': 'مسار أكاديمي عملي',
-    'institutes.card3.desc': 'تعلّم اللغة مع أنشطة مهارية وتوجيه مستمر.',
-    'services.title': 'خدماتنا',
+    'institutes.card1.title': 'برنامج لغة إنجليزية مرن',
+    'institutes.card1.desc': 'بيئة دراسية حديثة مع حصص يومية ومرونة في مواعيد البدء.',
+    'institutes.card2.title': 'برنامج لغة مكثف',
+    'institutes.card2.desc': 'حصص صباحية ومسائية مع متابعة أكاديمية تضمن تقدمك السريع.',
+    'institutes.card3.title': 'مسار لغة أكاديمي',
+    'institutes.card3.desc': 'تطوير اللغة مع مهارات أكاديمية تؤهلك للجامعة أو العمل.',
+    'services.title': 'خدمات التسجيل والقبول الدراسي للسعوديين',
     'services.lead':
-      'خدمات دولية متكاملة تدعم الطلاب السعوديين للدراسة في الفلبين، مع خيارات إضافية في وجهات أخرى.',
-    'services.card1.title': 'استشارة مجانية',
-    'services.card1.desc': 'جلسة تحليل أهدافك وخطتك الدراسية مع مستشار متخصص.',
+      'خدمات متكاملة من اختيار المعهد حتى القبول النهائي للطلاب الراغبين في الدراسة في الفلبين.',
+    'services.card1.title': 'استشارة قبول مجانية',
+    'services.card1.desc': 'تحليل هدفك الدراسي ووضع خطة واضحة للتسجيل في معهد اللغة المناسب.',
     'services.card1.link': 'اطلب الاستشارة',
     'services.card2.title': 'اختيار المعهد',
-    'services.card2.desc': 'مقارنة بين المعاهد وبرامج اللغة لضمان أفضل خيار.',
+    'services.card2.desc': 'مقارنة تفصيلية بين المعاهد وبرامج اللغة لضمان أفضل قيمة تعليمية.',
     'services.card2.link': 'اعرف الخيارات',
     'services.card3.title': 'تجهيز الملف',
-    'services.card3.desc': 'مراجعة المستندات وتحضير طلبات القبول بدقة.',
+    'services.card3.desc': 'مراجعة المستندات وترتيب ملفك وفق متطلبات المعهد المعتمد.',
     'services.card3.link': 'جهّز ملفك',
     'services.card4.title': 'متابعة القبول',
-    'services.card4.desc': 'تواصل مباشر مع المعهد وتسريع إجراءات القبول.',
+    'services.card4.desc': 'متابعة يومية مع المعهد لتسريع الإجراءات وتقليل التأخير.',
     'services.card4.link': 'ابدأ الآن',
     'services.card5.title': 'السفر والإقامة',
-    'services.card5.desc': 'نصائح للإقامة والنقل والتجهيز قبل السفر.',
+    'services.card5.desc': 'دعم شامل لاختيار السكن، التأمين، والاستعداد قبل السفر.',
     'services.card5.link': 'خطط لسفرك',
     'services.card6.title': 'دعم ما بعد الوصول',
-    'services.card6.desc': 'متابعة واستشارات لضمان بداية دراسية موفقة.',
+    'services.card6.desc': 'متابعة بعد الوصول لضمان بداية مستقرة في الدراسة والمعيشة.',
     'services.card6.link': 'تواصل معنا',
-    'why.title': 'لماذا نحن؟',
-    'why.lead': 'نُسهّل قرار الطالب السعودي بخطة واضحة ودعم حقيقي في كل خطوة.',
+    'why.title': 'لماذا YallaStudy لرحلة الدراسة في الفلبين؟',
+    'why.lead': 'نسهّل قرار الدراسة في الفلبين بخطة قبول واضحة ودعم فعلي في كل مرحلة.',
     'why.card1.title': 'خبرة عملية',
-    'why.card1.desc': 'شبكة شراكات قوية مع معاهد معتمدة عالميًا.',
+    'why.card1.desc': 'شراكات قوية مع معاهد لغة معتمدة وبرامج أكاديمية موثوقة.',
     'why.card2.title': 'خيارات متعددة',
-    'why.card2.desc': 'نختار أفضل المدن والبرامج المناسبة لهدفك.',
+    'why.card2.desc': 'خيارات مدن ومعاهد تناسب أهداف الطالب السعودي وميزانيته.',
     'why.card3.title': 'شفافية كاملة',
-    'why.card3.desc': 'تفاصيل الرسوم واضحة بدون أي تكاليف مخفية.',
+    'why.card3.desc': 'تفاصيل الرسوم والتسجيل واضحة بدون تكاليف مخفية.',
     'why.card4.title': 'متابعة مستمرة',
-    'why.card4.desc': 'دعم فوري عبر واتساب وخدمة عملاء مخصصة.',
+    'why.card4.desc': 'متابعة يومية عبر واتساب حتى إصدار خطاب القبول.',
     'why.card5.title': 'حلول مرنة',
-    'why.card5.desc': 'برامج مختلفة للطلاب والمهنيين والعائلات.',
+    'why.card5.desc': 'برامج لغة عامة ومكثفة وأكاديمية تناسب مختلف الأهداف.',
     'why.card6.title': 'نتائج موثوقة',
-    'why.card6.desc': 'آلاف الطلاب حصلوا على قبولهم بفضل دعمنا.',
-    'proof.title': 'الاعتماد والتوثيق',
+    'why.card6.desc': 'نتائج مثبتة في قبول الطلاب السعوديين في معاهد الفلبين.',
+    'proof.title': 'اعتماد وتوثيق رسمي لخدمات القبول الدراسي',
     'proof.lead':
       'بياناتنا موثقة ويمكن التحقق منها رسميًا لضمان الثقة والشفافية للطلاب السعوديين وجميع الطلاب الدوليين.',
-    'proof.commercial.alt': 'شهادة السجل التجاري للمنشأة',
-    'proof.address.alt': 'إثبات العنوان الوطني للمنشأة',
-    'proof.iban.alt': 'خطاب الآيبان البنكي',
-    'proof.zatca.alt': 'شهادة تسجيل هيئة الزكاة والضريبة والجمارك',
+    'proof.commercial.alt': 'السجل التجاري لشركة YallaStudy لخدمات القبول الدراسي',
+    'proof.address.alt': 'العنوان الوطني الرسمي لشركة استشارات الدراسة في الفلبين',
+    'proof.iban.alt': 'خطاب الآيبان البنكي المعتمد لخدمات التسجيل والقبول الدراسي',
+    'proof.zatca.alt': 'شهادة تسجيل الزكاة والضريبة لشركة YallaStudy',
     'proof.info.title': 'ثقة مبنية على وثائق قابلة للتحقق',
     'proof.info.lead':
       'نلتزم بالشفافية الكاملة عبر توثيق بياناتنا الرسمية وإتاحتها للتحقق عند الطلب، حتى تكون قراراتك مبنية على معلومات واضحة أينما كنت.',
@@ -104,40 +105,49 @@ const translations = {
     'proof.info.bullet2': 'بيانات قابلة للتحقق عبر الجهات الرسمية.',
     'proof.info.bullet3': 'التزام واضح بالشفافية وحماية بيانات العملاء.',
     'proof.info.cta': 'تواصل للتأكد',
-    'contact.title': 'هل لديك استفسارات؟',
-    'contact.lead': 'اترك بياناتك وسنتواصل معك خلال 24 ساعة.',
+    'contact.title': 'ابدأ التسجيل في معاهد اللغة الآن',
+    'contact.lead': 'اترك بياناتك وسيتواصل معك مستشار قبول دراسي خلال 24 ساعة.',
     'contact.name': 'الاسم الكامل',
     'contact.phone': 'رقم الجوال',
     'contact.email': 'البريد الإلكتروني',
     'contact.service': 'الاستشارة أو الخدمة المطلوبة',
     'contact.submit': 'إرسال',
-    'faq.title': 'الأسئلة الشائعة',
-    'faq.q1': 'ما هي الخطوة الأولى للتسجيل؟',
-    'faq.a1': 'تبدأ باستشارة مجانية لتحديد هدفك والمعهد المناسب.',
-    'faq.q2': 'كم تستغرق عملية القبول؟',
-    'faq.a2': 'عادة من 3 إلى 7 أيام عمل بعد استلام المستندات كاملة.',
-    'faq.q3': 'هل هناك رسوم استشارية؟',
-    'faq.a3': 'لا، الاستشارة ومتابعة الخيارات مجانية بالكامل.',
-    'faq.q4': 'هل تساعدون في السكن والتأمين؟',
-    'faq.a4': 'نعم، نرشح لك خيارات موثوقة للسكن والتأمين الصحي.',
-    'partners.title': 'لأنهم فهموا أهداف طلابنا السعوديين',
-    'partners.lead': 'معاهد دولية مميزة تقدم جودة تعليم عالية وفرص تطور حقيقية.',
+    'faq.title': 'الأسئلة الشائعة حول الدراسة في الفلبين',
+    'faq.q1': 'كيف أبدأ التسجيل في معاهد اللغة في الفلبين؟',
+    'faq.a1':
+      'تبدأ بتعبئة نموذج الاستشارة المجانية، ثم نحدد هدفك ونرشح لك المعهد الأنسب.',
+    'faq.q2': 'كم تستغرق إجراءات قبول دراسة اللغة في الفلبين؟',
+    'faq.a2':
+      'غالبًا من 3 إلى 7 أيام عمل بعد اكتمال المستندات، وقد تختلف المدة حسب المعهد.',
+    'faq.q3': 'هل الاستشارة وخدمة القبول الدراسي مجانية؟',
+    'faq.a3': 'نعم، الاستشارة الأولية ومقارنة خيارات المعاهد مجانية بالكامل.',
+    'faq.q4': 'هل توفرون برامج لغة أكاديمية بعد المستوى العام؟',
+    'faq.a4': 'نعم، نوفر برامج لغة أكاديمية ومسارات تمهيد جامعي بالتعاون مع معاهد معتمدة.',
+    'faq.q5': 'هل يمكنكم مساعدتي في السكن والاستقبال في الفلبين؟',
+    'faq.a5': 'نعم، نقدم إرشادًا للسكن والتأمين والاستقبال وخطة الوصول قبل السفر.',
+    'faq.q6': 'هل خدماتكم مخصصة للسعوديين فقط؟',
+    'faq.a6':
+      'تركيزنا الأساسي على الطلاب السعوديين، ونخدم كذلك طلاب الإمارات واليمن ودول الخليج.',
+    'partners.title': 'معاهد معتمدة تدعم الدراسة في الفلبين',
+    'partners.lead':
+      'شركاء أكاديميون يقدمون برامج لغة قوية وخيارات قبول مناسبة للطلاب الخليجيين.',
     'partners.card1.desc': 'مسارات مكثفة للتحضير لاختبارات اللغة.',
     'partners.card2.desc': 'برامج تمهيدية للجامعة ودعم أكاديمي كامل.',
     'partners.card3.desc': 'معاهد متميزة في أكثر من 10 دول حول العالم.',
-    'stories.title': 'راحتكم من أرض الواقع',
+    'stories.title': 'تجارب طلاب الدراسة في الفلبين',
     'stories.lead':
-      '             راحة العميل هي أولويتنا، التأكد من جميع الخدمات والسكن وأدق التفاصيل حرصاً منا على راحتكم ودعمكم في أي وقت!',
+      'قصص حقيقية لطلاب حصلوا على قبول معاهد اللغة والبرامج الأكاديمية من خلال فريقنا.',
     'stories.card1': 'كيف تم اختيار المعهد المناسب والخطة الدراسية الأنسب خلال وقت قياسي.',
     'stories.card2': 'دعم مستمر خطوة بخطوة حتى استلام خطاب القبول والاستعداد للسفر.',
     'stories.card3': 'تجربة تسجيل سلسة مع توجيه واضح يناسب ميزانية الطالب وأهدافه.',
     'stories.card4': 'متابعة احترافية لضمان سرعة الإجراءات وتجنب الأخطاء الشائعة.',
     'stories.card5': 'خدمة واضحة وتواصل سريع عبر القنوات المناسبة للطالب.',
     'stories.follow': 'تابع قصص طلابنا',
-    'feedback.title': 'آراء طلابنا',
-    'feedback.lead': 'لقطات حقيقية من طلابنا حول العالم وتجاربهم مع خدماتنا.',
+    'feedback.title': 'آراء الطلاب عن الدراسة في الفلبين',
+    'feedback.lead':
+      'لقطات حقيقية من طلابنا بعد التسجيل والقبول في معاهد اللغة والبرامج الأكاديمية.',
     'footer.tagline':
-      'استشارات دراسية دولية موثوقة للطلاب السعوديين الراغبين بالدراسة في الفلبين ومعاهد اللغة حول العالم.',
+      'استشارات قبول دراسي موثوقة للطلاب السعوديين الراغبين في الدراسة في الفلبين ومعاهد اللغة المعتمدة.',
     'footer.links': 'روابط سريعة',
     'footer.institutes': 'المعاهد',
     'footer.faq': 'الأسئلة',
@@ -151,9 +161,10 @@ const translations = {
     'lightbox.close': 'إغلاق'
   },
   en: {
-    'meta.title': 'YallaStudy | Admission in Your Hands',
+    'meta.title':
+      'Study in the Philippines for Saudi Students | Language Admission & Academic Programs | YallaStudy',
     'meta.description':
-      'Free education consultations to enroll in top language institutes worldwide with full follow-up until admission.',
+      'YallaStudy provides admission consulting for Saudi and UAE students: language study admission in the Philippines, institute registration, and academic pathways with full follow-up.',
     skip: 'Skip to content',
     'logo.sub': 'Study Abroad',
     'lang.label': 'Language',
@@ -264,8 +275,15 @@ const translations = {
     'faq.a2': 'Typically 3–7 business days after receiving complete documents.',
     'faq.q3': 'Are there consultation fees?',
     'faq.a3': 'No, the consultation and option review are completely free.',
-    'faq.q4': 'Do you help with housing and insurance?',
-    'faq.a4': 'Yes, we recommend trusted options for housing and health insurance.',
+    'faq.q4': 'Do you offer academic language pathways after general English?',
+    'faq.a4':
+      'Yes. We provide academic English, test prep, and university pathway options through trusted institutes.',
+    'faq.q5': 'Can you help with housing and airport reception in the Philippines?',
+    'faq.a5':
+      'Yes. We support accommodation planning, insurance guidance, and arrival setup before travel.',
+    'faq.q6': 'Are your services only for Saudi students?',
+    'faq.a6':
+      'Our main focus is Saudi students, and we also serve UAE, Yemen, and GCC students based on availability.',
     'partners.title': 'Institutes that understand Saudi student goals',
     'partners.lead': 'Featured global institutes offering high-quality education and real growth opportunities.',
     'partners.card1.desc': 'Intensive tracks to prepare for language exams.',
@@ -746,10 +764,40 @@ const getTranslation = (lang, key) => {
 };
 
 let currentLang = 'ar';
-try {
-  currentLang = localStorage.getItem('preferredLang') || 'ar';
-} catch (error) {
-  currentLang = 'ar';
+const getLanguageFromUrl = () => {
+  const params = new URLSearchParams(window.location.search);
+  const urlLang = params.get('lang');
+  return urlLang && translations[urlLang] ? urlLang : null;
+};
+
+const persistLanguagePreference = (lang) => {
+  try {
+    localStorage.setItem('preferredLang', lang);
+  } catch (error) {
+    // Ignore storage errors.
+  }
+};
+
+const syncLanguageInUrl = (lang) => {
+  const url = new URL(window.location.href);
+  if (lang === 'ar') {
+    url.searchParams.delete('lang');
+  } else {
+    url.searchParams.set('lang', lang);
+  }
+  window.history.replaceState({}, '', `${url.pathname}${url.search}${url.hash}`);
+};
+
+const initialUrlLang = getLanguageFromUrl();
+if (initialUrlLang) {
+  currentLang = initialUrlLang;
+} else {
+  try {
+    const storedLang = localStorage.getItem('preferredLang');
+    currentLang = storedLang && translations[storedLang] ? storedLang : 'ar';
+  } catch (error) {
+    currentLang = 'ar';
+  }
 }
 
 const themeToggles = Array.from(document.querySelectorAll('[data-theme-toggle]'));
@@ -812,6 +860,8 @@ const applyLanguage = (lang) => {
   document.documentElement.lang = safeLang;
   document.documentElement.dir = safeLang === 'ar' ? 'rtl' : 'ltr';
   document.body.classList.toggle('is-ltr', safeLang !== 'ar');
+  if (langSelect) langSelect.value = safeLang;
+  if (langSelectMobile) langSelectMobile.value = safeLang;
 
   document.querySelectorAll('[data-i18n]').forEach((el) => {
     const value = getTranslation(safeLang, el.dataset.i18n);
@@ -832,31 +882,38 @@ const applyLanguage = (lang) => {
   const metaDescription = document.querySelector('meta[name="description"]');
   const desc = getTranslation(safeLang, 'meta.description');
   if (metaDescription && desc) metaDescription.setAttribute('content', desc);
+  const ogTitle = document.querySelector('meta[property="og:title"]');
+  if (ogTitle && title) ogTitle.setAttribute('content', title);
+  const ogDescription = document.querySelector('meta[property="og:description"]');
+  if (ogDescription && desc) ogDescription.setAttribute('content', desc);
+  const preferredUrl =
+    safeLang === 'en' ? 'https://www.yallastudy.sa/?lang=en' : 'https://www.yallastudy.sa/';
+  const canonicalLink = document.querySelector('link[rel="canonical"]');
+  if (canonicalLink) canonicalLink.setAttribute('href', preferredUrl);
+  const ogUrl = document.querySelector('meta[property="og:url"]');
+  if (ogUrl) ogUrl.setAttribute('content', preferredUrl);
+  const ogLocale = document.querySelector('meta[property="og:locale"]');
+  if (ogLocale) ogLocale.setAttribute('content', safeLang === 'ar' ? 'ar_SA' : 'en_US');
+  const twitterTitle = document.querySelector('meta[name="twitter:title"]');
+  if (twitterTitle && title) twitterTitle.setAttribute('content', title);
+  const twitterDescription = document.querySelector('meta[name="twitter:description"]');
+  if (twitterDescription && desc) twitterDescription.setAttribute('content', desc);
+
+  persistLanguagePreference(safeLang);
+  syncLanguageInUrl(safeLang);
   updateNavToggleLabel(document.body.classList.contains('nav-open'));
   updateThemeLabel();
 };
 
-  if (langSelect) {
+if (langSelect) {
   langSelect.addEventListener('change', (event) => {
-    const selected = event.target.value;
-    try {
-      localStorage.setItem('preferredLang', selected);
-    } catch (error) {
-      // Ignore storage errors; language still switches for this session.
-    }
-    applyLanguage(selected);
+    applyLanguage(event.target.value);
   });
 }
 
 if (langSelectMobile) {
   langSelectMobile.addEventListener('change', (event) => {
-    const selected = event.target.value;
-    try {
-      localStorage.setItem('preferredLang', selected);
-    } catch (error) {
-      // Ignore storage errors; language still switches for this session.
-    }
-    applyLanguage(selected);
+    applyLanguage(event.target.value);
   });
 }
 
@@ -1124,4 +1181,3 @@ if (feedbackSlider && feedbackTrack) {
     teardown = buildFeedbackSlider();
   });
 }
-

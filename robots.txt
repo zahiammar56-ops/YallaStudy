@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://www.yallastudy.sa/sitemap.xml
+Host: https://www.yallastudy.sa
