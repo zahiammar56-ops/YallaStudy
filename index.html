@@ -6,7 +6,7 @@
     <title>الدراسة في الفلبين للسعوديين | قبول دراسة اللغة والبرامج الأكاديمية | YallaStudy</title>
     <meta
       name="description"
-      content="YallaStudy يقدم استشارات القبول الدراسي للطلاب السعوديين والإماراتيين: قبول دراسة اللغة في الفلبين، التسجيل في معاهد اللغة للسعوديين، وبرامج اللغة الأكاديمية مع متابعة كاملة حتى القبول."
+      content="YallaStudy يقدم استشارات القبول الدراسي للطلاب السعوديين والإماراتيين: قبول دراسة اللغة في الفلبين، التسجيل في معاهد اللغة للسعوديين، وبرامج اللغة الأكاديمية مع متابعة كاملة حتى القبول. للتواصل: +966 56 110 7137."
     />
     <meta
       name="keywords"
@@ -39,7 +39,7 @@
     />
     <meta
       property="og:description"
-      content="استشارات القبول الدراسي للطلاب السعوديين والإماراتيين: قبول دراسة اللغة في الفلبين والتسجيل في معاهد اللغة وبرامج أكاديمية مع متابعة كاملة."
+      content="استشارات القبول الدراسي للطلاب السعوديين والإماراتيين: قبول دراسة اللغة في الفلبين والتسجيل في معاهد اللغة وبرامج أكاديمية مع متابعة كاملة. هاتف: +966 56 110 7137."
     />
     <meta property="og:url" content="https://www.yallastudy.sa/" />
     <meta property="og:site_name" content="YallaStudy" />
@@ -55,15 +55,20 @@
     />
     <meta
       name="twitter:description"
-      content="ابدأ قبول دراسة اللغة في الفلبين مع YallaStudy: تسجيل في معاهد اللغة وبرامج أكاديمية واستشارات قبول دراسي مجانية."
+      content="ابدأ قبول دراسة اللغة في الفلبين مع YallaStudy: تسجيل في معاهد اللغة وبرامج أكاديمية واستشارات قبول دراسي مجانية. +966 56 110 7137"
     />
     <meta name="twitter:image" content="https://www.yallastudy.sa/YallaStudyPNG.png" />
+    <meta name="contact" content="+966561107137" />
     <link rel="canonical" href="https://www.yallastudy.sa/" />
     <link rel="alternate" hreflang="ar-SA" href="https://www.yallastudy.sa/" />
     <link rel="alternate" hreflang="ar-AE" href="https://www.yallastudy.sa/?lang=ar" />
     <link rel="alternate" hreflang="en-SA" href="https://www.yallastudy.sa/?lang=en" />
     <link rel="alternate" hreflang="en-AE" href="https://www.yallastudy.sa/?lang=en" />
     <link rel="alternate" hreflang="x-default" href="https://www.yallastudy.sa/" />
+    <link rel="shortcut icon" href="/favicon.svg" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="icon" type="image/png" href="/YallaStudyPNG.png" />
+    <link rel="apple-touch-icon" href="/YallaStudyPNG.png" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -78,6 +83,7 @@
     />
     <link rel="preload" href="styles.min.css" as="style" />
     <link rel="stylesheet" href="styles.min.css" />
+    <link rel="stylesheet" href="ui-fixes.css" />
     <noscript><link rel="stylesheet" href="styles.css" /></noscript>
     <script defer src="script.js"></script>
     <script type="application/ld+json">
@@ -196,6 +202,12 @@
                 "position": 4,
                 "name": "الأسئلة الشائعة",
                 "item": "https://www.yallastudy.sa/#faq"
+              },
+              {
+                "@type": "ListItem",
+                "position": 5,
+                "name": "المدونة",
+                "item": "https://www.yallastudy.sa/blog/"
               }
             ]
           }
@@ -303,9 +315,12 @@
               >
             </div>
             <ul>
+              <li><a href="#top" data-i18n="nav.home">الرئيسية</a></li>
               <li><a href="#about" data-i18n="nav.about">من نحن</a></li>
               <li><a href="#institutes" data-i18n="nav.institutes">معاهد اللغة</a></li>
               <li><a href="#services" data-i18n="nav.services">خدماتنا</a></li>
+              <li><a href="/study-in-philippines-saudi/" data-i18n="nav.study">الدراسة في الفلبين</a></li>
+              <li><a href="/blog/" data-i18n="nav.blog">المدونة</a></li>
               <li><a href="#why-us" data-i18n="nav.why">لماذا نحن؟</a></li>
               <li><a href="#proof" data-i18n="nav.proof">الاعتماد والتوثيق</a></li>
               <li><a href="#faq" data-i18n="nav.faq">الأسئلة الشائعة</a></li>
@@ -457,11 +472,23 @@
       <section class="section seo-copy" id="study-philippines">
         <div class="container">
           <div class="section-heading reveal">
-            <h2>الدراسة في الفلبين: حلول قبول سريعة للطلاب السعوديين والخليجيين</h2>
-            <p>
+            <h2 data-i18n="seo.added.title">الدراسة في الفلبين: حلول قبول سريعة للطلاب السعوديين والخليجيين</h2>
+            <p data-i18n="seo.added.lead">
               إذا كنت تبحث عن قبول دراسة اللغة في الفلبين أو التسجيل في برامج
               اللغة الأكاديمية، نوفر لك خطة واضحة تبدأ بالاستشارة وتنتهي بخطاب
               القبول.
+            </p>
+            <p>
+              <span data-i18n="seo.added.read">اقرأ أيضًا:</span>
+              <a href="/study-in-philippines-saudi/" data-i18n="seo.added.link.study">الدراسة في الفلبين للسعوديين</a>
+              |
+              <a href="/language-admission-philippines/" data-i18n="seo.added.link.language">قبول دراسة اللغة في الفلبين</a>
+              |
+              <a href="/institutes-registration-saudi/" data-i18n="seo.added.link.registration">التسجيل في معاهد اللغة للسعوديين</a>
+              |
+              <a href="/academic-language-programs/" data-i18n="seo.added.link.academic">برامج اللغة الأكاديمية</a>
+              |
+              <a href="/admission-consulting/" data-i18n="seo.added.link.consulting">استشارات القبول الدراسي</a>
             </p>
           </div>
           <div class="seo-spotlight reveal">
@@ -1266,6 +1293,9 @@
             <li><a href="#services" data-i18n="nav.services">خدماتنا</a></li>
             <li><a href="#institutes" data-i18n="footer.institutes">المعاهد</a></li>
             <li><a href="#faq" data-i18n="footer.faq">الأسئلة</a></li>
+            <li><a href="/study-in-philippines-saudi/" data-i18n="footer.study">الدراسة في الفلبين</a></li>
+            <li><a href="/language-admission-philippines/" data-i18n="footer.language">قبول اللغة</a></li>
+            <li><a href="/blog/" data-i18n="footer.blog">المدونة</a></li>
           </ul>
         </div>
         <div>
