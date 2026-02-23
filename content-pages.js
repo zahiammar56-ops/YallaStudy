@@ -71,7 +71,110 @@
       'cp.blog.related.language': 'Language Admission',
       'cp.blog.related.registration': 'Institute Registration',
       'cp.blog.related.academic': 'Academic Programs',
-      'cp.blog.related.consulting': 'Admission Consulting'
+      'cp.blog.related.consulting': 'Admission Consulting',
+
+      'cp.blog.a1.meta.title': 'Study English in the Philippines 2026 | Guide for Saudi and Yemeni Students | YallaStudy',
+      'cp.blog.a1.meta.description':
+        'A complete guide to studying English in the Philippines: programs, duration, costs, and admission steps.',
+      'cp.blog.a1.breadcrumb': 'Study English in the Philippines',
+      'cp.blog.a1.h1': 'Study English in the Philippines 2026: A Practical Guide Before You Apply',
+      'cp.blog.a1.meta.updated': 'Updated: February 23, 2026',
+      'cp.blog.a1.meta.category': 'Category: Study in the Philippines',
+      'cp.blog.a1.meta.audience': 'Audience: Saudi Arabia, Yemen, GCC',
+      'cp.blog.a1.p1':
+        'Studying English in the Philippines is a top choice because it balances quality and cost. Results depend on choosing the right program and institute from the start.',
+      'cp.blog.a1.s1.title': '1) What language program types are available?',
+      'cp.blog.a1.s1.li1': 'General English program to build core skills.',
+      'cp.blog.a1.s1.li2': 'Intensive program with more daily hours.',
+      'cp.blog.a1.s1.li3': 'Exam preparation track such as IELTS.',
+      'cp.blog.a1.s1.li4': 'Academic language programs for university goals.',
+      'cp.blog.a1.s2.title': '2) What study duration is suitable?',
+      'cp.blog.a1.s2.p1':
+        'Duration depends on your current level. Most students need 3 to 6 months for clear progress. If your target is a specific test score, planning should be more precise.',
+      'cp.blog.a1.s3.title': '3) How do you choose the right institute?',
+      'cp.blog.a1.s3.li1': 'Evaluate the exact track you need (general, intensive, academic).',
+      'cp.blog.a1.s3.li2': 'Compare total cost: tuition + housing + monthly expenses.',
+      'cp.blog.a1.s3.li3': 'Choose a city that matches your preferred lifestyle.',
+      'cp.blog.a1.s3.li4': 'Confirm regular academic follow-up.',
+      'cp.blog.a1.s4.title': '4) Common mistakes before registration',
+      'cp.blog.a1.s4.li1': 'Choosing only by price.',
+      'cp.blog.a1.s4.li2': 'Ignoring housing and transport details.',
+      'cp.blog.a1.s4.li3': 'Starting without a clear timeline.',
+      'cp.blog.a1.s4.li4': 'Submitting an incomplete admission file.',
+      'cp.blog.a1.s5.title': '5) What is the practical next step?',
+      'cp.blog.a1.s5.p1':
+        'Start with a quick consultation to identify the best program and institute for your case. Then we prepare your file and follow up until final acceptance.',
+      'cp.blog.a1.cta1': 'Book admission consultation',
+      'cp.blog.a1.cta2': 'See registration steps',
+
+      'cp.blog.a2.meta.title': 'Study and Living Costs in the Philippines 2026 | GCC Student Budget Guide | YallaStudy',
+      'cp.blog.a2.meta.description':
+        'Understand study and living costs in the Philippines: tuition, housing, monthly expenses, and practical saving tips.',
+      'cp.blog.a2.breadcrumb': 'Study and Living Costs in the Philippines',
+      'cp.blog.a2.h1': 'Study and Living Costs in the Philippines 2026: How to Build a Smart Budget',
+      'cp.blog.a2.meta.updated': 'Updated: February 23, 2026',
+      'cp.blog.a2.meta.category': 'Category: Costs and Budget',
+      'cp.blog.a2.meta.audience': 'Audience: Saudi, Yemeni, and GCC students',
+      'cp.blog.a2.p1':
+        'The key question is real cost. To avoid surprises, break your budget into clear cost items before you travel.',
+      'cp.blog.a2.s1.title': '1) Main cost components',
+      'cp.blog.a2.s1.li1': 'Institute and program fees.',
+      'cp.blog.a2.s1.li2': 'Housing: on-campus or nearby off-campus options.',
+      'cp.blog.a2.s1.li3': 'Daily expenses: food, transport, internet, and personal needs.',
+      'cp.blog.a2.s1.li4': 'Pre-travel costs: ticket, insurance, and admin fees.',
+      'cp.blog.a2.s2.title': '2) How to reduce costs without losing quality',
+      'cp.blog.a2.s2.li1': 'Choose a program that matches your real goal.',
+      'cp.blog.a2.s2.li2': 'Compare cities, not only institutes.',
+      'cp.blog.a2.s2.li3': 'Set a realistic duration based on your level.',
+      'cp.blog.a2.s2.li4': 'Use recommendations based on real student outcomes.',
+      'cp.blog.a2.s3.title': '3) Example monthly budget structure',
+      'cp.blog.a2.s3.p1':
+        'Split your budget into three parts: tuition, housing, and daily expenses. This gives you a clear minimum and average range before enrollment.',
+      'cp.blog.a2.s4.title': '4) When is the Philippines a better-value option?',
+      'cp.blog.a2.s4.p1':
+        'Usually when your goal is faster language improvement with intensive study and manageable living costs compared to other destinations.',
+      'cp.blog.a2.s5.title': '5) Next step',
+      'cp.blog.a2.s5.p1':
+        'Send your budget and goal, and we will suggest 2-3 suitable institutes with a clear cost breakdown before you start.',
+      'cp.blog.a2.cta1': 'Request budget and admission plan',
+      'cp.blog.a2.cta2': 'Read best institutes article',
+
+      'cp.blog.a3.meta.title':
+        'Best Accredited Language Institutes in the Philippines 2026 | How to Choose the Right One | YallaStudy',
+      'cp.blog.a3.meta.description':
+        'Learn how to choose the best accredited language institute in the Philippines based on program quality, housing, city, and cost.',
+      'cp.blog.a3.breadcrumb': 'Best Accredited Language Institutes in the Philippines',
+      'cp.blog.a3.h1': 'Best Accredited Language Institutes: 7 Criteria Before Registration',
+      'cp.blog.a3.meta.updated': 'Updated: February 23, 2026',
+      'cp.blog.a3.meta.category': 'Category: Institute Selection',
+      'cp.blog.a3.meta.audience': 'Audience: Saudi Arabia, Yemen, GCC',
+      'cp.blog.a3.p1':
+        'The right question is not the best institute in general, but the best institute for your specific case. The decision depends on goal, budget, and duration.',
+      'cp.blog.a3.s1.title': '1) Strength of the program you need',
+      'cp.blog.a3.s1.p1':
+        'Some institutes are stronger in general English, while others are better in IELTS or academic pathways. Define your goal first.',
+      'cp.blog.a3.s2.title': '2) Study hours and follow-up quality',
+      'cp.blog.a3.s2.li1': 'Verify real weekly teaching hours.',
+      'cp.blog.a3.s2.li2': 'Ask about progress tracking and reporting.',
+      'cp.blog.a3.s2.li3': 'Review class size and student ratio.',
+      'cp.blog.a3.s3.title': '3) Suitable city for GCC students',
+      'cp.blog.a3.s3.p1':
+        'City choice affects lifestyle, cost, and focus. Some cities are better for intensive study while others are more active.',
+      'cp.blog.a3.s4.title': '4) Housing and support services',
+      'cp.blog.a3.s4.li1': 'On-campus and off-campus housing options.',
+      'cp.blog.a3.s4.li2': 'Safety level and distance from the institute.',
+      'cp.blog.a3.s4.li3': 'Availability of internet and essential services.',
+      'cp.blog.a3.s5.title': '5) Total cost, not tuition only',
+      'cp.blog.a3.s5.p1':
+        'Comparing full monthly cost gives a more accurate decision and avoids surprises after arrival.',
+      'cp.blog.a3.s6.title': '6) Reviews and student experiences',
+      'cp.blog.a3.s6.p1':
+        'Reviews are useful, but they must be read against your own goals because one solution does not fit everyone.',
+      'cp.blog.a3.s7.title': '7) Clear admission plan before payment',
+      'cp.blog.a3.s7.p1':
+        'Do not start any process without a written plan that includes program, cost, and registration timeline.',
+      'cp.blog.a3.cta1': 'Start registration with the right institute',
+      'cp.blog.a3.cta2': 'Book institute selection consultation'
     },
     fr: {
       'cp.brand.aria': 'Accueil YallaStudy',
@@ -180,9 +283,40 @@
     }
   };
 
+  const originalTextByKey = new Map();
+  document.querySelectorAll('[data-i18n]').forEach((el) => {
+    const key = el.dataset.i18n;
+    if (!key || originalTextByKey.has(key)) return;
+    originalTextByKey.set(key, el.textContent.trim());
+  });
+
+  const metaDescriptionElement = document.querySelector('meta[name="description"]');
+  const defaultMetaByKey = new Map();
+  if (document.body.dataset.i18nTitle) {
+    defaultMetaByKey.set(document.body.dataset.i18nTitle, document.title);
+  }
+  if (document.body.dataset.i18nDesc && metaDescriptionElement) {
+    defaultMetaByKey.set(document.body.dataset.i18nDesc, metaDescriptionElement.getAttribute('content') || '');
+  }
+
   const getTranslation = (lang, key) => {
     if (!key) return '';
-    return translations[lang]?.[key] ?? translations.ar[key] ?? '';
+    if (lang === 'ar') {
+      return (
+        translations.ar?.[key] ??
+        defaultMetaByKey.get(key) ??
+        originalTextByKey.get(key) ??
+        ''
+      );
+    }
+    return (
+      translations[lang]?.[key] ??
+      translations.en?.[key] ??
+      translations.ar?.[key] ??
+      defaultMetaByKey.get(key) ??
+      originalTextByKey.get(key) ??
+      ''
+    );
   };
 
   const getUrlLanguage = () => {
