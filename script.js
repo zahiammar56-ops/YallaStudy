@@ -849,10 +849,72 @@ const getTranslation = (lang, key) => {
 };
 
 let currentLang = 'ar';
+const localizedHomeLangs = new Set(['en', 'fr', 'es', 'tr']);
+const localizedSitePaths = new Set([
+  '/',
+  '/blog/',
+  '/blog/dirasat-lugha-eng-filipin/',
+  '/blog/taklifa-dirasah-wamaeisha-filipin/',
+  '/blog/afdal-maahd-lugha-motamada-filipin/'
+]);
+
+const normalizePath = (path) => {
+  let safePath = path || '/';
+  safePath = safePath.replace(/\\/g, '/').replace(/\/{2,}/g, '/');
+  if (!safePath.startsWith('/')) safePath = `/${safePath}`;
+  if (!safePath.endsWith('/')) safePath = `${safePath}/`;
+  return safePath;
+};
+
+const splitLocalizedPath = (pathname) => {
+  const normalized = normalizePath(pathname);
+  const segments = normalized.split('/').filter(Boolean);
+  if (!segments.length) return { pathLang: null, basePath: '/' };
+  const first = segments[0];
+  if (localizedHomeLangs.has(first)) {
+    const rest = segments.slice(1).join('/');
+    return { pathLang: first, basePath: rest ? normalizePath(`/${rest}`) : '/' };
+  }
+  return { pathLang: null, basePath: normalized };
+};
+
+const getPathLanguage = () => {
+  return splitLocalizedPath(window.location.pathname).pathLang;
+};
+
 const getLanguageFromUrl = () => {
+  const pathLang = getPathLanguage();
+  if (pathLang && translations[pathLang]) return pathLang;
   const params = new URLSearchParams(window.location.search);
   const urlLang = params.get('lang');
   return urlLang && translations[urlLang] ? urlLang : null;
+};
+
+const getPreferredLanguageUrl = (lang) => {
+  if (localizedHomeLangs.has(lang)) return `https://www.yallastudy.sa/${lang}/`;
+  if (lang === 'ar') return 'https://www.yallastudy.sa/';
+  return `https://www.yallastudy.sa/?lang=${encodeURIComponent(lang)}`;
+};
+
+const getOgLocaleByLang = (lang) => {
+  if (lang === 'ar') return 'ar_SA';
+  if (lang === 'fr') return 'fr_FR';
+  if (lang === 'es') return 'es_ES';
+  if (lang === 'tr') return 'tr_TR';
+  return 'en_US';
+};
+
+const localizeInternalLinks = (lang) => {
+  document.querySelectorAll('a[href^="/"]').forEach((link) => {
+    const rawHref = link.getAttribute('href');
+    if (!rawHref || rawHref.startsWith('//')) return;
+    const parsed = new URL(rawHref, window.location.origin);
+    const { basePath } = splitLocalizedPath(parsed.pathname);
+    if (!localizedSitePaths.has(basePath)) return;
+    const localizedPath = lang === 'ar' ? basePath : `/${lang}${basePath === '/' ? '/' : basePath}`;
+    const localizedHref = `${localizedPath}${parsed.search}${parsed.hash}`;
+    link.setAttribute('href', localizedHref);
+  });
 };
 
 const persistLanguagePreference = (lang) => {
@@ -865,9 +927,14 @@ const persistLanguagePreference = (lang) => {
 
 const syncLanguageInUrl = (lang) => {
   const url = new URL(window.location.href);
-  if (lang === 'ar') {
+  if (localizedHomeLangs.has(lang)) {
+    url.pathname = `/${lang}/`;
+    url.searchParams.delete('lang');
+  } else if (lang === 'ar') {
+    url.pathname = '/';
     url.searchParams.delete('lang');
   } else {
+    url.pathname = '/';
     url.searchParams.set('lang', lang);
   }
   window.history.replaceState({}, '', `${url.pathname}${url.search}${url.hash}`);
@@ -971,18 +1038,18 @@ const applyLanguage = (lang) => {
   if (ogTitle && title) ogTitle.setAttribute('content', title);
   const ogDescription = document.querySelector('meta[property="og:description"]');
   if (ogDescription && desc) ogDescription.setAttribute('content', desc);
-  const preferredUrl =
-    safeLang === 'en' ? 'https://www.yallastudy.sa/?lang=en' : 'https://www.yallastudy.sa/';
+  const preferredUrl = getPreferredLanguageUrl(safeLang);
   const canonicalLink = document.querySelector('link[rel="canonical"]');
   if (canonicalLink) canonicalLink.setAttribute('href', preferredUrl);
   const ogUrl = document.querySelector('meta[property="og:url"]');
   if (ogUrl) ogUrl.setAttribute('content', preferredUrl);
   const ogLocale = document.querySelector('meta[property="og:locale"]');
-  if (ogLocale) ogLocale.setAttribute('content', safeLang === 'ar' ? 'ar_SA' : 'en_US');
+  if (ogLocale) ogLocale.setAttribute('content', getOgLocaleByLang(safeLang));
   const twitterTitle = document.querySelector('meta[name="twitter:title"]');
   if (twitterTitle && title) twitterTitle.setAttribute('content', title);
   const twitterDescription = document.querySelector('meta[name="twitter:description"]');
   if (twitterDescription && desc) twitterDescription.setAttribute('content', desc);
+  localizeInternalLinks(safeLang);
 
   persistLanguagePreference(safeLang);
   syncLanguageInUrl(safeLang);

@@ -319,7 +319,77 @@
     );
   };
 
+  const localizedPageLangs = new Set(['en', 'fr', 'es', 'tr']);
+  const localizedBasePaths = new Set([
+    '/blog/',
+    '/blog/dirasat-lugha-eng-filipin/',
+    '/blog/taklifa-dirasah-wamaeisha-filipin/',
+    '/blog/afdal-maahd-lugha-motamada-filipin/'
+  ]);
+  const localizedSitePaths = new Set(['/', ...localizedBasePaths]);
+
+  const normalizePath = (path) => {
+    let safePath = path || '/';
+    safePath = safePath.replace(/\\/g, '/').replace(/\/{2,}/g, '/');
+    if (!safePath.startsWith('/')) safePath = `/${safePath}`;
+    if (!safePath.endsWith('/')) safePath = `${safePath}/`;
+    return safePath;
+  };
+
+  const splitPathLanguage = (pathname = window.location.pathname) => {
+    const normalized = normalizePath(pathname);
+    const segments = normalized.split('/').filter(Boolean);
+    if (!segments.length) return { pathLang: null, basePath: '/' };
+    const first = segments[0];
+    if (localizedPageLangs.has(first)) {
+      const rest = segments.slice(1).join('/');
+      const basePath = rest ? normalizePath(`/${rest}`) : '/';
+      return { pathLang: first, basePath };
+    }
+    return { pathLang: null, basePath: normalized };
+  };
+
+  const canUseLocalizedPath = (basePath) => localizedBasePaths.has(basePath);
+
+  const buildLocalizedPath = (basePath, lang) => {
+    if (lang === 'ar') return basePath;
+    return `/${lang}${basePath === '/' ? '/' : basePath}`;
+  };
+
+  const getPreferredPageUrl = (lang) => {
+    const { basePath } = splitPathLanguage(window.location.pathname);
+    if (canUseLocalizedPath(basePath) && (lang === 'ar' || localizedPageLangs.has(lang))) {
+      return `https://www.yallastudy.sa${buildLocalizedPath(basePath, lang)}`;
+    }
+    const current = new URL(window.location.href);
+    if (lang === 'ar') current.searchParams.delete('lang');
+    else current.searchParams.set('lang', lang);
+    return `${current.origin}${current.pathname}${current.search}`;
+  };
+
+  const getOgLocaleByLang = (lang) => {
+    if (lang === 'ar') return 'ar_SA';
+    if (lang === 'fr') return 'fr_FR';
+    if (lang === 'es') return 'es_ES';
+    if (lang === 'tr') return 'tr_TR';
+    return 'en_US';
+  };
+
+  const localizeInternalLinks = (lang) => {
+    document.querySelectorAll('a[href^="/"]').forEach((link) => {
+      const rawHref = link.getAttribute('href');
+      if (!rawHref || rawHref.startsWith('//')) return;
+      const parsed = new URL(rawHref, window.location.origin);
+      const { basePath } = splitPathLanguage(parsed.pathname);
+      if (!localizedSitePaths.has(basePath)) return;
+      const localizedPath = lang === 'ar' ? basePath : buildLocalizedPath(basePath, lang);
+      link.setAttribute('href', `${localizedPath}${parsed.search}${parsed.hash}`);
+    });
+  };
+
   const getUrlLanguage = () => {
+    const { pathLang, basePath } = splitPathLanguage(window.location.pathname);
+    if (pathLang && canUseLocalizedPath(basePath) && translations[pathLang]) return pathLang;
     const params = new URLSearchParams(window.location.search);
     const value = params.get('lang');
     return value && translations[value] ? value : null;
@@ -335,8 +405,15 @@
 
   const syncLanguageInUrl = (lang) => {
     const url = new URL(window.location.href);
-    if (lang === 'ar') url.searchParams.delete('lang');
-    else url.searchParams.set('lang', lang);
+    const { basePath } = splitPathLanguage(url.pathname);
+    if (canUseLocalizedPath(basePath) && (lang === 'ar' || localizedPageLangs.has(lang))) {
+      url.pathname = buildLocalizedPath(basePath, lang);
+      url.searchParams.delete('lang');
+    } else if (lang === 'ar') {
+      url.searchParams.delete('lang');
+    } else {
+      url.searchParams.set('lang', lang);
+    }
     window.history.replaceState({}, '', `${url.pathname}${url.search}${url.hash}`);
   };
 
@@ -368,6 +445,9 @@
     const twitterTitle = document.querySelector('meta[name="twitter:title"]');
     const twitterDescription = document.querySelector('meta[name="twitter:description"]');
     const metaDescription = document.querySelector('meta[name="description"]');
+    const canonicalLink = document.querySelector('link[rel="canonical"]');
+    const ogUrl = document.querySelector('meta[property="og:url"]');
+    const ogLocale = document.querySelector('meta[property="og:locale"]');
 
     const titleValue = getTranslation(safeLang, titleKey);
     const descValue = getTranslation(safeLang, descKey);
@@ -384,17 +464,22 @@
       if (twitterDescription) twitterDescription.setAttribute('content', descValue);
     }
 
+    const preferredUrl = getPreferredPageUrl(safeLang);
+    if (canonicalLink) canonicalLink.setAttribute('href', preferredUrl);
+    if (ogUrl) ogUrl.setAttribute('content', preferredUrl);
+    if (ogLocale) ogLocale.setAttribute('content', getOgLocaleByLang(safeLang));
+    localizeInternalLinks(safeLang);
+
     persistLanguage(safeLang);
     syncLanguageInUrl(safeLang);
   };
 
   const markCurrentPageInNav = () => {
-    const normalizePath = (path) => path.replace(/index\.html$/i, '').replace(/\/+$/, '') || '/';
-    const currentPath = normalizePath(window.location.pathname);
+    const currentPath = splitPathLanguage(window.location.pathname).basePath;
     document.querySelectorAll('.cp-nav a').forEach((link) => {
       const href = link.getAttribute('href');
       if (!href || !href.startsWith('/')) return;
-      const target = normalizePath(new URL(href, window.location.origin).pathname);
+      const target = splitPathLanguage(new URL(href, window.location.origin).pathname).basePath;
       if (target === currentPath) {
         link.setAttribute('aria-current', 'page');
       } else {

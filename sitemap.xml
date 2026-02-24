@@ -1,17 +1,308 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://www.yallastudy.sa/</loc>
-    <lastmod>2026-02-23</lastmod>
+    <lastmod>2026-02-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="ar-SA" href="https://www.yallastudy.sa/" />
-    <xhtml:link rel="alternate" hreflang="en-SA" href="https://www.yallastudy.sa/?lang=en" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.yallastudy.sa/en/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.yallastudy.sa/fr/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.yallastudy.sa/es/" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://www.yallastudy.sa/tr/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.yallastudy.sa/" />
   </url>
   <url>
+    <loc>https://www.yallastudy.sa/en/</loc>
+    <lastmod>2026-02-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="ar-SA" href="https://www.yallastudy.sa/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.yallastudy.sa/en/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.yallastudy.sa/fr/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.yallastudy.sa/es/" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://www.yallastudy.sa/tr/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.yallastudy.sa/" />
+  </url>
+  <url>
+    <loc>https://www.yallastudy.sa/fr/</loc>
+    <lastmod>2026-02-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="ar-SA" href="https://www.yallastudy.sa/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.yallastudy.sa/en/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.yallastudy.sa/fr/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.yallastudy.sa/es/" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://www.yallastudy.sa/tr/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.yallastudy.sa/" />
+  </url>
+  <url>
+    <loc>https://www.yallastudy.sa/es/</loc>
+    <lastmod>2026-02-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="ar-SA" href="https://www.yallastudy.sa/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.yallastudy.sa/en/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.yallastudy.sa/fr/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.yallastudy.sa/es/" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://www.yallastudy.sa/tr/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.yallastudy.sa/" />
+  </url>
+  <url>
+    <loc>https://www.yallastudy.sa/tr/</loc>
+    <lastmod>2026-02-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="ar-SA" href="https://www.yallastudy.sa/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.yallastudy.sa/en/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.yallastudy.sa/fr/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.yallastudy.sa/es/" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://www.yallastudy.sa/tr/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.yallastudy.sa/" />
+  </url>
+  <url>
+    <loc>https://www.yallastudy.sa/blog/</loc>
+    <lastmod>2026-02-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="ar-SA" href="https://www.yallastudy.sa/blog/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.yallastudy.sa/en/blog/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.yallastudy.sa/fr/blog/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.yallastudy.sa/es/blog/" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://www.yallastudy.sa/tr/blog/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.yallastudy.sa/blog/" />
+  </url>
+  <url>
+    <loc>https://www.yallastudy.sa/en/blog/</loc>
+    <lastmod>2026-02-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="ar-SA" href="https://www.yallastudy.sa/blog/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.yallastudy.sa/en/blog/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.yallastudy.sa/fr/blog/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.yallastudy.sa/es/blog/" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://www.yallastudy.sa/tr/blog/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.yallastudy.sa/blog/" />
+  </url>
+  <url>
+    <loc>https://www.yallastudy.sa/fr/blog/</loc>
+    <lastmod>2026-02-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="ar-SA" href="https://www.yallastudy.sa/blog/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.yallastudy.sa/en/blog/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.yallastudy.sa/fr/blog/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.yallastudy.sa/es/blog/" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://www.yallastudy.sa/tr/blog/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.yallastudy.sa/blog/" />
+  </url>
+  <url>
+    <loc>https://www.yallastudy.sa/es/blog/</loc>
+    <lastmod>2026-02-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="ar-SA" href="https://www.yallastudy.sa/blog/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.yallastudy.sa/en/blog/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.yallastudy.sa/fr/blog/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.yallastudy.sa/es/blog/" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://www.yallastudy.sa/tr/blog/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.yallastudy.sa/blog/" />
+  </url>
+  <url>
+    <loc>https://www.yallastudy.sa/tr/blog/</loc>
+    <lastmod>2026-02-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="ar-SA" href="https://www.yallastudy.sa/blog/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.yallastudy.sa/en/blog/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.yallastudy.sa/fr/blog/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.yallastudy.sa/es/blog/" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://www.yallastudy.sa/tr/blog/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.yallastudy.sa/blog/" />
+  </url>
+  <url>
+    <loc>https://www.yallastudy.sa/blog/dirasat-lugha-eng-filipin/</loc>
+    <lastmod>2026-02-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+    <xhtml:link rel="alternate" hreflang="ar-SA" href="https://www.yallastudy.sa/blog/dirasat-lugha-eng-filipin/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.yallastudy.sa/en/blog/dirasat-lugha-eng-filipin/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.yallastudy.sa/fr/blog/dirasat-lugha-eng-filipin/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.yallastudy.sa/es/blog/dirasat-lugha-eng-filipin/" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://www.yallastudy.sa/tr/blog/dirasat-lugha-eng-filipin/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.yallastudy.sa/blog/dirasat-lugha-eng-filipin/" />
+  </url>
+  <url>
+    <loc>https://www.yallastudy.sa/en/blog/dirasat-lugha-eng-filipin/</loc>
+    <lastmod>2026-02-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+    <xhtml:link rel="alternate" hreflang="ar-SA" href="https://www.yallastudy.sa/blog/dirasat-lugha-eng-filipin/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.yallastudy.sa/en/blog/dirasat-lugha-eng-filipin/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.yallastudy.sa/fr/blog/dirasat-lugha-eng-filipin/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.yallastudy.sa/es/blog/dirasat-lugha-eng-filipin/" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://www.yallastudy.sa/tr/blog/dirasat-lugha-eng-filipin/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.yallastudy.sa/blog/dirasat-lugha-eng-filipin/" />
+  </url>
+  <url>
+    <loc>https://www.yallastudy.sa/fr/blog/dirasat-lugha-eng-filipin/</loc>
+    <lastmod>2026-02-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+    <xhtml:link rel="alternate" hreflang="ar-SA" href="https://www.yallastudy.sa/blog/dirasat-lugha-eng-filipin/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.yallastudy.sa/en/blog/dirasat-lugha-eng-filipin/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.yallastudy.sa/fr/blog/dirasat-lugha-eng-filipin/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.yallastudy.sa/es/blog/dirasat-lugha-eng-filipin/" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://www.yallastudy.sa/tr/blog/dirasat-lugha-eng-filipin/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.yallastudy.sa/blog/dirasat-lugha-eng-filipin/" />
+  </url>
+  <url>
+    <loc>https://www.yallastudy.sa/es/blog/dirasat-lugha-eng-filipin/</loc>
+    <lastmod>2026-02-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+    <xhtml:link rel="alternate" hreflang="ar-SA" href="https://www.yallastudy.sa/blog/dirasat-lugha-eng-filipin/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.yallastudy.sa/en/blog/dirasat-lugha-eng-filipin/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.yallastudy.sa/fr/blog/dirasat-lugha-eng-filipin/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.yallastudy.sa/es/blog/dirasat-lugha-eng-filipin/" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://www.yallastudy.sa/tr/blog/dirasat-lugha-eng-filipin/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.yallastudy.sa/blog/dirasat-lugha-eng-filipin/" />
+  </url>
+  <url>
+    <loc>https://www.yallastudy.sa/tr/blog/dirasat-lugha-eng-filipin/</loc>
+    <lastmod>2026-02-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+    <xhtml:link rel="alternate" hreflang="ar-SA" href="https://www.yallastudy.sa/blog/dirasat-lugha-eng-filipin/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.yallastudy.sa/en/blog/dirasat-lugha-eng-filipin/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.yallastudy.sa/fr/blog/dirasat-lugha-eng-filipin/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.yallastudy.sa/es/blog/dirasat-lugha-eng-filipin/" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://www.yallastudy.sa/tr/blog/dirasat-lugha-eng-filipin/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.yallastudy.sa/blog/dirasat-lugha-eng-filipin/" />
+  </url>
+  <url>
+    <loc>https://www.yallastudy.sa/blog/taklifa-dirasah-wamaeisha-filipin/</loc>
+    <lastmod>2026-02-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+    <xhtml:link rel="alternate" hreflang="ar-SA" href="https://www.yallastudy.sa/blog/taklifa-dirasah-wamaeisha-filipin/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.yallastudy.sa/en/blog/taklifa-dirasah-wamaeisha-filipin/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.yallastudy.sa/fr/blog/taklifa-dirasah-wamaeisha-filipin/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.yallastudy.sa/es/blog/taklifa-dirasah-wamaeisha-filipin/" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://www.yallastudy.sa/tr/blog/taklifa-dirasah-wamaeisha-filipin/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.yallastudy.sa/blog/taklifa-dirasah-wamaeisha-filipin/" />
+  </url>
+  <url>
+    <loc>https://www.yallastudy.sa/en/blog/taklifa-dirasah-wamaeisha-filipin/</loc>
+    <lastmod>2026-02-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+    <xhtml:link rel="alternate" hreflang="ar-SA" href="https://www.yallastudy.sa/blog/taklifa-dirasah-wamaeisha-filipin/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.yallastudy.sa/en/blog/taklifa-dirasah-wamaeisha-filipin/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.yallastudy.sa/fr/blog/taklifa-dirasah-wamaeisha-filipin/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.yallastudy.sa/es/blog/taklifa-dirasah-wamaeisha-filipin/" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://www.yallastudy.sa/tr/blog/taklifa-dirasah-wamaeisha-filipin/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.yallastudy.sa/blog/taklifa-dirasah-wamaeisha-filipin/" />
+  </url>
+  <url>
+    <loc>https://www.yallastudy.sa/fr/blog/taklifa-dirasah-wamaeisha-filipin/</loc>
+    <lastmod>2026-02-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+    <xhtml:link rel="alternate" hreflang="ar-SA" href="https://www.yallastudy.sa/blog/taklifa-dirasah-wamaeisha-filipin/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.yallastudy.sa/en/blog/taklifa-dirasah-wamaeisha-filipin/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.yallastudy.sa/fr/blog/taklifa-dirasah-wamaeisha-filipin/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.yallastudy.sa/es/blog/taklifa-dirasah-wamaeisha-filipin/" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://www.yallastudy.sa/tr/blog/taklifa-dirasah-wamaeisha-filipin/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.yallastudy.sa/blog/taklifa-dirasah-wamaeisha-filipin/" />
+  </url>
+  <url>
+    <loc>https://www.yallastudy.sa/es/blog/taklifa-dirasah-wamaeisha-filipin/</loc>
+    <lastmod>2026-02-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+    <xhtml:link rel="alternate" hreflang="ar-SA" href="https://www.yallastudy.sa/blog/taklifa-dirasah-wamaeisha-filipin/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.yallastudy.sa/en/blog/taklifa-dirasah-wamaeisha-filipin/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.yallastudy.sa/fr/blog/taklifa-dirasah-wamaeisha-filipin/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.yallastudy.sa/es/blog/taklifa-dirasah-wamaeisha-filipin/" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://www.yallastudy.sa/tr/blog/taklifa-dirasah-wamaeisha-filipin/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.yallastudy.sa/blog/taklifa-dirasah-wamaeisha-filipin/" />
+  </url>
+  <url>
+    <loc>https://www.yallastudy.sa/tr/blog/taklifa-dirasah-wamaeisha-filipin/</loc>
+    <lastmod>2026-02-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+    <xhtml:link rel="alternate" hreflang="ar-SA" href="https://www.yallastudy.sa/blog/taklifa-dirasah-wamaeisha-filipin/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.yallastudy.sa/en/blog/taklifa-dirasah-wamaeisha-filipin/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.yallastudy.sa/fr/blog/taklifa-dirasah-wamaeisha-filipin/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.yallastudy.sa/es/blog/taklifa-dirasah-wamaeisha-filipin/" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://www.yallastudy.sa/tr/blog/taklifa-dirasah-wamaeisha-filipin/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.yallastudy.sa/blog/taklifa-dirasah-wamaeisha-filipin/" />
+  </url>
+  <url>
+    <loc>https://www.yallastudy.sa/blog/afdal-maahd-lugha-motamada-filipin/</loc>
+    <lastmod>2026-02-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+    <xhtml:link rel="alternate" hreflang="ar-SA" href="https://www.yallastudy.sa/blog/afdal-maahd-lugha-motamada-filipin/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.yallastudy.sa/en/blog/afdal-maahd-lugha-motamada-filipin/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.yallastudy.sa/fr/blog/afdal-maahd-lugha-motamada-filipin/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.yallastudy.sa/es/blog/afdal-maahd-lugha-motamada-filipin/" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://www.yallastudy.sa/tr/blog/afdal-maahd-lugha-motamada-filipin/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.yallastudy.sa/blog/afdal-maahd-lugha-motamada-filipin/" />
+  </url>
+  <url>
+    <loc>https://www.yallastudy.sa/en/blog/afdal-maahd-lugha-motamada-filipin/</loc>
+    <lastmod>2026-02-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+    <xhtml:link rel="alternate" hreflang="ar-SA" href="https://www.yallastudy.sa/blog/afdal-maahd-lugha-motamada-filipin/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.yallastudy.sa/en/blog/afdal-maahd-lugha-motamada-filipin/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.yallastudy.sa/fr/blog/afdal-maahd-lugha-motamada-filipin/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.yallastudy.sa/es/blog/afdal-maahd-lugha-motamada-filipin/" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://www.yallastudy.sa/tr/blog/afdal-maahd-lugha-motamada-filipin/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.yallastudy.sa/blog/afdal-maahd-lugha-motamada-filipin/" />
+  </url>
+  <url>
+    <loc>https://www.yallastudy.sa/fr/blog/afdal-maahd-lugha-motamada-filipin/</loc>
+    <lastmod>2026-02-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+    <xhtml:link rel="alternate" hreflang="ar-SA" href="https://www.yallastudy.sa/blog/afdal-maahd-lugha-motamada-filipin/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.yallastudy.sa/en/blog/afdal-maahd-lugha-motamada-filipin/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.yallastudy.sa/fr/blog/afdal-maahd-lugha-motamada-filipin/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.yallastudy.sa/es/blog/afdal-maahd-lugha-motamada-filipin/" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://www.yallastudy.sa/tr/blog/afdal-maahd-lugha-motamada-filipin/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.yallastudy.sa/blog/afdal-maahd-lugha-motamada-filipin/" />
+  </url>
+  <url>
+    <loc>https://www.yallastudy.sa/es/blog/afdal-maahd-lugha-motamada-filipin/</loc>
+    <lastmod>2026-02-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+    <xhtml:link rel="alternate" hreflang="ar-SA" href="https://www.yallastudy.sa/blog/afdal-maahd-lugha-motamada-filipin/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.yallastudy.sa/en/blog/afdal-maahd-lugha-motamada-filipin/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.yallastudy.sa/fr/blog/afdal-maahd-lugha-motamada-filipin/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.yallastudy.sa/es/blog/afdal-maahd-lugha-motamada-filipin/" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://www.yallastudy.sa/tr/blog/afdal-maahd-lugha-motamada-filipin/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.yallastudy.sa/blog/afdal-maahd-lugha-motamada-filipin/" />
+  </url>
+  <url>
+    <loc>https://www.yallastudy.sa/tr/blog/afdal-maahd-lugha-motamada-filipin/</loc>
+    <lastmod>2026-02-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+    <xhtml:link rel="alternate" hreflang="ar-SA" href="https://www.yallastudy.sa/blog/afdal-maahd-lugha-motamada-filipin/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.yallastudy.sa/en/blog/afdal-maahd-lugha-motamada-filipin/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.yallastudy.sa/fr/blog/afdal-maahd-lugha-motamada-filipin/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.yallastudy.sa/es/blog/afdal-maahd-lugha-motamada-filipin/" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://www.yallastudy.sa/tr/blog/afdal-maahd-lugha-motamada-filipin/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.yallastudy.sa/blog/afdal-maahd-lugha-motamada-filipin/" />
+  </url>
+  <url>
     <loc>https://www.yallastudy.sa/study-in-philippines-saudi/</loc>
-    <lastmod>2026-02-23</lastmod>
+    <lastmod>2026-02-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="ar-SA" href="https://www.yallastudy.sa/study-in-philippines-saudi/" />
@@ -19,7 +310,7 @@
   </url>
   <url>
     <loc>https://www.yallastudy.sa/language-admission-philippines/</loc>
-    <lastmod>2026-02-23</lastmod>
+    <lastmod>2026-02-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="ar-SA" href="https://www.yallastudy.sa/language-admission-philippines/" />
@@ -27,7 +318,7 @@
   </url>
   <url>
     <loc>https://www.yallastudy.sa/institutes-registration-saudi/</loc>
-    <lastmod>2026-02-23</lastmod>
+    <lastmod>2026-02-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="ar-SA" href="https://www.yallastudy.sa/institutes-registration-saudi/" />
@@ -35,7 +326,7 @@
   </url>
   <url>
     <loc>https://www.yallastudy.sa/academic-language-programs/</loc>
-    <lastmod>2026-02-23</lastmod>
+    <lastmod>2026-02-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="ar-SA" href="https://www.yallastudy.sa/academic-language-programs/" />
@@ -43,42 +334,10 @@
   </url>
   <url>
     <loc>https://www.yallastudy.sa/admission-consulting/</loc>
-    <lastmod>2026-02-23</lastmod>
+    <lastmod>2026-02-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="ar-SA" href="https://www.yallastudy.sa/admission-consulting/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.yallastudy.sa/admission-consulting/" />
-  </url>
-  <url>
-    <loc>https://www.yallastudy.sa/blog/</loc>
-    <lastmod>2026-02-23</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="ar-SA" href="https://www.yallastudy.sa/blog/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.yallastudy.sa/blog/" />
-  </url>
-  <url>
-    <loc>https://www.yallastudy.sa/blog/dirasat-lugha-eng-filipin/</loc>
-    <lastmod>2026-02-23</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.75</priority>
-    <xhtml:link rel="alternate" hreflang="ar-SA" href="https://www.yallastudy.sa/blog/dirasat-lugha-eng-filipin/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.yallastudy.sa/blog/dirasat-lugha-eng-filipin/" />
-  </url>
-  <url>
-    <loc>https://www.yallastudy.sa/blog/taklifa-dirasah-wamaeisha-filipin/</loc>
-    <lastmod>2026-02-23</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.75</priority>
-    <xhtml:link rel="alternate" hreflang="ar-SA" href="https://www.yallastudy.sa/blog/taklifa-dirasah-wamaeisha-filipin/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.yallastudy.sa/blog/taklifa-dirasah-wamaeisha-filipin/" />
-  </url>
-  <url>
-    <loc>https://www.yallastudy.sa/blog/afdal-maahd-lugha-motamada-filipin/</loc>
-    <lastmod>2026-02-23</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.75</priority>
-    <xhtml:link rel="alternate" hreflang="ar-SA" href="https://www.yallastudy.sa/blog/afdal-maahd-lugha-motamada-filipin/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.yallastudy.sa/blog/afdal-maahd-lugha-motamada-filipin/" />
   </url>
 </urlset>
