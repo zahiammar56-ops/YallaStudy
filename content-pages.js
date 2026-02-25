@@ -174,7 +174,51 @@
       'cp.blog.a3.s7.p1':
         'Do not start any process without a written plan that includes program, cost, and registration timeline.',
       'cp.blog.a3.cta1': 'Start registration with the right institute',
-      'cp.blog.a3.cta2': 'Book institute selection consultation'
+      'cp.blog.a3.cta2': 'Book institute selection consultation',
+
+      'cp.page.registration.meta.title': 'Institute Registration for Saudi Students | Organized Steps | YallaStudy',
+      'cp.page.registration.meta.description':
+        'Complete support to register in language institutes in the Philippines for Saudi students, from comparison to final admission.',
+      'cp.page.registration.breadcrumb': 'Institute Registration for Saudi Students',
+      'cp.page.registration.hero.title': 'Institute Registration for Saudi Students: A Structured Process from Day One',
+      'cp.page.registration.hero.lead':
+        'YallaStudy manages the full registration process in the right language institute with an accurate comparison of program, cost, and city before final admission.',
+      'cp.page.registration.hero.cta1': 'Submit your details now',
+      'cp.page.registration.hero.cta2': 'Best accredited institutes',
+      'cp.page.registration.card1.title': 'Before registration, what should we review?',
+      'cp.page.registration.card1.li1': 'Your language goal: travel, university, exam, or work.',
+      'cp.page.registration.card1.li2': 'Total monthly budget (study + housing + expenses).',
+      'cp.page.registration.card1.li3': 'Best duration to reach your target level.',
+      'cp.page.registration.card2.title': 'Language institutes comparison',
+      'cp.page.registration.card2.li1': 'Actual weekly teaching hours.',
+      'cp.page.registration.card2.li2': 'On-campus or off-campus housing style.',
+      'cp.page.registration.card2.li3': 'City fit for GCC students.',
+      'cp.page.registration.card3.title': 'Clear outcome',
+      'cp.page.registration.card3.p':
+        'You get a short list of strong options instead of confusion, with a final recommendation that matches your profile.',
+      'cp.page.registration.highlight.title': 'Practical registration steps',
+      'cp.page.registration.highlight.li1': 'Choose the best institute and program after comparison.',
+      'cp.page.registration.highlight.li2': 'Confirm required documents and core details.',
+      'cp.page.registration.highlight.li3': 'Submit the application officially and track responses.',
+      'cp.page.registration.highlight.li4': 'Receive admission and arrange your travel plan.',
+      'cp.page.registration.tag1': 'Institute registration',
+      'cp.page.registration.tag2': 'Saudi students',
+      'cp.page.registration.tag3': 'Philippines institutes',
+      'cp.page.registration.tag4': 'Study admission',
+      'cp.page.registration.related.title': 'Related links',
+      'cp.page.registration.related.link1': 'Study in the Philippines for Saudi students',
+      'cp.page.registration.related.link2': 'Language admission in the Philippines',
+      'cp.page.registration.related.link3': 'Admission consulting services',
+      'cp.page.registration.related.link4': 'Explore institutes on the homepage',
+      'cp.page.registration.faq.aria': 'Frequently asked questions',
+      'cp.page.registration.faq.q1': 'Does institute registration require in-person attendance?',
+      'cp.page.registration.faq.a1':
+        'Usually no. Most procedures can be completed remotely with continuous follow-up from our team.',
+      'cp.page.registration.faq.q2': 'Is there a minimum study duration?',
+      'cp.page.registration.faq.a2': 'Duration depends on institute policy, but many programs start from 4 weeks.',
+      'cp.page.registration.faq.q3': 'Can I change the institute later?',
+      'cp.page.registration.faq.a3':
+        'It can be possible based on institute policy and timing, and we help you evaluate the best option.'
     },
     fr: {
       'cp.brand.aria': 'Accueil YallaStudy',
@@ -209,7 +253,51 @@
       'cp.blog.related.language': 'Admission linguistique',
       'cp.blog.related.registration': 'Inscription aux instituts',
       'cp.blog.related.academic': 'Programmes académiques',
-      'cp.blog.related.consulting': 'Conseil en admission'
+      'cp.blog.related.consulting': 'Conseil en admission',
+
+      'cp.page.registration.meta.title': 'Inscription en institut de langue pour les Saoudiens | YallaStudy',
+      'cp.page.registration.meta.description':
+        'Accompagnement complet pour l inscription en instituts de langue aux Philippines pour les etudiants saoudiens.',
+      'cp.page.registration.breadcrumb': 'Inscription en institut de langue pour les Saoudiens',
+      'cp.page.registration.hero.title': 'Inscription en institut de langue pour les Saoudiens : methode claire des la premiere etape',
+      'cp.page.registration.hero.lead':
+        'YallaStudy organise tout le processus pour choisir le bon institut en comparant programme, cout et ville avant l admission finale.',
+      'cp.page.registration.hero.cta1': 'Envoyer vos informations',
+      'cp.page.registration.hero.cta2': 'Meilleurs instituts accredites',
+      'cp.page.registration.card1.title': 'Avant l inscription, que verifier ?',
+      'cp.page.registration.card1.li1': 'Objectif linguistique : voyage, universite, examen ou travail.',
+      'cp.page.registration.card1.li2': 'Budget mensuel total (etudes + logement + depenses).',
+      'cp.page.registration.card1.li3': 'Duree la plus adaptee pour atteindre le niveau vise.',
+      'cp.page.registration.card2.title': 'Comparaison des instituts de langue',
+      'cp.page.registration.card2.li1': 'Nombre reel d heures d enseignement par semaine.',
+      'cp.page.registration.card2.li2': 'Type de logement interne ou externe.',
+      'cp.page.registration.card2.li3': 'Ville adaptee aux etudiants du Golfe.',
+      'cp.page.registration.card3.title': 'Resultat clair',
+      'cp.page.registration.card3.p':
+        'Vous recevez une liste courte d options pertinentes avec une recommandation finale adaptee a votre profil.',
+      'cp.page.registration.highlight.title': 'Etapes pratiques d inscription',
+      'cp.page.registration.highlight.li1': 'Choisir l institut et le programme les plus adaptes apres comparaison.',
+      'cp.page.registration.highlight.li2': 'Verifier les documents et informations de base.',
+      'cp.page.registration.highlight.li3': 'Envoyer la demande officiellement et suivre les reponses.',
+      'cp.page.registration.highlight.li4': 'Recevoir l admission et preparer le plan de voyage.',
+      'cp.page.registration.tag1': 'Inscription institut',
+      'cp.page.registration.tag2': 'Etudiants saoudiens',
+      'cp.page.registration.tag3': 'Instituts aux Philippines',
+      'cp.page.registration.tag4': 'Admission etudes',
+      'cp.page.registration.related.title': 'Liens associes',
+      'cp.page.registration.related.link1': 'Etudier aux Philippines pour les Saoudiens',
+      'cp.page.registration.related.link2': 'Admission linguistique aux Philippines',
+      'cp.page.registration.related.link3': 'Conseil en admission',
+      'cp.page.registration.related.link4': 'Voir les instituts sur la page d accueil',
+      'cp.page.registration.faq.aria': 'Questions frequentes',
+      'cp.page.registration.faq.q1': 'L inscription necessite t elle une presence sur place ?',
+      'cp.page.registration.faq.a1':
+        'Generalement non. La plupart des procedures peuvent etre faites a distance avec notre suivi.',
+      'cp.page.registration.faq.q2': 'Y a t il une duree minimale d etudes ?',
+      'cp.page.registration.faq.a2': 'La duree depend de l institut, mais beaucoup de programmes commencent a 4 semaines.',
+      'cp.page.registration.faq.q3': 'Puis je changer d institut plus tard ?',
+      'cp.page.registration.faq.a3':
+        'C est possible selon la politique de l institut et le moment de la demande, et nous vous aidons a choisir.'
     },
     es: {
       'cp.brand.aria': 'Inicio de YallaStudy',
@@ -244,7 +332,51 @@
       'cp.blog.related.language': 'Admisión de idioma',
       'cp.blog.related.registration': 'Registro en institutos',
       'cp.blog.related.academic': 'Programas académicos',
-      'cp.blog.related.consulting': 'Consultoría de admisión'
+      'cp.blog.related.consulting': 'Consultoría de admisión',
+
+      'cp.page.registration.meta.title': 'Registro en institutos de idioma para saudies | YallaStudy',
+      'cp.page.registration.meta.description':
+        'Acompanamiento completo para registrar estudiantes saudies en institutos de idioma en Filipinas.',
+      'cp.page.registration.breadcrumb': 'Registro en institutos de idioma para saudies',
+      'cp.page.registration.hero.title': 'Registro en institutos de idioma para saudies: proceso claro desde el inicio',
+      'cp.page.registration.hero.lead':
+        'YallaStudy organiza todo el proceso para elegir el instituto adecuado comparando programa, costo y ciudad antes de la admision final.',
+      'cp.page.registration.hero.cta1': 'Envia tus datos ahora',
+      'cp.page.registration.hero.cta2': 'Mejores institutos acreditados',
+      'cp.page.registration.card1.title': 'Antes del registro, que revisamos?',
+      'cp.page.registration.card1.li1': 'Tu objetivo de idioma: viaje, universidad, examen o trabajo.',
+      'cp.page.registration.card1.li2': 'Presupuesto mensual total (estudio + vivienda + gastos).',
+      'cp.page.registration.card1.li3': 'Duracion ideal para alcanzar el nivel requerido.',
+      'cp.page.registration.card2.title': 'Comparacion de institutos de idioma',
+      'cp.page.registration.card2.li1': 'Horas reales de clase por semana.',
+      'cp.page.registration.card2.li2': 'Tipo de alojamiento interno o externo.',
+      'cp.page.registration.card2.li3': 'Ciudad adecuada para estudiantes del Golfo.',
+      'cp.page.registration.card3.title': 'Resultado claro',
+      'cp.page.registration.card3.p':
+        'Recibes una lista corta de opciones fuertes con una recomendacion final que se ajusta a tu perfil.',
+      'cp.page.registration.highlight.title': 'Pasos practicos de registro',
+      'cp.page.registration.highlight.li1': 'Elegir el instituto y programa mas adecuados despues de comparar.',
+      'cp.page.registration.highlight.li2': 'Confirmar documentos y datos principales.',
+      'cp.page.registration.highlight.li3': 'Enviar la solicitud oficialmente y hacer seguimiento.',
+      'cp.page.registration.highlight.li4': 'Recibir la admision y organizar el plan de viaje.',
+      'cp.page.registration.tag1': 'Registro de institutos',
+      'cp.page.registration.tag2': 'Estudiantes saudies',
+      'cp.page.registration.tag3': 'Institutos en Filipinas',
+      'cp.page.registration.tag4': 'Admision academica',
+      'cp.page.registration.related.title': 'Enlaces relacionados',
+      'cp.page.registration.related.link1': 'Estudiar en Filipinas para estudiantes saudies',
+      'cp.page.registration.related.link2': 'Admision de idioma en Filipinas',
+      'cp.page.registration.related.link3': 'Consultoria de admision',
+      'cp.page.registration.related.link4': 'Conoce los institutos en la pagina principal',
+      'cp.page.registration.faq.aria': 'Preguntas frecuentes',
+      'cp.page.registration.faq.q1': 'El registro requiere presencia personal?',
+      'cp.page.registration.faq.a1':
+        'Normalmente no. La mayoria de los tramites se completan a distancia con seguimiento continuo.',
+      'cp.page.registration.faq.q2': 'Existe una duracion minima de estudio?',
+      'cp.page.registration.faq.a2': 'La duracion depende del instituto, pero muchos programas empiezan desde 4 semanas.',
+      'cp.page.registration.faq.q3': 'Puedo cambiar de instituto mas adelante?',
+      'cp.page.registration.faq.a3':
+        'Es posible segun la politica del instituto y el momento de la solicitud, y te ayudamos a evaluar la mejor opcion.'
     },
     tr: {
       'cp.brand.aria': 'YallaStudy ana sayfa',
@@ -279,7 +411,51 @@
       'cp.blog.related.language': 'Dil kabulu',
       'cp.blog.related.registration': 'Kurum kaydi',
       'cp.blog.related.academic': 'Akademik programlar',
-      'cp.blog.related.consulting': 'Kabul danismanligi'
+      'cp.blog.related.consulting': 'Kabul danismanligi',
+
+      'cp.page.registration.meta.title': 'Suudi ogrenciler icin dil kurumu kaydi | YallaStudy',
+      'cp.page.registration.meta.description':
+        'Suudi ogrenciler icin Filipinler dil kurumlarina kayit surecinde karsilastirma, evrak ve kabul destegi.',
+      'cp.page.registration.breadcrumb': 'Suudi ogrenciler icin dil kurumu kaydi',
+      'cp.page.registration.hero.title': 'Suudiler icin dil kurumu kaydi: ilk adimdan itibaren duzenli surec',
+      'cp.page.registration.hero.lead':
+        'YallaStudy, nihai kabule kadar program, maliyet ve sehir karsilastirmasi ile uygun kuruma kayit surecini yonetir.',
+      'cp.page.registration.hero.cta1': 'Bilgilerini hemen gonder',
+      'cp.page.registration.hero.cta2': 'En iyi akredite kurumlar',
+      'cp.page.registration.card1.title': 'Kayit oncesi neyi kontrol ederiz?',
+      'cp.page.registration.card1.li1': 'Dil hedefin: seyahat, universite, sinav veya is.',
+      'cp.page.registration.card1.li2': 'Aylik toplam butce (egitim + konaklama + giderler).',
+      'cp.page.registration.card1.li3': 'Hedef seviyeye ulasmak icin en uygun sure.',
+      'cp.page.registration.card2.title': 'Dil kurumlarini karsilastirma',
+      'cp.page.registration.card2.li1': 'Haftalik gercek ders saati.',
+      'cp.page.registration.card2.li2': 'Yurt ici veya dis konaklama modeli.',
+      'cp.page.registration.card2.li3': 'Korfez ogrencilerine uygun sehir secimi.',
+      'cp.page.registration.card3.title': 'Net sonuc',
+      'cp.page.registration.card3.p':
+        'Karisiklik yerine profiline uygun net bir kisa liste ve nihai oneriyi alirsin.',
+      'cp.page.registration.highlight.title': 'Pratik kayit adimlari',
+      'cp.page.registration.highlight.li1': 'Karsilastirma sonrasi en uygun kurum ve programi sec.',
+      'cp.page.registration.highlight.li2': 'Gerekli evraklari ve temel bilgileri dogrula.',
+      'cp.page.registration.highlight.li3': 'Basvuruyu resmi olarak gonder ve sureci takip et.',
+      'cp.page.registration.highlight.li4': 'Kabulu al ve seyahat planini duzenle.',
+      'cp.page.registration.tag1': 'Kurum kaydi',
+      'cp.page.registration.tag2': 'Suudi ogrenciler',
+      'cp.page.registration.tag3': 'Filipinler kurumlari',
+      'cp.page.registration.tag4': 'Akademik kabul',
+      'cp.page.registration.related.title': 'Ilgili baglantilar',
+      'cp.page.registration.related.link1': 'Suudi ogrenciler icin Filipinlerde egitim',
+      'cp.page.registration.related.link2': 'Filipinlerde dil kabul sureci',
+      'cp.page.registration.related.link3': 'Kabul danismanligi',
+      'cp.page.registration.related.link4': 'Ana sayfada kurumlari incele',
+      'cp.page.registration.faq.aria': 'Sik sorulan sorular',
+      'cp.page.registration.faq.q1': 'Kayit icin yuz yuze bulunmak gerekir mi?',
+      'cp.page.registration.faq.a1':
+        'Genellikle hayir. Cogu islem uzaktan tamamlanir ve ekibimiz surekli takip eder.',
+      'cp.page.registration.faq.q2': 'Asgari egitim suresi var mi?',
+      'cp.page.registration.faq.a2': 'Sure kurum politikasina baglidir, ancak bircok program 4 haftadan baslar.',
+      'cp.page.registration.faq.q3': 'Daha sonra kurum degistirebilir miyim?',
+      'cp.page.registration.faq.a3':
+        'Talep zamani ve kurum politikasina gore mumkun olabilir; en uygun secenegi birlikte degerlendiririz.'
     }
   };
 
