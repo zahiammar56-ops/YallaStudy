@@ -459,6 +459,857 @@
     }
   };
 
+  const servicePageTranslations = {
+    en: {
+      'cp.page.study.meta.title': 'Study in the Philippines for Saudi Students | Fast Admission | YallaStudy',
+      'cp.page.study.meta.description':
+        'Complete guide for Saudi students: language admission, institute registration, and academic programs in the Philippines with full support.',
+      'cp.page.study.breadcrumb': 'Study in the Philippines',
+      'cp.page.study.hero.title':
+        'Study in the Philippines for Saudi Students: Faster Admission and Trusted Institutes',
+      'cp.page.study.hero.lead':
+        'If your goal is fast English improvement with a reasonable budget, studying in the Philippines is a practical option. YallaStudy supports you from first consultation to admission letter and travel plan.',
+      'cp.page.study.hero.cta1': 'Start your admission request',
+      'cp.page.study.hero.cta2': 'See study and living costs',
+      'cp.page.study.card1.title': 'Why is studying in the Philippines a smart choice?',
+      'cp.page.study.card1.li1': 'Intensive daily language programs for faster progress.',
+      'cp.page.study.card1.li2': 'Lower study and living costs than many other destinations.',
+      'cp.page.study.card1.li3': 'Flexible intake dates across most months of the year.',
+      'cp.page.study.card2.title': 'How do we choose the right institute for you?',
+      'cp.page.study.card2.li1':
+        'Goal-based analysis: general English, IELTS preparation, or academic pathway.',
+      'cp.page.study.card2.li2':
+        'Compare housing, city, weekly study hours, and full total cost.',
+      'cp.page.study.card2.li3': 'Receive a matching institute shortlist within 24 hours.',
+      'cp.page.study.card3.title': 'Direct and fast follow-up',
+      'cp.page.study.card3.p':
+        'Our admission team follows up with you daily on WhatsApp until final admission is issued.',
+      'cp.page.study.highlight.title': 'Admission steps to study in the Philippines',
+      'cp.page.study.highlight.li1': 'Submit consultation form and define your study goal.',
+      'cp.page.study.highlight.li2': 'Receive recommended institutes with full comparison.',
+      'cp.page.study.highlight.li3': 'Prepare required documents and submit the application.',
+      'cp.page.study.highlight.li4': 'Receive admission and continue support until arrival.',
+      'cp.page.study.tag1': 'Study in the Philippines',
+      'cp.page.study.tag2': 'Language admission',
+      'cp.page.study.tag3': 'Study consulting',
+      'cp.page.study.tag4': 'Saudi students',
+      'cp.page.study.related.title': 'Related pages',
+      'cp.page.study.related.link1': 'Language study admission in the Philippines',
+      'cp.page.study.related.link2': 'Institute registration for Saudi students',
+      'cp.page.study.related.link3': 'Academic language programs',
+      'cp.page.study.related.link4': 'Admission consulting services',
+      'cp.page.study.faq.aria': 'Frequently asked questions',
+      'cp.page.study.faq.q1': 'How long does language institute admission usually take in the Philippines?',
+      'cp.page.study.faq.a1': 'Usually between 3 and 7 business days after documents are complete.',
+      'cp.page.study.faq.q2': 'Are your services only for Saudi students?',
+      'cp.page.study.faq.a2':
+        'Our main focus is Saudi Arabia, and we also serve UAE, Yemen, and GCC students.',
+      'cp.page.study.faq.q3': 'Do you also support housing and arrival?',
+      'cp.page.study.faq.a3':
+        'Yes. We provide complete guidance for housing, arrival, and a stable study start.',
+
+      'cp.page.language.meta.title':
+        'Language Study Admission in the Philippines | Fast and Clear Process | YallaStudy',
+      'cp.page.language.meta.description':
+        'Get language program admission in the Philippines through a clear process: institute selection, document preparation, and full follow-up until acceptance.',
+      'cp.page.language.breadcrumb': 'Language Study Admission in the Philippines',
+      'cp.page.language.hero.title':
+        'Language Study Admission in the Philippines Without Complexity and With Daily Follow-up',
+      'cp.page.language.hero.lead':
+        'We prepare a complete admission file matching institute requirements and follow up continuously until your acceptance letter is issued.',
+      'cp.page.language.hero.cta1': 'Start your admission file',
+      'cp.page.language.hero.cta2': 'See full registration steps',
+      'cp.page.language.card1.title': 'What do we handle in your admission file?',
+      'cp.page.language.card1.li1': 'Accurate review of all required documents before submission.',
+      'cp.page.language.card1.li2': 'Format the application according to institute standards.',
+      'cp.page.language.card1.li3': 'Daily follow-up to speed up acceptance issuance.',
+      'cp.page.language.card2.title': 'Who is this pathway for?',
+      'cp.page.language.card2.li1':
+        'Saudi and GCC students who want fast and structured language progress.',
+      'cp.page.language.card2.li2': 'Students who need a flexible start date.',
+      'cp.page.language.card2.li3': 'Students who prefer clear Arabic support in each step.',
+      'cp.page.language.card3.title': 'Typical timeline',
+      'cp.page.language.card3.p':
+        'Usually 3 to 7 business days after a complete file. Some institutes may take up to 10 days depending on season and volume.',
+      'cp.page.language.highlight.title': 'Key elements of successful admission',
+      'cp.page.language.highlight.li1':
+        'Choose the right program for your level and final goal.',
+      'cp.page.language.highlight.li2':
+        'Upload all documents in the correct and organized format.',
+      'cp.page.language.highlight.li3': 'Confirm housing details and intended start date.',
+      'cp.page.language.highlight.li4':
+        'Track acceptance issuance until final confirmation.',
+      'cp.page.language.tag1': 'Language admission',
+      'cp.page.language.tag2': 'Philippines institutes',
+      'cp.page.language.tag3': 'Fast procedures',
+      'cp.page.language.tag4': 'YallaStudy',
+      'cp.page.language.related.title': 'Important links',
+      'cp.page.language.related.link1': 'Study in the Philippines for Saudi students',
+      'cp.page.language.related.link2': 'Admission consulting services',
+      'cp.page.language.related.link3': 'Academic language programs',
+      'cp.page.language.related.link4': 'Our services on the homepage',
+      'cp.page.language.faq.aria': 'Frequently asked questions',
+      'cp.page.language.faq.q1': 'Can I get language admission within one week?',
+      'cp.page.language.faq.a1':
+        'Yes. In many cases, admission is issued within one week if the file is complete.',
+      'cp.page.language.faq.q2': 'Do you support students from Yemen and GCC countries?',
+      'cp.page.language.faq.a2':
+        'Yes. We serve Yemen, UAE, Kuwait, Qatar, Bahrain, and Oman based on seat availability.',
+      'cp.page.language.faq.q3': 'Does the service include housing support?',
+      'cp.page.language.faq.a3':
+        'Yes. We provide housing options that fit your budget with first-arrival guidance.',
+
+      'cp.page.academic.meta.title':
+        'Academic Language Programs in the Philippines | IELTS and University Pathways | YallaStudy',
+      'cp.page.academic.meta.description':
+        'Explore academic language programs in the Philippines: IELTS preparation, academic writing, and university pathway support for Saudi and GCC students.',
+      'cp.page.academic.breadcrumb': 'Academic Language Programs',
+      'cp.page.academic.hero.title':
+        'Academic Language Programs in the Philippines: From General English to University Preparation',
+      'cp.page.academic.hero.lead':
+        'After general English, students need a structured academic track. We help you select programs such as IELTS, academic writing, and university preparation.',
+      'cp.page.academic.hero.cta1': 'Book academic program consultation',
+      'cp.page.academic.hero.cta2': 'Read the language study guide',
+      'cp.page.academic.card1.title': 'Most requested academic tracks',
+      'cp.page.academic.card1.li1':
+        'Intensive IELTS preparation with daily training on the four skills.',
+      'cp.page.academic.card1.li2':
+        'English for Academic Purposes for university and postgraduate goals.',
+      'cp.page.academic.card1.li3':
+        'Academic writing and presentations for sponsored students.',
+      'cp.page.academic.card2.title': 'How do we define the right program?',
+      'cp.page.academic.card2.li1': 'Assess your current level and target score.',
+      'cp.page.academic.card2.li2':
+        'Estimate realistic duration to reach the required outcome.',
+      'cp.page.academic.card2.li3':
+        'Select a strong institute in your required academic track.',
+      'cp.page.academic.card3.title': 'Continuous support until outcome',
+      'cp.page.academic.card3.p':
+        'We follow your study plan and program updates with ongoing guidance to keep you on track and reach your goal.',
+      'cp.page.academic.highlight.title': 'When should you choose an academic program?',
+      'cp.page.academic.highlight.li1':
+        'When targeting university admission or a specific IELTS score.',
+      'cp.page.academic.highlight.li2':
+        'When you need academic writing and presentation skills in English.',
+      'cp.page.academic.highlight.li3':
+        'When moving quickly from general English to advanced level.',
+      'cp.page.academic.highlight.li4':
+        'When you have a near university deadline and need focused preparation.',
+      'cp.page.academic.tag1': 'Academic programs',
+      'cp.page.academic.tag2': 'IELTS',
+      'cp.page.academic.tag3': 'University prep',
+      'cp.page.academic.tag4': 'Philippines',
+      'cp.page.academic.related.title': 'Related content',
+      'cp.page.academic.related.link1': 'Study in the Philippines',
+      'cp.page.academic.related.link2': 'Language study admission',
+      'cp.page.academic.related.link3': 'Admission consulting',
+      'cp.page.academic.related.link4': 'Language institutes on homepage',
+      'cp.page.academic.faq.aria': 'Frequently asked questions',
+      'cp.page.academic.faq.q1':
+        'Can I move from general to academic program in the same institute?',
+      'cp.page.academic.faq.a1':
+        'In many institutes yes, depending on your level and available seats.',
+      'cp.page.academic.faq.q2': 'How long are intensive IELTS programs?',
+      'cp.page.academic.faq.a2':
+        'Usually 8 to 16 weeks depending on entry level and target score.',
+      'cp.page.academic.faq.q3': 'Are these programs suitable for GCC and Yemeni students?',
+      'cp.page.academic.faq.a3':
+        'Yes. We recommend suitable tracks for students from Saudi Arabia, Yemen, UAE, and the GCC.',
+
+      'cp.page.consulting.meta.title':
+        'Admission Consulting Services | Language and Academic Programs | YallaStudy',
+      'cp.page.consulting.meta.description':
+        'Admission consulting for Saudi and GCC students: profile evaluation, institute selection, file preparation, and full follow-up until acceptance in the Philippines.',
+      'cp.page.consulting.breadcrumb': 'Admission Consulting Services',
+      'cp.page.consulting.hero.title':
+        'Admission Consulting: A Clear Plan from First Step to Final Acceptance',
+      'cp.page.consulting.hero.lead':
+        'The right consultation saves time and cost. At YallaStudy, we analyze your case, define the best program, and map a practical route to secure admission.',
+      'cp.page.consulting.hero.cta1': 'Book your free session',
+      'cp.page.consulting.hero.cta2': 'Study in the Philippines page',
+      'cp.page.consulting.card1.title': 'What happens during the consultation?',
+      'cp.page.consulting.card1.li1': 'Evaluate current level and final study target.',
+      'cp.page.consulting.card1.li2':
+        'Define the best destination and program in timeline and budget.',
+      'cp.page.consulting.card1.li3': 'Clear execution plan with submission timeline.',
+      'cp.page.consulting.card2.title': 'Consultation value for students',
+      'cp.page.consulting.card2.li1':
+        'Avoid costly wrong choices in institute or program.',
+      'cp.page.consulting.card2.li2':
+        'Reduce delays caused by incomplete documents.',
+      'cp.page.consulting.card2.li3': 'Improve fast-acceptance chances from first submission.',
+      'cp.page.consulting.card3.title': 'Who is this service for?',
+      'cp.page.consulting.card3.p':
+        'Suitable for new students, for switching between general and academic tracks, and for parents seeking a safe and clear decision.',
+      'cp.page.consulting.highlight.title': 'Consultation result within 24 hours',
+      'cp.page.consulting.highlight.li1': 'Shortlist of options that truly fit.',
+      'cp.page.consulting.highlight.li2':
+        'Final recommendation by priorities: cost, quality, and duration.',
+      'cp.page.consulting.highlight.li3':
+        'Written admission plan with actionable steps you can start immediately.',
+      'cp.page.consulting.highlight.li4':
+        'Continuous WhatsApp support throughout your admission journey.',
+      'cp.page.consulting.tag1': 'Study consultation',
+      'cp.page.consulting.tag2': 'Fast admission',
+      'cp.page.consulting.tag3': 'Study in Philippines',
+      'cp.page.consulting.tag4': 'GCC students',
+      'cp.page.consulting.related.title': 'Useful references',
+      'cp.page.consulting.related.link1': 'Language study admission in the Philippines',
+      'cp.page.consulting.related.link2': 'Institute registration for Saudi students',
+      'cp.page.consulting.related.link3': 'Academic language programs',
+      'cp.page.consulting.related.link4': 'Explore our core services',
+      'cp.page.consulting.faq.aria': 'Frequently asked questions',
+      'cp.page.consulting.faq.q1': 'Is the consultation fully free?',
+      'cp.page.consulting.faq.a1':
+        'Yes. The first consultation is free and includes initial diagnosis with suitable options.',
+      'cp.page.consulting.faq.q2': 'Can the full process be done remotely?',
+      'cp.page.consulting.faq.a2':
+        'Yes. Most admission and registration steps are completed online with direct follow-up.',
+      'cp.page.consulting.faq.q3': 'Do you provide support after admission is issued?',
+      'cp.page.consulting.faq.a3':
+        'Yes. We provide housing, arrival support, and first-start guidance in the study city.'
+    },
+    fr: {
+      'cp.page.study.meta.title':
+        'Etudier aux Philippines pour les Saoudiens | Admission rapide | YallaStudy',
+      'cp.page.study.meta.description':
+        'Guide complet pour les etudiants saoudiens: admission linguistique, inscription en institut et programmes academiques aux Philippines.',
+      'cp.page.study.breadcrumb': 'Etudier aux Philippines',
+      'cp.page.study.hero.title':
+        'Etudier aux Philippines pour les Saoudiens: admission plus rapide et instituts fiables',
+      'cp.page.study.hero.lead':
+        'Si votre objectif est de progresser vite en anglais avec un budget raisonnable, les Philippines sont une option pratique. YallaStudy vous accompagne de la consultation jusqu a l admission et au plan de voyage.',
+      'cp.page.study.hero.cta1': 'Commencer la demande d admission',
+      'cp.page.study.hero.cta2': 'Voir les couts etudes et vie',
+      'cp.page.study.card1.title': 'Pourquoi les Philippines sont un choix intelligent ?',
+      'cp.page.study.card1.li1': 'Programmes intensifs quotidiens pour progresser plus vite.',
+      'cp.page.study.card1.li2': 'Couts d etudes et de vie plus bas que beaucoup de destinations.',
+      'cp.page.study.card1.li3': 'Dates de debut flexibles pendant la plupart des mois.',
+      'cp.page.study.card2.title': 'Comment choisissons-nous l institut adapte ?',
+      'cp.page.study.card2.li1':
+        'Analyse de l objectif: anglais general, preparation IELTS ou parcours academique.',
+      'cp.page.study.card2.li2':
+        'Comparaison logement, ville, heures hebdomadaires et cout total.',
+      'cp.page.study.card2.li3': 'Liste d instituts adaptes sous 24 heures.',
+      'cp.page.study.card3.title': 'Suivi direct et rapide',
+      'cp.page.study.card3.p':
+        'Notre equipe de suivi vous accompagne chaque jour via WhatsApp jusqu a l admission finale.',
+      'cp.page.study.highlight.title': 'Etapes d admission pour etudier aux Philippines',
+      'cp.page.study.highlight.li1':
+        'Remplir le formulaire de consultation et definir l objectif d etude.',
+      'cp.page.study.highlight.li2': 'Recevoir une liste d instituts recommandes avec comparaison.',
+      'cp.page.study.highlight.li3': 'Preparer les documents et envoyer la demande.',
+      'cp.page.study.highlight.li4': 'Recevoir l admission et continuer le suivi jusqu a l arrivee.',
+      'cp.page.study.tag1': 'Etudes aux Philippines',
+      'cp.page.study.tag2': 'Admission linguistique',
+      'cp.page.study.tag3': 'Conseil etudes',
+      'cp.page.study.tag4': 'Etudiants saoudiens',
+      'cp.page.study.related.title': 'Pages associees',
+      'cp.page.study.related.link1': 'Admission en cours de langue aux Philippines',
+      'cp.page.study.related.link2': 'Inscription en instituts pour Saoudiens',
+      'cp.page.study.related.link3': 'Programmes academiques de langue',
+      'cp.page.study.related.link4': 'Conseil en admission',
+      'cp.page.study.faq.aria': 'Questions frequentes',
+      'cp.page.study.faq.q1':
+        'Combien de temps prend l admission en institut de langue aux Philippines ?',
+      'cp.page.study.faq.a1': 'En general entre 3 et 7 jours ouvrables apres dossier complet.',
+      'cp.page.study.faq.q2': 'Vos services sont-ils uniquement pour les Saoudiens ?',
+      'cp.page.study.faq.a2':
+        'Notre focus principal est l Arabie saoudite, et nous servons aussi les etudiants du Golfe et du Yemen.',
+      'cp.page.study.faq.q3': 'Proposez-vous aussi un support logement et arrivee ?',
+      'cp.page.study.faq.a3':
+        'Oui, nous fournissons un accompagnement complet pour logement, arrivee et debut stable.',
+
+      'cp.page.language.meta.title':
+        'Admission en cours de langue aux Philippines | Processus rapide | YallaStudy',
+      'cp.page.language.meta.description':
+        'Obtenez une admission linguistique aux Philippines via un processus clair: choix de l institut, preparation des documents et suivi jusqu a l acceptation.',
+      'cp.page.language.breadcrumb': 'Admission en cours de langue aux Philippines',
+      'cp.page.language.hero.title':
+        'Admission en cours de langue aux Philippines sans complexite et avec suivi quotidien',
+      'cp.page.language.hero.lead':
+        'Nous preparons un dossier complet conforme aux exigences de l institut et assurons un suivi continu jusqu a la lettre d admission.',
+      'cp.page.language.hero.cta1': 'Commencer votre dossier',
+      'cp.page.language.hero.cta2': 'Voir les etapes completes',
+      'cp.page.language.card1.title': 'Que faisons-nous dans votre dossier ?',
+      'cp.page.language.card1.li1': 'Revision precise des documents avant envoi.',
+      'cp.page.language.card1.li2': 'Mise en forme de la demande selon les standards.',
+      'cp.page.language.card1.li3': 'Suivi quotidien pour accelerer l admission.',
+      'cp.page.language.card2.title': 'Pour qui ce parcours convient-il ?',
+      'cp.page.language.card2.li1':
+        'Etudiants saoudiens et du Golfe qui veulent progresser rapidement.',
+      'cp.page.language.card2.li2': 'Etudiants ayant besoin d une date de debut flexible.',
+      'cp.page.language.card2.li3': 'Etudiants preferant un accompagnement arabe clair.',
+      'cp.page.language.card3.title': 'Delai des procedures',
+      'cp.page.language.card3.p':
+        'En general 3 a 7 jours ouvrables apres dossier complet. Certains instituts peuvent aller jusqu a 10 jours selon la saison.',
+      'cp.page.language.highlight.title': 'Elements d une admission reussie',
+      'cp.page.language.highlight.li1':
+        'Choisir un programme adapte au niveau actuel et a l objectif final.',
+      'cp.page.language.highlight.li2':
+        'Televerser tous les documents au format correct et organise.',
+      'cp.page.language.highlight.li3': 'Confirmer logement et date de debut souhaitee.',
+      'cp.page.language.highlight.li4':
+        'Suivre l emission de l admission jusqu a confirmation finale.',
+      'cp.page.language.tag1': 'Admission linguistique',
+      'cp.page.language.tag2': 'Instituts Philippines',
+      'cp.page.language.tag3': 'Procedure rapide',
+      'cp.page.language.tag4': 'YallaStudy',
+      'cp.page.language.related.title': 'Liens importants',
+      'cp.page.language.related.link1': 'Etudier aux Philippines pour Saoudiens',
+      'cp.page.language.related.link2': 'Conseil en admission',
+      'cp.page.language.related.link3': 'Programmes academiques de langue',
+      'cp.page.language.related.link4': 'Nos services sur la page d accueil',
+      'cp.page.language.faq.aria': 'Questions frequentes',
+      'cp.page.language.faq.q1': 'Peut-on obtenir une admission en une semaine ?',
+      'cp.page.language.faq.a1':
+        'Oui, dans de nombreux cas l admission sort en une semaine si le dossier est complet.',
+      'cp.page.language.faq.q2': 'Acceptez-vous les etudiants du Yemen et du Golfe ?',
+      'cp.page.language.faq.a2':
+        'Oui, nous servons Yemen, EAU, Koweit, Qatar, Bahrein et Oman selon disponibilite.',
+      'cp.page.language.faq.q3': 'Le service inclut-il le logement ?',
+      'cp.page.language.faq.a3':
+        'Oui, nous proposons des options de logement adaptees au budget avec conseils d arrivee.',
+
+      'cp.page.academic.meta.title':
+        'Programmes de langue academique aux Philippines | IELTS et parcours universitaire | YallaStudy',
+      'cp.page.academic.meta.description':
+        'Decouvrez les programmes de langue academique aux Philippines: preparation IELTS, ecriture academique et parcours universitaire.',
+      'cp.page.academic.breadcrumb': 'Programmes de langue academique',
+      'cp.page.academic.hero.title':
+        'Programmes de langue academique aux Philippines: du niveau general a la preparation universitaire',
+      'cp.page.academic.hero.lead':
+        'Apres l anglais general, l etudiant a besoin d un parcours academique structure. Nous vous aidons a choisir IELTS, ecriture academique et preparation universitaire.',
+      'cp.page.academic.hero.cta1': 'Reserver une consultation academique',
+      'cp.page.academic.hero.cta2': 'Lire le guide de langue',
+      'cp.page.academic.card1.title': 'Parcours academiques les plus demandes',
+      'cp.page.academic.card1.li1':
+        'Preparation IELTS intensive avec entrainement quotidien des 4 competences.',
+      'cp.page.academic.card1.li2':
+        'English for Academic Purposes pour universite et etudes superieures.',
+      'cp.page.academic.card1.li3':
+        'Parcours ecriture et presentations academiques pour etudiants boursiers.',
+      'cp.page.academic.card2.title': 'Comment definir le programme adapte ?',
+      'cp.page.academic.card2.li1': 'Evaluer le niveau actuel et le score cible.',
+      'cp.page.academic.card2.li2':
+        'Estimer la duree realiste pour atteindre le resultat requis.',
+      'cp.page.academic.card2.li3':
+        'Choisir un institut fort dans le parcours academique voulu.',
+      'cp.page.academic.card3.title': 'Suivi continu jusqu au resultat',
+      'cp.page.academic.card3.p':
+        'Nous suivons votre plan d etudes et les mises a jour du programme avec orientation continue.',
+      'cp.page.academic.highlight.title': 'Quand choisir un programme academique ?',
+      'cp.page.academic.highlight.li1':
+        'Quand vous ciblez une admission universitaire ou un score IELTS precis.',
+      'cp.page.academic.highlight.li2':
+        'Quand vous avez besoin de redaction et presentations academiques en anglais.',
+      'cp.page.academic.highlight.li3':
+        'Quand vous voulez passer rapidement du niveau general au niveau avance.',
+      'cp.page.academic.highlight.li4':
+        'Quand vous avez une date universitaire proche et besoin d une preparation ciblee.',
+      'cp.page.academic.tag1': 'Programmes academiques',
+      'cp.page.academic.tag2': 'IELTS',
+      'cp.page.academic.tag3': 'Preparation universitaire',
+      'cp.page.academic.tag4': 'Philippines',
+      'cp.page.academic.related.title': 'Contenu associe',
+      'cp.page.academic.related.link1': 'Etudier aux Philippines',
+      'cp.page.academic.related.link2': 'Admission en cours de langue',
+      'cp.page.academic.related.link3': 'Conseil en admission',
+      'cp.page.academic.related.link4': 'Instituts de langue sur la page d accueil',
+      'cp.page.academic.faq.aria': 'Questions frequentes',
+      'cp.page.academic.faq.q1':
+        'Peut-on passer du programme general au programme academique dans le meme institut ?',
+      'cp.page.academic.faq.a1':
+        'Dans de nombreux instituts oui, selon le niveau et la disponibilite des places.',
+      'cp.page.academic.faq.q2': 'Quelle est la duree des programmes IELTS intensifs ?',
+      'cp.page.academic.faq.a2':
+        'Habituellement de 8 a 16 semaines selon niveau initial et score cible.',
+      'cp.page.academic.faq.q3':
+        'Ces programmes conviennent-ils aux etudiants du Golfe et du Yemen ?',
+      'cp.page.academic.faq.a3':
+        'Oui, nous recommandons des parcours adaptes aux etudiants saoudiens, yemenites, emiratis et du Golfe.',
+
+      'cp.page.consulting.meta.title':
+        'Conseil en admission | Programmes de langue et academiques | YallaStudy',
+      'cp.page.consulting.meta.description':
+        'Conseil en admission pour etudiants saoudiens et du Golfe: evaluation du profil, choix de l institut, preparation du dossier et suivi jusqu a l admission.',
+      'cp.page.consulting.breadcrumb': 'Conseil en admission',
+      'cp.page.consulting.hero.title':
+        'Conseil en admission: un plan clair de la premiere etape a l admission finale',
+      'cp.page.consulting.hero.lead':
+        'La bonne consultation economise temps et cout. YallaStudy analyse votre cas, definit le programme adapte et construit une route pratique vers l admission.',
+      'cp.page.consulting.hero.cta1': 'Reserver la session gratuite',
+      'cp.page.consulting.hero.cta2': 'Page etudier aux Philippines',
+      'cp.page.consulting.card1.title': 'Que se passe-t-il pendant la consultation ?',
+      'cp.page.consulting.card1.li1': 'Evaluation du niveau actuel et de l objectif final.',
+      'cp.page.consulting.card1.li2':
+        'Definition de la destination et du programme adaptes au temps et au budget.',
+      'cp.page.consulting.card1.li3': 'Plan d execution clair avec calendrier de soumission.',
+      'cp.page.consulting.card2.title': 'Valeur de la consultation pour l etudiant',
+      'cp.page.consulting.card2.li1': 'Eviter des choix couteux et inadaptes.',
+      'cp.page.consulting.card2.li2':
+        'Reduire les retards causes par des documents incomplets.',
+      'cp.page.consulting.card2.li3': 'Ameliorer les chances d admission rapide.',
+      'cp.page.consulting.card3.title': 'Pour qui ce service convient-il ?',
+      'cp.page.consulting.card3.p':
+        'Convient aux nouveaux etudiants, a ceux qui changent de parcours et aux parents cherchant une decision sure et claire.',
+      'cp.page.consulting.highlight.title': 'Resultat de la consultation en 24 heures',
+      'cp.page.consulting.highlight.li1': 'Liste courte d options vraiment adaptees.',
+      'cp.page.consulting.highlight.li2':
+        'Recommandation finale selon les priorites: cout, qualite et duree.',
+      'cp.page.consulting.highlight.li3':
+        'Plan d admission ecrit avec etapes actionnables immediates.',
+      'cp.page.consulting.highlight.li4':
+        'Support continu via WhatsApp pendant tout le parcours.',
+      'cp.page.consulting.tag1': 'Conseil etudes',
+      'cp.page.consulting.tag2': 'Admission rapide',
+      'cp.page.consulting.tag3': 'Etudes Philippines',
+      'cp.page.consulting.tag4': 'Etudiants du Golfe',
+      'cp.page.consulting.related.title': 'References utiles',
+      'cp.page.consulting.related.link1': 'Admission en cours de langue aux Philippines',
+      'cp.page.consulting.related.link2': 'Inscription en instituts pour Saoudiens',
+      'cp.page.consulting.related.link3': 'Programmes academiques de langue',
+      'cp.page.consulting.related.link4': 'Decouvrir nos services principaux',
+      'cp.page.consulting.faq.aria': 'Questions frequentes',
+      'cp.page.consulting.faq.q1': 'La consultation est-elle totalement gratuite ?',
+      'cp.page.consulting.faq.a1':
+        'Oui, la premiere consultation est gratuite avec diagnostic initial et options adaptees.',
+      'cp.page.consulting.faq.q2': 'Peut-on faire tout le processus a distance ?',
+      'cp.page.consulting.faq.a2':
+        'Oui, la plupart des etapes se font en ligne avec un suivi direct.',
+      'cp.page.consulting.faq.q3': 'Y a-t-il un suivi apres l admission ?',
+      'cp.page.consulting.faq.a3':
+        'Oui, nous proposons support logement, arrivee et conseils de demarrage dans la ville etudiante.'
+    },
+    es: {
+      'cp.page.study.meta.title':
+        'Estudiar en Filipinas para saudies | Admision rapida | YallaStudy',
+      'cp.page.study.meta.description':
+        'Guia completa para estudiantes saudies: admision de idioma, registro en institutos y programas academicos en Filipinas.',
+      'cp.page.study.breadcrumb': 'Estudiar en Filipinas',
+      'cp.page.study.hero.title':
+        'Estudiar en Filipinas para saudies: admision mas rapida e institutos confiables',
+      'cp.page.study.hero.lead':
+        'Si tu objetivo es mejorar el ingles rapidamente con un costo razonable, Filipinas es una opcion practica. YallaStudy te acompana desde la consulta hasta la carta de admision y plan de viaje.',
+      'cp.page.study.hero.cta1': 'Inicia tu solicitud de admision',
+      'cp.page.study.hero.cta2': 'Ver costos de estudio y vida',
+      'cp.page.study.card1.title': 'Por que estudiar en Filipinas es una decision inteligente?',
+      'cp.page.study.card1.li1': 'Programas intensivos diarios para avanzar mas rapido.',
+      'cp.page.study.card1.li2': 'Costos de estudio y vida mas bajos que muchos destinos.',
+      'cp.page.study.card1.li3': 'Fechas de inicio flexibles durante la mayor parte del ano.',
+      'cp.page.study.card2.title': 'Como elegimos el instituto adecuado para ti?',
+      'cp.page.study.card2.li1':
+        'Analisis por objetivo: ingles general, preparacion IELTS o via academica.',
+      'cp.page.study.card2.li2':
+        'Comparar vivienda, ciudad, horas semanales y costo total completo.',
+      'cp.page.study.card2.li3': 'Lista corta de institutos adecuados en 24 horas.',
+      'cp.page.study.card3.title': 'Seguimiento directo y rapido',
+      'cp.page.study.card3.p':
+        'Nuestro equipo de admision te da seguimiento diario por WhatsApp hasta la admision final.',
+      'cp.page.study.highlight.title': 'Pasos de admision para estudiar en Filipinas',
+      'cp.page.study.highlight.li1': 'Completar formulario de consulta y definir objetivo.',
+      'cp.page.study.highlight.li2': 'Recibir lista de institutos recomendados con comparacion.',
+      'cp.page.study.highlight.li3': 'Preparar documentos y enviar la solicitud.',
+      'cp.page.study.highlight.li4': 'Recibir admision y continuar seguimiento hasta llegada.',
+      'cp.page.study.tag1': 'Estudiar en Filipinas',
+      'cp.page.study.tag2': 'Admision de idioma',
+      'cp.page.study.tag3': 'Consultoria educativa',
+      'cp.page.study.tag4': 'Estudiantes saudies',
+      'cp.page.study.related.title': 'Paginas relacionadas',
+      'cp.page.study.related.link1': 'Admision para estudiar idioma en Filipinas',
+      'cp.page.study.related.link2': 'Registro en institutos para saudies',
+      'cp.page.study.related.link3': 'Programas academicos de idioma',
+      'cp.page.study.related.link4': 'Consultoria de admision',
+      'cp.page.study.faq.aria': 'Preguntas frecuentes',
+      'cp.page.study.faq.q1':
+        'Cuanto tarda normalmente la admision en un instituto de idioma en Filipinas?',
+      'cp.page.study.faq.a1':
+        'Generalmente entre 3 y 7 dias habiles despues de completar el expediente.',
+      'cp.page.study.faq.q2': 'Sus servicios son solo para estudiantes saudies?',
+      'cp.page.study.faq.a2':
+        'Nuestro enfoque principal es Arabia Saudita, y tambien atendemos EAU, Yemen y paises del Golfo.',
+      'cp.page.study.faq.q3': 'Tambien apoyan con vivienda y llegada?',
+      'cp.page.study.faq.a3':
+        'Si. Ofrecemos orientacion completa para vivienda, llegada y un inicio estable.',
+
+      'cp.page.language.meta.title':
+        'Admision de idioma en Filipinas | Proceso rapido y claro | YallaStudy',
+      'cp.page.language.meta.description':
+        'Consigue admision de idioma en Filipinas con un proceso claro: seleccion de instituto, preparacion de documentos y seguimiento hasta la aceptacion.',
+      'cp.page.language.breadcrumb': 'Admision de idioma en Filipinas',
+      'cp.page.language.hero.title':
+        'Admision de idioma en Filipinas sin complicaciones y con seguimiento diario',
+      'cp.page.language.hero.lead':
+        'Preparamos un expediente completo segun requisitos del instituto y damos seguimiento continuo hasta la carta de aceptacion.',
+      'cp.page.language.hero.cta1': 'Inicia tu expediente de admision',
+      'cp.page.language.hero.cta2': 'Ver pasos completos de registro',
+      'cp.page.language.card1.title': 'Que hacemos en tu expediente de admision?',
+      'cp.page.language.card1.li1': 'Revision precisa de documentos antes del envio.',
+      'cp.page.language.card1.li2': 'Formato de solicitud segun estandares del instituto.',
+      'cp.page.language.card1.li3': 'Seguimiento diario para acelerar la aceptacion.',
+      'cp.page.language.card2.title': 'Para quien es esta ruta?',
+      'cp.page.language.card2.li1':
+        'Estudiantes saudies y del Golfo que buscan progreso rapido.',
+      'cp.page.language.card2.li2': 'Quienes necesitan fecha de inicio flexible.',
+      'cp.page.language.card2.li3': 'Quienes prefieren apoyo arabe claro en cada paso.',
+      'cp.page.language.card3.title': 'Duracion del proceso',
+      'cp.page.language.card3.p':
+        'Normalmente de 3 a 7 dias habiles tras expediente completo. Algunos institutos pueden tardar hasta 10 dias segun temporada.',
+      'cp.page.language.highlight.title': 'Elementos de una admision exitosa',
+      'cp.page.language.highlight.li1':
+        'Elegir el programa adecuado segun nivel actual y objetivo final.',
+      'cp.page.language.highlight.li2':
+        'Subir todos los documentos en formato correcto y ordenado.',
+      'cp.page.language.highlight.li3': 'Confirmar vivienda y fecha prevista de inicio.',
+      'cp.page.language.highlight.li4':
+        'Hacer seguimiento de la admision hasta la confirmacion final.',
+      'cp.page.language.tag1': 'Admision de idioma',
+      'cp.page.language.tag2': 'Institutos en Filipinas',
+      'cp.page.language.tag3': 'Proceso rapido',
+      'cp.page.language.tag4': 'YallaStudy',
+      'cp.page.language.related.title': 'Enlaces importantes',
+      'cp.page.language.related.link1': 'Estudiar en Filipinas para saudies',
+      'cp.page.language.related.link2': 'Consultoria de admision',
+      'cp.page.language.related.link3': 'Programas academicos de idioma',
+      'cp.page.language.related.link4': 'Nuestros servicios en la pagina principal',
+      'cp.page.language.faq.aria': 'Preguntas frecuentes',
+      'cp.page.language.faq.q1': 'Se puede obtener admision en una semana?',
+      'cp.page.language.faq.a1':
+        'Si. En muchos casos la admision sale en una semana si el expediente esta completo.',
+      'cp.page.language.faq.q2': 'Atienden estudiantes de Yemen y del Golfo?',
+      'cp.page.language.faq.a2':
+        'Si, atendemos Yemen, EAU, Kuwait, Qatar, Barein y Oman segun disponibilidad.',
+      'cp.page.language.faq.q3': 'El servicio incluye apoyo de vivienda?',
+      'cp.page.language.faq.a3':
+        'Si. Ofrecemos opciones de vivienda segun presupuesto y orientacion inicial.',
+
+      'cp.page.academic.meta.title':
+        'Programas de idioma academico en Filipinas | IELTS y ruta universitaria | YallaStudy',
+      'cp.page.academic.meta.description':
+        'Descubre programas de idioma academico en Filipinas: preparacion IELTS, escritura academica y ruta universitaria.',
+      'cp.page.academic.breadcrumb': 'Programas de idioma academico',
+      'cp.page.academic.hero.title':
+        'Programas de idioma academico en Filipinas: del nivel general a la preparacion universitaria',
+      'cp.page.academic.hero.lead':
+        'Despues del ingles general, el estudiante necesita una ruta academica clara. Te ayudamos a elegir IELTS, escritura academica y preparacion universitaria.',
+      'cp.page.academic.hero.cta1': 'Reserva consulta de programas academicos',
+      'cp.page.academic.hero.cta2': 'Leer guia de estudio de idioma',
+      'cp.page.academic.card1.title': 'Rutas academicas mas solicitadas',
+      'cp.page.academic.card1.li1':
+        'Preparacion intensiva IELTS con practica diaria de cuatro habilidades.',
+      'cp.page.academic.card1.li2':
+        'English for Academic Purposes para universidad y posgrado.',
+      'cp.page.academic.card1.li3':
+        'Ruta de escritura y presentaciones academicas para becarios.',
+      'cp.page.academic.card2.title': 'Como definimos el programa adecuado?',
+      'cp.page.academic.card2.li1': 'Medir nivel actual y definir puntaje objetivo.',
+      'cp.page.academic.card2.li2':
+        'Estimar duracion realista para alcanzar el resultado requerido.',
+      'cp.page.academic.card2.li3':
+        'Elegir instituto fuerte en la ruta academica requerida.',
+      'cp.page.academic.card3.title': 'Seguimiento continuo hasta el resultado',
+      'cp.page.academic.card3.p':
+        'Damos seguimiento al plan de estudio y a las actualizaciones del programa con orientacion continua.',
+      'cp.page.academic.highlight.title': 'Cuando elegir un programa academico?',
+      'cp.page.academic.highlight.li1':
+        'Cuando apuntas a admision universitaria o puntaje IELTS especifico.',
+      'cp.page.academic.highlight.li2':
+        'Cuando necesitas redaccion y presentaciones academicas en ingles.',
+      'cp.page.academic.highlight.li3':
+        'Cuando quieres pasar rapido del ingles general a nivel avanzado.',
+      'cp.page.academic.highlight.li4':
+        'Cuando tienes fecha universitaria cercana y necesitas preparacion enfocada.',
+      'cp.page.academic.tag1': 'Programas academicos',
+      'cp.page.academic.tag2': 'IELTS',
+      'cp.page.academic.tag3': 'Preparacion universitaria',
+      'cp.page.academic.tag4': 'Filipinas',
+      'cp.page.academic.related.title': 'Contenido relacionado',
+      'cp.page.academic.related.link1': 'Estudiar en Filipinas',
+      'cp.page.academic.related.link2': 'Admision de idioma',
+      'cp.page.academic.related.link3': 'Consultoria de admision',
+      'cp.page.academic.related.link4': 'Institutos de idioma en pagina principal',
+      'cp.page.academic.faq.aria': 'Preguntas frecuentes',
+      'cp.page.academic.faq.q1':
+        'Se puede pasar de programa general a academico en el mismo instituto?',
+      'cp.page.academic.faq.a1':
+        'En muchos institutos si, segun nivel y disponibilidad de cupos.',
+      'cp.page.academic.faq.q2': 'Cuanto duran los programas intensivos de IELTS?',
+      'cp.page.academic.faq.a2':
+        'Normalmente de 8 a 16 semanas segun nivel inicial y puntaje objetivo.',
+      'cp.page.academic.faq.q3':
+        'Estos programas son adecuados para estudiantes del Golfo y Yemen?',
+      'cp.page.academic.faq.a3':
+        'Si. Recomendamos rutas adecuadas para Arabia Saudita, Yemen, EAU y el Golfo.',
+
+      'cp.page.consulting.meta.title':
+        'Consultoria de admision | Programas de idioma y academicos | YallaStudy',
+      'cp.page.consulting.meta.description':
+        'Consultoria de admision para estudiantes saudies y del Golfo: evaluacion del perfil, seleccion del instituto, preparacion del expediente y seguimiento hasta la aceptacion.',
+      'cp.page.consulting.breadcrumb': 'Consultoria de admision',
+      'cp.page.consulting.hero.title':
+        'Consultoria de admision: plan claro desde el inicio hasta la aceptacion final',
+      'cp.page.consulting.hero.lead':
+        'La consulta correcta ahorra tiempo y costo. En YallaStudy analizamos tu caso, definimos el programa adecuado y construimos una ruta practica hacia la admision.',
+      'cp.page.consulting.hero.cta1': 'Reserva la sesion gratuita',
+      'cp.page.consulting.hero.cta2': 'Pagina de estudio en Filipinas',
+      'cp.page.consulting.card1.title': 'Que ocurre durante la consulta?',
+      'cp.page.consulting.card1.li1': 'Evaluar nivel actual y objetivo final de estudio.',
+      'cp.page.consulting.card1.li2':
+        'Definir destino y programa adecuado en tiempo y presupuesto.',
+      'cp.page.consulting.card1.li3': 'Plan de ejecucion claro con cronograma.',
+      'cp.page.consulting.card2.title': 'Valor de la consulta para el estudiante',
+      'cp.page.consulting.card2.li1':
+        'Evitar decisiones costosas equivocadas en instituto o programa.',
+      'cp.page.consulting.card2.li2':
+        'Reducir retrasos causados por documentos incompletos.',
+      'cp.page.consulting.card2.li3': 'Mejorar opciones de admision rapida desde el inicio.',
+      'cp.page.consulting.card3.title': 'Para quien es este servicio?',
+      'cp.page.consulting.card3.p':
+        'Adecuado para nuevos estudiantes, para quienes cambian de ruta, y para familias que buscan una decision segura y clara.',
+      'cp.page.consulting.highlight.title': 'Resultado de consulta en 24 horas',
+      'cp.page.consulting.highlight.li1': 'Lista corta de opciones realmente adecuadas.',
+      'cp.page.consulting.highlight.li2':
+        'Recomendacion final segun prioridades: costo, calidad y duracion.',
+      'cp.page.consulting.highlight.li3':
+        'Plan de admision escrito con pasos accionables inmediatos.',
+      'cp.page.consulting.highlight.li4':
+        'Soporte continuo por WhatsApp durante toda la ruta.',
+      'cp.page.consulting.tag1': 'Consultoria educativa',
+      'cp.page.consulting.tag2': 'Admision rapida',
+      'cp.page.consulting.tag3': 'Estudiar Filipinas',
+      'cp.page.consulting.tag4': 'Estudiantes del Golfo',
+      'cp.page.consulting.related.title': 'Referencias utiles',
+      'cp.page.consulting.related.link1': 'Admision de idioma en Filipinas',
+      'cp.page.consulting.related.link2': 'Registro en institutos para saudies',
+      'cp.page.consulting.related.link3': 'Programas academicos de idioma',
+      'cp.page.consulting.related.link4': 'Conoce nuestros servicios principales',
+      'cp.page.consulting.faq.aria': 'Preguntas frecuentes',
+      'cp.page.consulting.faq.q1': 'La consulta es totalmente gratuita?',
+      'cp.page.consulting.faq.a1':
+        'Si. La primera consulta es gratuita e incluye diagnostico inicial y opciones adecuadas.',
+      'cp.page.consulting.faq.q2': 'Se puede hacer todo el proceso a distancia?',
+      'cp.page.consulting.faq.a2':
+        'Si. La mayoria de pasos de admision y registro se completan en linea con seguimiento directo.',
+      'cp.page.consulting.faq.q3': 'Ofrecen seguimiento despues de la admision?',
+      'cp.page.consulting.faq.a3':
+        'Si. Brindamos apoyo en vivienda, llegada y recomendaciones iniciales en la ciudad de estudio.'
+    },
+    tr: {
+      'cp.page.study.meta.title':
+        'Suudi ogrenciler icin Filipinlerde egitim | Hizli kabul | YallaStudy',
+      'cp.page.study.meta.description':
+        'Suudi ogrenciler icin kapsamli rehber: dil kabul sureci, kurum kaydi ve Filipinlerde akademik programlar.',
+      'cp.page.study.breadcrumb': 'Filipinlerde egitim',
+      'cp.page.study.hero.title':
+        'Suudi ogrenciler icin Filipinlerde egitim: daha hizli kabul ve guvenilir kurumlar',
+      'cp.page.study.hero.lead':
+        'Hedefiniz uygun butceyle hizli Ingilizce gelisimi ise Filipinler pratik bir secenektir. YallaStudy ilk danismanliktan kabul mektubuna ve seyahat planina kadar yaninizdadir.',
+      'cp.page.study.hero.cta1': 'Kabul talebini baslat',
+      'cp.page.study.hero.cta2': 'Egitim ve yasam maliyetlerini gor',
+      'cp.page.study.card1.title': 'Neden Filipinlerde egitim akilli bir secimdir?',
+      'cp.page.study.card1.li1': 'Hizli gelisim icin gunluk yogun dil programlari.',
+      'cp.page.study.card1.li2': 'Bir cok destinasyona gore daha dusuk maliyet.',
+      'cp.page.study.card1.li3': 'Yilin cogu doneminde esnek baslangic tarihleri.',
+      'cp.page.study.card2.title': 'Sana uygun kurumu nasil seciyoruz?',
+      'cp.page.study.card2.li1':
+        'Hedef analizi: genel Ingilizce, IELTS hazirligi veya akademik rota.',
+      'cp.page.study.card2.li2':
+        'Konaklama, sehir, haftalik ders saati ve toplam maliyet karsilastirmasi.',
+      'cp.page.study.card2.li3': '24 saat icinde sana uygun kurum listesi.',
+      'cp.page.study.card3.title': 'Dogrudan ve hizli takip',
+      'cp.page.study.card3.p':
+        'Kabul ekibimiz, nihai kabul cikana kadar her gun WhatsApp uzerinden takip saglar.',
+      'cp.page.study.highlight.title': 'Filipinlerde egitim icin kabul adimlari',
+      'cp.page.study.highlight.li1': 'Danismanlik formunu doldur ve hedefini belirle.',
+      'cp.page.study.highlight.li2': 'Karsilastirmali onerilen kurum listesini al.',
+      'cp.page.study.highlight.li3': 'Belgeleri hazirla ve basvuruyu gonder.',
+      'cp.page.study.highlight.li4': 'Kabulu al ve varisa kadar destegi surdur.',
+      'cp.page.study.tag1': 'Filipinlerde egitim',
+      'cp.page.study.tag2': 'Dil kabulu',
+      'cp.page.study.tag3': 'Egitim danismanligi',
+      'cp.page.study.tag4': 'Suudi ogrenciler',
+      'cp.page.study.related.title': 'Ilgili sayfalar',
+      'cp.page.study.related.link1': 'Filipinlerde dil egitimi kabul sureci',
+      'cp.page.study.related.link2': 'Suudiler icin kurum kaydi',
+      'cp.page.study.related.link3': 'Akademik dil programlari',
+      'cp.page.study.related.link4': 'Kabul danismanligi',
+      'cp.page.study.faq.aria': 'Sik sorulan sorular',
+      'cp.page.study.faq.q1':
+        'Filipinlerde dil kurumu kabul sureci genellikle ne kadar surer?',
+      'cp.page.study.faq.a1': 'Genellikle evraklar tamamlandiktan sonra 3 ila 7 is gunu surer.',
+      'cp.page.study.faq.q2': 'Hizmetleriniz sadece Suudi ogrenciler icin mi?',
+      'cp.page.study.faq.a2':
+        'Ana odagimiz Suudi Arabistan, ayrica BAE, Yemen ve Korfez ogrencilerine de hizmet veriyoruz.',
+      'cp.page.study.faq.q3': 'Konaklama ve varis destegi veriyor musunuz?',
+      'cp.page.study.faq.a3':
+        'Evet. Konaklama, varis ve duzenli bir baslangic icin kapsamli rehberlik sunuyoruz.',
+
+      'cp.page.language.meta.title':
+        'Filipinlerde dil kabul sureci | Hizli ve net adimlar | YallaStudy',
+      'cp.page.language.meta.description':
+        'Filipinlerde dil kabulunu net bir surecle alin: kurum secimi, evrak hazirligi ve kabul cikana kadar takip.',
+      'cp.page.language.breadcrumb': 'Filipinlerde dil kabul sureci',
+      'cp.page.language.hero.title':
+        'Filipinlerde dil kabul sureci karmasik olmadan ve gunluk takip ile',
+      'cp.page.language.hero.lead':
+        'Kurum kriterlerine uygun tam bir dosya hazirliyor ve kabul mektubu cikana kadar surekli takip ediyoruz.',
+      'cp.page.language.hero.cta1': 'Kabul dosyasini baslat',
+      'cp.page.language.hero.cta2': 'Tum kayit adimlarini gor',
+      'cp.page.language.card1.title': 'Kabul dosyanda neleri yurutuyoruz?',
+      'cp.page.language.card1.li1': 'Gonderim oncesi gerekli evraklarin detayli kontrolu.',
+      'cp.page.language.card1.li2': 'Basvurunun kurum standardina gore duzenlenmesi.',
+      'cp.page.language.card1.li3': 'Kabulu hizlandirmak icin gunluk takip.',
+      'cp.page.language.card2.title': 'Bu rota kimler icin uygundur?',
+      'cp.page.language.card2.li1':
+        'Hizli ve planli ilerleme isteyen Suudi ve Korfez ogrencileri.',
+      'cp.page.language.card2.li2': 'Esnek baslangic tarihi isteyen ogrenciler.',
+      'cp.page.language.card2.li3': 'Her adimda net Arapca destek isteyenler.',
+      'cp.page.language.card3.title': 'Islem suresi',
+      'cp.page.language.card3.p':
+        'Dosya tam olduktan sonra genellikle 3-7 is gunu. Bazi kurumlarda sezona gore 10 gune cikabilir.',
+      'cp.page.language.highlight.title': 'Basarili kabulun temel unsurlari',
+      'cp.page.language.highlight.li1':
+        'Mevcut seviyeye ve nihai hedefe uygun program secimi.',
+      'cp.page.language.highlight.li2':
+        'Tum evraklarin dogru ve duzenli formatta yuklenmesi.',
+      'cp.page.language.highlight.li3': 'Konaklama bilgisi ve planlanan baslangic tarihinin onayi.',
+      'cp.page.language.highlight.li4': 'Kabul cikana kadar surecin takip edilmesi.',
+      'cp.page.language.tag1': 'Dil kabulu',
+      'cp.page.language.tag2': 'Filipinler kurumlari',
+      'cp.page.language.tag3': 'Hizli surec',
+      'cp.page.language.tag4': 'YallaStudy',
+      'cp.page.language.related.title': 'Onemli baglantilar',
+      'cp.page.language.related.link1': 'Suudiler icin Filipinlerde egitim',
+      'cp.page.language.related.link2': 'Kabul danismanligi',
+      'cp.page.language.related.link3': 'Akademik dil programlari',
+      'cp.page.language.related.link4': 'Ana sayfadaki hizmetlerimiz',
+      'cp.page.language.faq.aria': 'Sik sorulan sorular',
+      'cp.page.language.faq.q1': 'Bir hafta icinde dil kabul almak mumkun mu?',
+      'cp.page.language.faq.a1':
+        'Evet. Bircok durumda dosya tam ise bir hafta icinde kabul cikar.',
+      'cp.page.language.faq.q2': 'Yemen ve Korfez ogrencilerine hizmet veriyor musunuz?',
+      'cp.page.language.faq.a2':
+        'Evet, kontenjana gore Yemen, BAE, Kuveyt, Katar, Bahreyn ve Umman ogrencilerine hizmet veriyoruz.',
+      'cp.page.language.faq.q3': 'Hizmet konaklama destegini kapsiyor mu?',
+      'cp.page.language.faq.a3':
+        'Evet. Butceye uygun konaklama secenekleri ve ilk varis rehberligi sunuyoruz.',
+
+      'cp.page.academic.meta.title':
+        'Filipinlerde akademik dil programlari | IELTS ve universite rotasi | YallaStudy',
+      'cp.page.academic.meta.description':
+        'Filipinlerde akademik dil programlarini kesfedin: IELTS hazirligi, akademik yazim ve universiteye hazirlik.',
+      'cp.page.academic.breadcrumb': 'Akademik dil programlari',
+      'cp.page.academic.hero.title':
+        'Filipinlerde akademik dil programlari: genel seviyeden universite hazirligina',
+      'cp.page.academic.hero.lead':
+        'Genel Ingilizce sonrasinda ogrencinin duzenli bir akademik rotaya ihtiyaci vardir. IELTS, akademik yazim ve universite hazirligi seciminde size destek oluyoruz.',
+      'cp.page.academic.hero.cta1': 'Akademik program danismanligi al',
+      'cp.page.academic.hero.cta2': 'Dil egitimi rehberini oku',
+      'cp.page.academic.card1.title': 'En yaygin akademik rotalar',
+      'cp.page.academic.card1.li1':
+        'Dort beceriye gunluk calisma ile yogun IELTS hazirligi.',
+      'cp.page.academic.card1.li2':
+        'Universite ve lisansustu hedefler icin English for Academic Purposes.',
+      'cp.page.academic.card1.li3':
+        'Burslu ogrenciler icin akademik yazim ve sunum rotasi.',
+      'cp.page.academic.card2.title': 'Uygun programi nasil belirliyoruz?',
+      'cp.page.academic.card2.li1': 'Mevcut seviye ve hedef puanin belirlenmesi.',
+      'cp.page.academic.card2.li2':
+        'Gerekli sonuca ulasmak icin gercekci sure tahmini.',
+      'cp.page.academic.card2.li3':
+        'Istenen akademik rotada guclu bir kurum secimi.',
+      'cp.page.academic.card3.title': 'Sonuca kadar surekli destek',
+      'cp.page.academic.card3.p':
+        'Egitim planinizi ve program guncellemelerini surekli takip edip hedefe odakli yonlendirme sagliyoruz.',
+      'cp.page.academic.highlight.title': 'Ne zaman akademik program secilmeli?',
+      'cp.page.academic.highlight.li1':
+        'Universite kabulunu veya belirli bir IELTS skorunu hedeflerken.',
+      'cp.page.academic.highlight.li2':
+        'Ingilizce akademik yazim ve sunum becerilerine ihtiyac duyarken.',
+      'cp.page.academic.highlight.li3':
+        'Genel seviyeden ileri seviyeye hizli gecis istendiginde.',
+      'cp.page.academic.highlight.li4':
+        'Universite tarihi yakinsa ve odakli hazirlik gerekiyorsa.',
+      'cp.page.academic.tag1': 'Akademik programlar',
+      'cp.page.academic.tag2': 'IELTS',
+      'cp.page.academic.tag3': 'Universite hazirligi',
+      'cp.page.academic.tag4': 'Filipinler',
+      'cp.page.academic.related.title': 'Ilgili icerik',
+      'cp.page.academic.related.link1': 'Filipinlerde egitim',
+      'cp.page.academic.related.link2': 'Dil kabulu',
+      'cp.page.academic.related.link3': 'Kabul danismanligi',
+      'cp.page.academic.related.link4': 'Ana sayfada dil kurumlari',
+      'cp.page.academic.faq.aria': 'Sik sorulan sorular',
+      'cp.page.academic.faq.q1':
+        'Ayni kurumda genel programdan akademik programa gecis mumkun mu?',
+      'cp.page.academic.faq.a1':
+        'Bir cok kurumda evet, seviye ve kontenjana bagli olarak gecis mumkundur.',
+      'cp.page.academic.faq.q2': 'Yogun IELTS programlari ne kadar surer?',
+      'cp.page.academic.faq.a2':
+        'Genellikle baslangic seviyesine ve hedef skora gore 8-16 hafta arasi surer.',
+      'cp.page.academic.faq.q3':
+        'Bu programlar Korfez ve Yemen ogrencileri icin uygun mu?',
+      'cp.page.academic.faq.a3':
+        'Evet. Suudi Arabistan, Yemen, BAE ve Korfez ogrencileri icin uygun rotalar oneriyoruz.',
+
+      'cp.page.consulting.meta.title':
+        'Kabul danismanligi | Dil ve akademik programlar | YallaStudy',
+      'cp.page.consulting.meta.description':
+        'Suudi ve Korfez ogrencileri icin kabul danismanligi: profil analizi, kurum secimi, dosya hazirligi ve kabul cikana kadar takip.',
+      'cp.page.consulting.breadcrumb': 'Kabul danismanligi',
+      'cp.page.consulting.hero.title':
+        'Kabul danismanligi: ilk adimdan nihai kabule kadar net plan',
+      'cp.page.consulting.hero.lead':
+        'Dogru danismanlik zaman ve maliyet kazandirir. YallaStudy durumunuzu analiz eder, uygun programi belirler ve kabul icin pratik yol haritasi sunar.',
+      'cp.page.consulting.hero.cta1': 'Ucretsiz oturumu ayarla',
+      'cp.page.consulting.hero.cta2': 'Filipinlerde egitim sayfasi',
+      'cp.page.consulting.card1.title': 'Danismanlikta neler yapilir?',
+      'cp.page.consulting.card1.li1': 'Mevcut seviye ve nihai hedef degerlendirilir.',
+      'cp.page.consulting.card1.li2':
+        'Zaman ve butceye uygun hedef ulke ve program belirlenir.',
+      'cp.page.consulting.card1.li3': 'Net uygulama plani ve basvuru takvimi cikarilir.',
+      'cp.page.consulting.card2.title': 'Ogrenci icin danismanligin degeri',
+      'cp.page.consulting.card2.li1': 'Kurum veya programda maliyetli yanlis secimleri azaltir.',
+      'cp.page.consulting.card2.li2':
+        'Eksik evrak nedeniyle olusan gecikmeleri azaltir.',
+      'cp.page.consulting.card2.li3': 'Ilk basvuruda hizli kabul sansini artirir.',
+      'cp.page.consulting.card3.title': 'Bu hizmet kimler icin uygun?',
+      'cp.page.consulting.card3.p':
+        'Yeni ogrenciler, rota degistirmek isteyenler ve guvenli karar arayan aileler icin uygundur.',
+      'cp.page.consulting.highlight.title': 'Danismanlik sonucu 24 saat icinde',
+      'cp.page.consulting.highlight.li1': 'Gercekten uygun seceneklerden olusan kisa liste.',
+      'cp.page.consulting.highlight.li2':
+        'Onceliklere gore nihai onerme: maliyet, kalite ve sure.',
+      'cp.page.consulting.highlight.li3':
+        'Hemen uygulanabilir adimlarla yazili kabul plani.',
+      'cp.page.consulting.highlight.li4':
+        'Tum surec boyunca WhatsApp uzerinden surekli destek.',
+      'cp.page.consulting.tag1': 'Egitim danismanligi',
+      'cp.page.consulting.tag2': 'Hizli kabul',
+      'cp.page.consulting.tag3': 'Filipinlerde egitim',
+      'cp.page.consulting.tag4': 'Korfez ogrencileri',
+      'cp.page.consulting.related.title': 'Faydali referanslar',
+      'cp.page.consulting.related.link1': 'Filipinlerde dil kabul sureci',
+      'cp.page.consulting.related.link2': 'Suudiler icin kurum kaydi',
+      'cp.page.consulting.related.link3': 'Akademik dil programlari',
+      'cp.page.consulting.related.link4': 'Ana hizmetlerimizi inceleyin',
+      'cp.page.consulting.faq.aria': 'Sik sorulan sorular',
+      'cp.page.consulting.faq.q1': 'Danismanlik tamamen ucretsiz mi?',
+      'cp.page.consulting.faq.a1':
+        'Evet. Ilk danismanlik ucretsizdir ve uygun seceneklerle on teshis icerir.',
+      'cp.page.consulting.faq.q2': 'Tum surec uzaktan tamamlanabilir mi?',
+      'cp.page.consulting.faq.a2':
+        'Evet. Kabul ve kayit adimlarinin cogu dogrudan takip ile cevrimici tamamlanir.',
+      'cp.page.consulting.faq.q3': 'Kabulden sonra da takip var mi?',
+      'cp.page.consulting.faq.a3':
+        'Evet. Konaklama, varis ve egitim sehrinde ilk baslangic icin destek veriyoruz.'
+    }
+  };
+
+  Object.keys(servicePageTranslations).forEach((lang) => {
+    Object.assign(translations[lang], servicePageTranslations[lang]);
+  });
+
   const originalTextByKey = new Map();
   document.querySelectorAll('[data-i18n]').forEach((el) => {
     const key = el.dataset.i18n;
@@ -502,7 +1353,14 @@
     '/blog/taklifa-dirasah-wamaeisha-filipin/',
     '/blog/afdal-maahd-lugha-motamada-filipin/'
   ]);
-  const localizedSitePaths = new Set(['/', ...localizedBasePaths]);
+  const queryLanguagePaths = new Set([
+    '/study-in-philippines-saudi/',
+    '/language-admission-philippines/',
+    '/institutes-registration-saudi/',
+    '/academic-language-programs/',
+    '/admission-consulting/'
+  ]);
+  const localizedSitePaths = new Set(['/', ...localizedBasePaths, ...queryLanguagePaths]);
 
   const normalizePath = (path) => {
     let safePath = path || '/';
@@ -558,7 +1416,17 @@
       const parsed = new URL(rawHref, window.location.origin);
       const { basePath } = splitPathLanguage(parsed.pathname);
       if (!localizedSitePaths.has(basePath)) return;
-      const localizedPath = lang === 'ar' ? basePath : buildLocalizedPath(basePath, lang);
+      const usePathLocalization = canUseLocalizedPath(basePath);
+      const localizedPath = usePathLocalization
+        ? (lang === 'ar' ? basePath : buildLocalizedPath(basePath, lang))
+        : basePath;
+      if (usePathLocalization) {
+        parsed.searchParams.delete('lang');
+      } else if (lang === 'ar') {
+        parsed.searchParams.delete('lang');
+      } else {
+        parsed.searchParams.set('lang', lang);
+      }
       link.setAttribute('href', `${localizedPath}${parsed.search}${parsed.hash}`);
     });
   };
