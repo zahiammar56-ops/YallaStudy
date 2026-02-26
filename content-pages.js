@@ -16,15 +16,15 @@
       'cp.cta.free': 'استشارة مجانية',
       'cp.breadcrumb.home': 'الرئيسية',
       'cp.blog.breadcrumb.blog': 'المدونة',
-      'cp.blog.meta.title': 'مدونة YallaStudy | الدراسة في الفلبين وتكاليف المعاهد للطلاب الخليجيين',
+      'cp.blog.meta.title': 'مدونة YallaStudy | الدراسة في الفلبين وتكاليف المعاهد للطلاب السعوديين',
       'cp.blog.meta.description':
-        'مقالات متخصصة عن الدراسة في الفلبين: تكلفة الدراسة والمعيشة، أفضل معاهد اللغة المعتمدة، ودليل القبول للطلاب من السعودية واليمن ودول الخليج.',
-      'cp.blog.hero.title': 'مدونة الدراسة في الفلبين للطلاب السعوديين واليمنيين والخليجيين',
+        'مقالات متخصصة عن الدراسة في الفلبين: تكلفة الدراسة والمعيشة، أفضل معاهد اللغة المعتمدة، ودليل القبول للطلاب من السعودية.',
+      'cp.blog.hero.title': 'مدونة الدراسة في الفلبين للطلاب السعوديين',
       'cp.blog.hero.lead':
         'هنا تجد مقالات عملية تساعدك في اتخاذ قرار الدراسة: تكلفة المعيشة، أفضل المعاهد، وخطط القبول خطوة بخطوة. كل مقال مرتبط بخدماتنا لتبدأ التنفيذ فورًا.',
       'cp.blog.post1.title': 'دراسة اللغة الإنجليزية في الفلبين: دليل البداية 2026',
       'cp.blog.post1.desc': 'دليل شامل للمستويات، أنواع البرامج، مدة الدراسة، وكيف تختار معهدًا مناسبًا لهدفك.',
-      'cp.blog.post2.title': 'تكلفة الدراسة والمعيشة في الفلبين للطلاب السعوديين واليمنيين',
+      'cp.blog.post2.title': 'تكلفة الدراسة والمعيشة في الفلبين للطلاب السعوديين',
       'cp.blog.post2.desc': 'تحليل واضح للتكاليف الشهرية والسنوية مع نصائح لتقليل المصاريف بدون التأثير على الجودة.',
       'cp.blog.post3.title': 'أفضل معاهد اللغة المعتمدة في الفلبين: كيف تختار صح؟',
       'cp.blog.post3.desc': 'معايير تقييم المعهد والمدينة والسكن، وأخطاء شائعة يقع فيها الطلاب قبل التسجيل.',
@@ -51,15 +51,15 @@
       'cp.cta.free': 'Free Consultation',
       'cp.breadcrumb.home': 'Home',
       'cp.blog.breadcrumb.blog': 'Blog',
-      'cp.blog.meta.title': 'YallaStudy Blog | Study in the Philippines for GCC Students',
+      'cp.blog.meta.title': 'YallaStudy Blog | Study in the Philippines for Saudi Students',
       'cp.blog.meta.description':
-        'Practical articles about studying in the Philippines: costs, accredited language institutes, and admission guidance for Saudi, Yemeni, and GCC students.',
-      'cp.blog.hero.title': 'Study in the Philippines Blog for Saudi, Yemeni, and GCC Students',
+        'Practical articles about studying in the Philippines: costs, accredited language institutes, and admission guidance for Saudi students.',
+      'cp.blog.hero.title': 'Study in the Philippines Blog for Saudi Students',
       'cp.blog.hero.lead':
         'Find practical articles to help you decide: living costs, best institutes, and clear admission steps. Every article links to a service you can start right away.',
       'cp.blog.post1.title': 'Study English in the Philippines: 2026 Starter Guide',
       'cp.blog.post1.desc': 'A complete guide to levels, program types, study duration, and choosing the right institute.',
-      'cp.blog.post2.title': 'Study and Living Costs in the Philippines for Saudi and Yemeni Students',
+      'cp.blog.post2.title': 'Study and Living Costs in the Philippines for Saudi Students',
       'cp.blog.post2.desc': 'A clear breakdown of monthly and yearly costs with practical saving tips.',
       'cp.blog.post3.title': 'Best Accredited Language Institutes in the Philippines: How to Choose',
       'cp.blog.post3.desc': 'How to evaluate institutes, cities, and housing, plus common registration mistakes.',
@@ -73,14 +73,14 @@
       'cp.blog.related.academic': 'Academic Programs',
       'cp.blog.related.consulting': 'Admission Consulting',
 
-      'cp.blog.a1.meta.title': 'Study English in the Philippines 2026 | Guide for Saudi and Yemeni Students | YallaStudy',
+      'cp.blog.a1.meta.title': 'Study English in the Philippines 2026 | Guide for Saudi Students | YallaStudy',
       'cp.blog.a1.meta.description':
         'A complete guide to studying English in the Philippines: programs, duration, costs, and admission steps.',
       'cp.blog.a1.breadcrumb': 'Study English in the Philippines',
       'cp.blog.a1.h1': 'Study English in the Philippines 2026: A Practical Guide Before You Apply',
       'cp.blog.a1.meta.updated': 'Updated: February 23, 2026',
       'cp.blog.a1.meta.category': 'Category: Study in the Philippines',
-      'cp.blog.a1.meta.audience': 'Audience: Saudi Arabia, Yemen, GCC',
+      'cp.blog.a1.meta.audience': 'Audience: Saudi students',
       'cp.blog.a1.p1':
         'Studying English in the Philippines is a top choice because it balances quality and cost. Results depend on choosing the right program and institute from the start.',
       'cp.blog.a1.s1.title': '1) What language program types are available?',
@@ -107,14 +107,14 @@
       'cp.blog.a1.cta1': 'Book admission consultation',
       'cp.blog.a1.cta2': 'See registration steps',
 
-      'cp.blog.a2.meta.title': 'Study and Living Costs in the Philippines 2026 | GCC Student Budget Guide | YallaStudy',
+      'cp.blog.a2.meta.title': 'Study and Living Costs in the Philippines 2026 | Saudi Student Budget Guide | YallaStudy',
       'cp.blog.a2.meta.description':
         'Understand study and living costs in the Philippines: tuition, housing, monthly expenses, and practical saving tips.',
       'cp.blog.a2.breadcrumb': 'Study and Living Costs in the Philippines',
       'cp.blog.a2.h1': 'Study and Living Costs in the Philippines 2026: How to Build a Smart Budget',
       'cp.blog.a2.meta.updated': 'Updated: February 23, 2026',
       'cp.blog.a2.meta.category': 'Category: Costs and Budget',
-      'cp.blog.a2.meta.audience': 'Audience: Saudi, Yemeni, and GCC students',
+      'cp.blog.a2.meta.audience': 'Audience: Saudi students',
       'cp.blog.a2.p1':
         'The key question is real cost. To avoid surprises, break your budget into clear cost items before you travel.',
       'cp.blog.a2.s1.title': '1) Main cost components',
@@ -147,7 +147,7 @@
       'cp.blog.a3.h1': 'Best Accredited Language Institutes: 7 Criteria Before Registration',
       'cp.blog.a3.meta.updated': 'Updated: February 23, 2026',
       'cp.blog.a3.meta.category': 'Category: Institute Selection',
-      'cp.blog.a3.meta.audience': 'Audience: Saudi Arabia, Yemen, GCC',
+      'cp.blog.a3.meta.audience': 'Audience: Saudi students',
       'cp.blog.a3.p1':
         'The right question is not the best institute in general, but the best institute for your specific case. The decision depends on goal, budget, and duration.',
       'cp.blog.a3.s1.title': '1) Strength of the program you need',
@@ -157,7 +157,7 @@
       'cp.blog.a3.s2.li1': 'Verify real weekly teaching hours.',
       'cp.blog.a3.s2.li2': 'Ask about progress tracking and reporting.',
       'cp.blog.a3.s2.li3': 'Review class size and student ratio.',
-      'cp.blog.a3.s3.title': '3) Suitable city for GCC students',
+      'cp.blog.a3.s3.title': '3) Suitable city for Saudi students',
       'cp.blog.a3.s3.p1':
         'City choice affects lifestyle, cost, and focus. Some cities are better for intensive study while others are more active.',
       'cp.blog.a3.s4.title': '4) Housing and support services',
@@ -233,10 +233,10 @@
       'cp.cta.free': 'Consultation gratuite',
       'cp.breadcrumb.home': 'Accueil',
       'cp.blog.breadcrumb.blog': 'Blog',
-      'cp.blog.meta.title': 'Blog YallaStudy | Étudier aux Philippines pour les étudiants du Golfe',
+      'cp.blog.meta.title': 'Blog YallaStudy | Étudier aux Philippines pour les étudiants saoudiens',
       'cp.blog.meta.description':
         'Articles pratiques sur les études aux Philippines : coûts, instituts de langue accrédités et démarches d’admission.',
-      'cp.blog.hero.title': 'Blog des études aux Philippines pour les étudiants saoudiens, yéménites et du Golfe',
+      'cp.blog.hero.title': 'Blog des études aux Philippines pour les étudiants saoudiens',
       'cp.blog.hero.lead':
         'Des articles utiles pour décider : coût de la vie, meilleurs instituts et étapes d’admission claires.',
       'cp.blog.post1.title': 'Étudier l’anglais aux Philippines : guide de départ 2026',
@@ -256,14 +256,14 @@
       'cp.blog.related.consulting': 'Conseil en admission',
 
       'cp.blog.a1.meta.title':
-        'Étudier l\'anglais aux Philippines 2026 | Guide pour étudiants saoudiens et yéménites | YallaStudy',
+        'Étudier l\'anglais aux Philippines 2026 | Guide pour étudiants saoudiens | YallaStudy',
       'cp.blog.a1.meta.description':
         'Guide complet pour étudier l\'anglais aux Philippines : programmes, durée, coûts et étapes d\'admission.',
       'cp.blog.a1.breadcrumb': 'Étudier l\'anglais aux Philippines',
       'cp.blog.a1.h1': 'Étudier l\'anglais aux Philippines 2026 : guide pratique avant l\'inscription',
       'cp.blog.a1.meta.updated': 'Mise à jour : 23 février 2026',
       'cp.blog.a1.meta.category': 'Catégorie : Études aux Philippines',
-      'cp.blog.a1.meta.audience': 'Public : Arabie saoudite, Yémen, Golfe',
+      'cp.blog.a1.meta.audience': 'Public : étudiants saoudiens',
       'cp.blog.a1.p1':
         'Étudier l\'anglais aux Philippines est un choix majeur grâce à un bon équilibre entre qualité et coût. Le résultat dépend du bon programme et du bon institut dès le départ.',
       'cp.blog.a1.s1.title': '1) Quels types de programmes linguistiques sont disponibles ?',
@@ -291,14 +291,14 @@
       'cp.blog.a1.cta2': 'Voir les étapes d\'inscription',
 
       'cp.blog.a2.meta.title':
-        'Coût des études et de la vie aux Philippines 2026 | Guide budget étudiant du Golfe | YallaStudy',
+        'Coût des études et de la vie aux Philippines 2026 | Guide budget étudiant saoudien | YallaStudy',
       'cp.blog.a2.meta.description':
         'Comprenez les coûts des études et de la vie aux Philippines : scolarité, logement, dépenses mensuelles et conseils d\'économie.',
       'cp.blog.a2.breadcrumb': 'Coût des études et de la vie aux Philippines',
       'cp.blog.a2.h1': 'Coût des études et de la vie aux Philippines 2026 : comment construire un budget intelligent',
       'cp.blog.a2.meta.updated': 'Mise à jour : 23 février 2026',
       'cp.blog.a2.meta.category': 'Catégorie : Coûts et budget',
-      'cp.blog.a2.meta.audience': 'Public : étudiants saoudiens, yéménites et du Golfe',
+      'cp.blog.a2.meta.audience': 'Public : étudiants saoudiens',
       'cp.blog.a2.p1':
         'La question principale est le coût réel. Pour éviter les surprises, répartissez votre budget en postes clairs avant le voyage.',
       'cp.blog.a2.s1.title': '1) Principaux postes de coût',
@@ -331,7 +331,7 @@
       'cp.blog.a3.h1': 'Meilleurs instituts de langue accrédités : 7 critères avant l\'inscription',
       'cp.blog.a3.meta.updated': 'Mise à jour : 23 février 2026',
       'cp.blog.a3.meta.category': 'Catégorie : Choix de l\'institut',
-      'cp.blog.a3.meta.audience': 'Public : Arabie saoudite, Yémen, Golfe',
+      'cp.blog.a3.meta.audience': 'Public : étudiants saoudiens',
       'cp.blog.a3.p1':
         'La vraie question n\'est pas le meilleur institut en général, mais celui qui convient à votre cas. La décision dépend de l\'objectif, du budget et de la durée.',
       'cp.blog.a3.s1.title': '1) Force du programme dont vous avez besoin',
@@ -341,7 +341,7 @@
       'cp.blog.a3.s2.li1': 'Vérifiez le nombre réel d\'heures d\'enseignement par semaine.',
       'cp.blog.a3.s2.li2': 'Demandez comment sont suivis les progrès et les rapports.',
       'cp.blog.a3.s2.li3': 'Examinez la taille des classes et le ratio étudiants.',
-      'cp.blog.a3.s3.title': '3) Ville adaptée aux étudiants du Golfe',
+      'cp.blog.a3.s3.title': '3) Ville adaptée aux étudiants saoudiens',
       'cp.blog.a3.s3.p1':
         'Le choix de la ville influence le mode de vie, le coût et la concentration. Certaines villes conviennent mieux à une étude intensive, d\'autres à un cadre plus actif.',
       'cp.blog.a3.s4.title': '4) Logement et services d\'accompagnement',
@@ -417,10 +417,10 @@
       'cp.cta.free': 'Consulta gratuita',
       'cp.breadcrumb.home': 'Inicio',
       'cp.blog.breadcrumb.blog': 'Blog',
-      'cp.blog.meta.title': 'Blog de YallaStudy | Estudiar en Filipinas para estudiantes del Golfo',
+      'cp.blog.meta.title': 'Blog de YallaStudy | Estudiar en Filipinas para estudiantes saudíes',
       'cp.blog.meta.description':
         'Artículos prácticos sobre estudiar en Filipinas: costos, institutos acreditados y guía de admisión.',
-      'cp.blog.hero.title': 'Blog de estudio en Filipinas para estudiantes saudíes, yemeníes y del Golfo',
+      'cp.blog.hero.title': 'Blog de estudio en Filipinas para estudiantes saudíes',
       'cp.blog.hero.lead':
         'Encuentra artículos prácticos para decidir: costos, mejores institutos y pasos claros de admisión.',
       'cp.blog.post1.title': 'Estudiar inglés en Filipinas: guía inicial 2026',
@@ -440,14 +440,14 @@
       'cp.blog.related.consulting': 'Consultoría de admisión',
 
       'cp.blog.a1.meta.title':
-        'Estudiar inglés en Filipinas 2026 | Guía para estudiantes saudíes y yemeníes | YallaStudy',
+        'Estudiar inglés en Filipinas 2026 | Guía para estudiantes saudíes | YallaStudy',
       'cp.blog.a1.meta.description':
         'Guía completa para estudiar inglés en Filipinas: programas, duración, costos y pasos de admisión.',
       'cp.blog.a1.breadcrumb': 'Estudiar inglés en Filipinas',
       'cp.blog.a1.h1': 'Estudiar inglés en Filipinas 2026: guía práctica antes de registrarte',
       'cp.blog.a1.meta.updated': 'Actualizado: 23 de febrero de 2026',
       'cp.blog.a1.meta.category': 'Categoría: Estudiar en Filipinas',
-      'cp.blog.a1.meta.audience': 'Público: Arabia Saudita, Yemen y Golfo',
+      'cp.blog.a1.meta.audience': 'Público: estudiantes saudíes',
       'cp.blog.a1.p1':
         'Estudiar inglés en Filipinas es una opción líder por su equilibrio entre calidad y costo. El resultado depende de elegir el programa y el instituto correctos desde el inicio.',
       'cp.blog.a1.s1.title': '1) ¿Qué tipos de programas de idioma hay?',
@@ -475,14 +475,14 @@
       'cp.blog.a1.cta2': 'Ver pasos de registro',
 
       'cp.blog.a2.meta.title':
-        'Costo de estudio y vida en Filipinas 2026 | Guía de presupuesto para estudiantes del Golfo | YallaStudy',
+        'Costo de estudio y vida en Filipinas 2026 | Guía de presupuesto para estudiantes saudíes | YallaStudy',
       'cp.blog.a2.meta.description':
         'Comprende los costos de estudio y vida en Filipinas: matrícula, alojamiento, gastos mensuales y consejos prácticos de ahorro.',
       'cp.blog.a2.breadcrumb': 'Costo de estudio y vida en Filipinas',
       'cp.blog.a2.h1': 'Costo de estudio y vida en Filipinas 2026: cómo crear un presupuesto inteligente',
       'cp.blog.a2.meta.updated': 'Actualizado: 23 de febrero de 2026',
       'cp.blog.a2.meta.category': 'Categoría: Costos y presupuesto',
-      'cp.blog.a2.meta.audience': 'Público: estudiantes saudíes, yemeníes y del Golfo',
+      'cp.blog.a2.meta.audience': 'Público: estudiantes saudíes',
       'cp.blog.a2.p1':
         'La pregunta principal es el costo real. Para evitar sorpresas, divide tu presupuesto en partidas claras antes del viaje.',
       'cp.blog.a2.s1.title': '1) Componentes principales del costo',
@@ -515,7 +515,7 @@
       'cp.blog.a3.h1': 'Mejores institutos acreditados: 7 criterios antes del registro',
       'cp.blog.a3.meta.updated': 'Actualizado: 23 de febrero de 2026',
       'cp.blog.a3.meta.category': 'Categoría: Selección de instituto',
-      'cp.blog.a3.meta.audience': 'Público: Arabia Saudita, Yemen y Golfo',
+      'cp.blog.a3.meta.audience': 'Público: estudiantes saudíes',
       'cp.blog.a3.p1':
         'La pregunta correcta no es cuál es el mejor instituto en general, sino cuál es el mejor para tu caso. La decisión depende de objetivo, presupuesto y duración.',
       'cp.blog.a3.s1.title': '1) Fortaleza del programa que necesitas',
@@ -525,7 +525,7 @@
       'cp.blog.a3.s2.li1': 'Verifica las horas reales de enseñanza por semana.',
       'cp.blog.a3.s2.li2': 'Pregunta por el sistema de seguimiento del progreso y reportes.',
       'cp.blog.a3.s2.li3': 'Revisa tamaño de clase y proporción de estudiantes.',
-      'cp.blog.a3.s3.title': '3) Ciudad adecuada para estudiantes del Golfo',
+      'cp.blog.a3.s3.title': '3) Ciudad adecuada para estudiantes saudíes',
       'cp.blog.a3.s3.p1':
         'La ciudad impacta en estilo de vida, costo y concentración. Algunas ciudades son mejores para estudio intensivo y otras para un entorno más activo.',
       'cp.blog.a3.s4.title': '4) Alojamiento y servicios de apoyo',
@@ -601,10 +601,10 @@
       'cp.cta.free': 'Ucretsiz danismanlik',
       'cp.breadcrumb.home': 'Ana sayfa',
       'cp.blog.breadcrumb.blog': 'Blog',
-      'cp.blog.meta.title': 'YallaStudy Blog | Korfez ogrencileri icin Filipinlerde egitim',
+      'cp.blog.meta.title': 'YallaStudy Blog | Suudi ogrenciler icin Filipinlerde egitim',
       'cp.blog.meta.description':
         'Filipinlerde egitim hakkinda pratik yazilar: maliyetler, akredite dil kurumlari ve kabul rehberi.',
-      'cp.blog.hero.title': 'Suudi, Yemenli ve Korfez ogrencileri icin Filipinlerde egitim blogu',
+      'cp.blog.hero.title': 'Suudi ogrenciler icin Filipinlerde egitim blogu',
       'cp.blog.hero.lead':
         'Karar vermenizi kolaylastiran pratik yazilar: yasam maliyeti, en iyi kurumlar ve kabul adimlari.',
       'cp.blog.post1.title': 'Filipinlerde Ingilizce: 2026 baslangic rehberi',
@@ -624,14 +624,14 @@
       'cp.blog.related.consulting': 'Kabul danismanligi',
 
       'cp.blog.a1.meta.title':
-        'Filipinlerde Ingilizce Egitimi 2026 | Suudi ve Yemenli Ogrenciler icin Rehber | YallaStudy',
+        'Filipinlerde Ingilizce Egitimi 2026 | Suudi Ogrenciler icin Rehber | YallaStudy',
       'cp.blog.a1.meta.description':
         'Filipinlerde Ingilizce egitimi icin kapsamli rehber: programlar, sure, maliyet ve kabul adimlari.',
       'cp.blog.a1.breadcrumb': 'Filipinlerde Ingilizce Egitimi',
       'cp.blog.a1.h1': 'Filipinlerde Ingilizce Egitimi 2026: Kayit oncesi pratik rehber',
       'cp.blog.a1.meta.updated': 'Guncelleme: 23 Subat 2026',
       'cp.blog.a1.meta.category': 'Kategori: Filipinlerde egitim',
-      'cp.blog.a1.meta.audience': 'Hedef kitle: Suudi Arabistan, Yemen, Korfez',
+      'cp.blog.a1.meta.audience': 'Hedef kitle: Suudi ogrenciler',
       'cp.blog.a1.p1':
         'Filipinlerde Ingilizce egitimi, kalite ve maliyet dengesi nedeniyle en cok tercih edilen seceneklerden biridir. Sonuc, en basindan dogru program ve kurumu secmeye baglidir.',
       'cp.blog.a1.s1.title': '1) Hangi dil programi turleri mevcut?',
@@ -659,14 +659,14 @@
       'cp.blog.a1.cta2': 'Kayit adimlarini gor',
 
       'cp.blog.a2.meta.title':
-        'Filipinlerde Egitim ve Yasam Maliyeti 2026 | Korfez Ogrenci Butce Rehberi | YallaStudy',
+        'Filipinlerde Egitim ve Yasam Maliyeti 2026 | Suudi Ogrenci Butce Rehberi | YallaStudy',
       'cp.blog.a2.meta.description':
         'Filipinlerde egitim ve yasam maliyetlerini anlayin: okul ucretleri, konaklama, aylik giderler ve pratik tasarruf onerileri.',
       'cp.blog.a2.breadcrumb': 'Filipinlerde Egitim ve Yasam Maliyeti',
       'cp.blog.a2.h1': 'Filipinlerde Egitim ve Yasam Maliyeti 2026: Akilli butce nasil kurulur?',
       'cp.blog.a2.meta.updated': 'Guncelleme: 23 Subat 2026',
       'cp.blog.a2.meta.category': 'Kategori: Maliyet ve butce',
-      'cp.blog.a2.meta.audience': 'Hedef kitle: Suudi, Yemenli ve Korfez ogrencileri',
+      'cp.blog.a2.meta.audience': 'Hedef kitle: Suudi ogrenciler',
       'cp.blog.a2.p1':
         'En onemli soru gercek maliyettir. Surprizlerle karsilasmamak icin butceni seyahat oncesinde net kalemlere ayir.',
       'cp.blog.a2.s1.title': '1) Ana maliyet kalemleri',
@@ -699,7 +699,7 @@
       'cp.blog.a3.h1': 'En Iyi Akredite Dil Kurumlari: Kayit oncesi 7 kriter',
       'cp.blog.a3.meta.updated': 'Guncelleme: 23 Subat 2026',
       'cp.blog.a3.meta.category': 'Kategori: Kurum secimi',
-      'cp.blog.a3.meta.audience': 'Hedef kitle: Suudi Arabistan, Yemen, Korfez',
+      'cp.blog.a3.meta.audience': 'Hedef kitle: Suudi ogrenciler',
       'cp.blog.a3.p1':
         'Dogru soru genel olarak en iyi kurum degil, senin durumun icin en uygun kurumdur. Karar hedefe, butceye ve sureye baglidir.',
       'cp.blog.a3.s1.title': '1) Ihtiyacin olan programin gucu',
@@ -709,7 +709,7 @@
       'cp.blog.a3.s2.li1': 'Haftalik gercek ogretim saatini dogrula.',
       'cp.blog.a3.s2.li2': 'Ilerleme takibi ve raporlama sistemini sor.',
       'cp.blog.a3.s2.li3': 'Sinif mevcudu ve ogrenci oranini incele.',
-      'cp.blog.a3.s3.title': '3) Korfez ogrencileri icin uygun sehir',
+      'cp.blog.a3.s3.title': '3) Suudi ogrenciler icin uygun sehir',
       'cp.blog.a3.s3.p1':
         'Sehir secimi yasam tarzi, maliyet ve odagi etkiler. Bazi sehirler yogun egitim icin, bazilari daha hareketli bir ortam icin uygundur.',
       'cp.blog.a3.s4.title': '4) Konaklama ve destek hizmetleri',
