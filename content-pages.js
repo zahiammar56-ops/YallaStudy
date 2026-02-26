@@ -255,6 +255,111 @@
       'cp.blog.related.academic': 'Programmes académiques',
       'cp.blog.related.consulting': 'Conseil en admission',
 
+      'cp.blog.a1.meta.title':
+        'Étudier l\'anglais aux Philippines 2026 | Guide pour étudiants saoudiens et yéménites | YallaStudy',
+      'cp.blog.a1.meta.description':
+        'Guide complet pour étudier l\'anglais aux Philippines : programmes, durée, coûts et étapes d\'admission.',
+      'cp.blog.a1.breadcrumb': 'Étudier l\'anglais aux Philippines',
+      'cp.blog.a1.h1': 'Étudier l\'anglais aux Philippines 2026 : guide pratique avant l\'inscription',
+      'cp.blog.a1.meta.updated': 'Mise à jour : 23 février 2026',
+      'cp.blog.a1.meta.category': 'Catégorie : Études aux Philippines',
+      'cp.blog.a1.meta.audience': 'Public : Arabie saoudite, Yémen, Golfe',
+      'cp.blog.a1.p1':
+        'Étudier l\'anglais aux Philippines est un choix majeur grâce à un bon équilibre entre qualité et coût. Le résultat dépend du bon programme et du bon institut dès le départ.',
+      'cp.blog.a1.s1.title': '1) Quels types de programmes linguistiques sont disponibles ?',
+      'cp.blog.a1.s1.li1': 'Programme d\'anglais général pour renforcer les compétences de base.',
+      'cp.blog.a1.s1.li2': 'Programme intensif avec plus d\'heures quotidiennes.',
+      'cp.blog.a1.s1.li3': 'Préparation aux examens comme l\'IELTS.',
+      'cp.blog.a1.s1.li4': 'Programmes de langue académique pour les objectifs universitaires.',
+      'cp.blog.a1.s2.title': '2) Quelle durée d\'étude est adaptée ?',
+      'cp.blog.a1.s2.p1':
+        'La durée dépend de votre niveau actuel. La plupart des étudiants ont besoin de 3 à 6 mois pour des progrès nets. Pour une note d\'examen précise, le plan doit être plus détaillé.',
+      'cp.blog.a1.s3.title': '3) Comment choisir le bon institut ?',
+      'cp.blog.a1.s3.li1': 'Évaluez précisément le parcours dont vous avez besoin (général, intensif, académique).',
+      'cp.blog.a1.s3.li2': 'Comparez le coût total : scolarité + logement + dépenses mensuelles.',
+      'cp.blog.a1.s3.li3': 'Choisissez une ville adaptée à votre style de vie.',
+      'cp.blog.a1.s3.li4': 'Vérifiez l\'existence d\'un suivi académique régulier.',
+      'cp.blog.a1.s4.title': '4) Erreurs fréquentes avant l\'inscription',
+      'cp.blog.a1.s4.li1': 'Choisir uniquement selon le prix.',
+      'cp.blog.a1.s4.li2': 'Négliger les détails de logement et de transport.',
+      'cp.blog.a1.s4.li3': 'Commencer sans calendrier clair.',
+      'cp.blog.a1.s4.li4': 'Soumettre un dossier d\'admission incomplet.',
+      'cp.blog.a1.s5.title': '5) Quelle est la prochaine étape concrète ?',
+      'cp.blog.a1.s5.p1':
+        'Commencez par une consultation rapide pour définir le programme et l\'institut adaptés à votre profil. Ensuite, nous préparons le dossier et suivons l\'admission jusqu\'à l\'acceptation finale.',
+      'cp.blog.a1.cta1': 'Réserver une consultation d\'admission',
+      'cp.blog.a1.cta2': 'Voir les étapes d\'inscription',
+
+      'cp.blog.a2.meta.title':
+        'Coût des études et de la vie aux Philippines 2026 | Guide budget étudiant du Golfe | YallaStudy',
+      'cp.blog.a2.meta.description':
+        'Comprenez les coûts des études et de la vie aux Philippines : scolarité, logement, dépenses mensuelles et conseils d\'économie.',
+      'cp.blog.a2.breadcrumb': 'Coût des études et de la vie aux Philippines',
+      'cp.blog.a2.h1': 'Coût des études et de la vie aux Philippines 2026 : comment construire un budget intelligent',
+      'cp.blog.a2.meta.updated': 'Mise à jour : 23 février 2026',
+      'cp.blog.a2.meta.category': 'Catégorie : Coûts et budget',
+      'cp.blog.a2.meta.audience': 'Public : étudiants saoudiens, yéménites et du Golfe',
+      'cp.blog.a2.p1':
+        'La question principale est le coût réel. Pour éviter les surprises, répartissez votre budget en postes clairs avant le voyage.',
+      'cp.blog.a2.s1.title': '1) Principaux postes de coût',
+      'cp.blog.a2.s1.li1': 'Frais de l\'institut et du programme.',
+      'cp.blog.a2.s1.li2': 'Logement : options internes ou externes proches.',
+      'cp.blog.a2.s1.li3': 'Dépenses quotidiennes : nourriture, transport, internet et besoins personnels.',
+      'cp.blog.a2.s1.li4': 'Coûts avant voyage : billet, assurance et frais administratifs.',
+      'cp.blog.a2.s2.title': '2) Comment réduire les coûts sans perdre en qualité',
+      'cp.blog.a2.s2.li1': 'Choisissez un programme adapté à votre objectif réel.',
+      'cp.blog.a2.s2.li2': 'Comparez les villes, pas seulement les instituts.',
+      'cp.blog.a2.s2.li3': 'Fixez une durée réaliste selon votre niveau.',
+      'cp.blog.a2.s2.li4': 'Profitez de recommandations basées sur des résultats réels d\'étudiants.',
+      'cp.blog.a2.s3.title': '3) Exemple de structure de budget mensuel',
+      'cp.blog.a2.s3.p1':
+        'Divisez votre budget en trois parties : scolarité, logement et dépenses quotidiennes. Vous obtenez ainsi une fourchette minimale et moyenne claire avant l\'inscription.',
+      'cp.blog.a2.s4.title': '4) Quand les Philippines sont-elles une meilleure option en valeur ?',
+      'cp.blog.a2.s4.p1':
+        'Souvent lorsque votre objectif est d\'améliorer la langue plus vite avec une étude intensive et un coût de vie gérable comparé à d\'autres destinations.',
+      'cp.blog.a2.s5.title': '5) Prochaine étape',
+      'cp.blog.a2.s5.p1':
+        'Envoyez votre budget et votre objectif, et nous proposerons 2 à 3 instituts adaptés avec un coût détaillé avant de commencer.',
+      'cp.blog.a2.cta1': 'Demander un plan budget et admission',
+      'cp.blog.a2.cta2': 'Lire l\'article sur les meilleurs instituts',
+
+      'cp.blog.a3.meta.title':
+        'Meilleurs instituts de langue accrédités aux Philippines 2026 | Comment choisir le bon ? | YallaStudy',
+      'cp.blog.a3.meta.description':
+        'Apprenez à choisir le meilleur institut de langue accrédité aux Philippines selon la qualité du programme, le logement, la ville et le coût.',
+      'cp.blog.a3.breadcrumb': 'Meilleurs instituts de langue accrédités aux Philippines',
+      'cp.blog.a3.h1': 'Meilleurs instituts de langue accrédités : 7 critères avant l\'inscription',
+      'cp.blog.a3.meta.updated': 'Mise à jour : 23 février 2026',
+      'cp.blog.a3.meta.category': 'Catégorie : Choix de l\'institut',
+      'cp.blog.a3.meta.audience': 'Public : Arabie saoudite, Yémen, Golfe',
+      'cp.blog.a3.p1':
+        'La vraie question n\'est pas le meilleur institut en général, mais celui qui convient à votre cas. La décision dépend de l\'objectif, du budget et de la durée.',
+      'cp.blog.a3.s1.title': '1) Force du programme dont vous avez besoin',
+      'cp.blog.a3.s1.p1':
+        'Certains instituts sont plus forts en anglais général, d\'autres en IELTS ou en parcours académiques. Définissez d\'abord votre objectif.',
+      'cp.blog.a3.s2.title': '2) Volume horaire et qualité du suivi',
+      'cp.blog.a3.s2.li1': 'Vérifiez le nombre réel d\'heures d\'enseignement par semaine.',
+      'cp.blog.a3.s2.li2': 'Demandez comment sont suivis les progrès et les rapports.',
+      'cp.blog.a3.s2.li3': 'Examinez la taille des classes et le ratio étudiants.',
+      'cp.blog.a3.s3.title': '3) Ville adaptée aux étudiants du Golfe',
+      'cp.blog.a3.s3.p1':
+        'Le choix de la ville influence le mode de vie, le coût et la concentration. Certaines villes conviennent mieux à une étude intensive, d\'autres à un cadre plus actif.',
+      'cp.blog.a3.s4.title': '4) Logement et services d\'accompagnement',
+      'cp.blog.a3.s4.li1': 'Options de logement interne et externe.',
+      'cp.blog.a3.s4.li2': 'Niveau de sécurité et distance de l\'institut.',
+      'cp.blog.a3.s4.li3': 'Disponibilité d\'internet et des services essentiels.',
+      'cp.blog.a3.s5.title': '5) Coût total, pas seulement les frais de scolarité',
+      'cp.blog.a3.s5.p1':
+        'Comparer le coût mensuel complet donne une décision plus précise et évite les surprises après l\'arrivée.',
+      'cp.blog.a3.s6.title': '6) Avis et expériences des étudiants',
+      'cp.blog.a3.s6.p1':
+        'Les avis sont utiles, mais il faut les lire selon vos objectifs, car une solution ne convient pas à tous.',
+      'cp.blog.a3.s7.title': '7) Plan d\'admission clair avant paiement',
+      'cp.blog.a3.s7.p1':
+        'Ne commencez aucun processus sans plan écrit incluant programme, coût et calendrier d\'inscription.',
+      'cp.blog.a3.cta1': 'Commencer l\'inscription dans le bon institut',
+      'cp.blog.a3.cta2': 'Réserver une consultation de choix d\'institut',
+
       'cp.page.registration.meta.title': 'Inscription en institut de langue pour les Saoudiens | YallaStudy',
       'cp.page.registration.meta.description':
         'Accompagnement complet pour l inscription en instituts de langue aux Philippines pour les etudiants saoudiens.',
@@ -334,6 +439,111 @@
       'cp.blog.related.academic': 'Programas académicos',
       'cp.blog.related.consulting': 'Consultoría de admisión',
 
+      'cp.blog.a1.meta.title':
+        'Estudiar inglés en Filipinas 2026 | Guía para estudiantes saudíes y yemeníes | YallaStudy',
+      'cp.blog.a1.meta.description':
+        'Guía completa para estudiar inglés en Filipinas: programas, duración, costos y pasos de admisión.',
+      'cp.blog.a1.breadcrumb': 'Estudiar inglés en Filipinas',
+      'cp.blog.a1.h1': 'Estudiar inglés en Filipinas 2026: guía práctica antes de registrarte',
+      'cp.blog.a1.meta.updated': 'Actualizado: 23 de febrero de 2026',
+      'cp.blog.a1.meta.category': 'Categoría: Estudiar en Filipinas',
+      'cp.blog.a1.meta.audience': 'Público: Arabia Saudita, Yemen y Golfo',
+      'cp.blog.a1.p1':
+        'Estudiar inglés en Filipinas es una opción líder por su equilibrio entre calidad y costo. El resultado depende de elegir el programa y el instituto correctos desde el inicio.',
+      'cp.blog.a1.s1.title': '1) ¿Qué tipos de programas de idioma hay?',
+      'cp.blog.a1.s1.li1': 'Programa de inglés general para fortalecer habilidades base.',
+      'cp.blog.a1.s1.li2': 'Programa intensivo con más horas diarias.',
+      'cp.blog.a1.s1.li3': 'Ruta de preparación de exámenes como IELTS.',
+      'cp.blog.a1.s1.li4': 'Programas de idioma académico para metas universitarias.',
+      'cp.blog.a1.s2.title': '2) ¿Qué duración de estudio es adecuada?',
+      'cp.blog.a1.s2.p1':
+        'La duración depende de tu nivel actual. La mayoría de estudiantes necesita entre 3 y 6 meses para un avance claro. Si buscas una puntuación específica, el plan debe ser más preciso.',
+      'cp.blog.a1.s3.title': '3) ¿Cómo eliges el instituto adecuado?',
+      'cp.blog.a1.s3.li1': 'Evalúa la ruta exacta que necesitas (general, intensiva o académica).',
+      'cp.blog.a1.s3.li2': 'Compara el costo total: matrícula + alojamiento + gastos mensuales.',
+      'cp.blog.a1.s3.li3': 'Elige una ciudad que encaje con tu estilo de vida.',
+      'cp.blog.a1.s3.li4': 'Confirma que exista seguimiento académico regular.',
+      'cp.blog.a1.s4.title': '4) Errores comunes antes del registro',
+      'cp.blog.a1.s4.li1': 'Elegir solo por precio.',
+      'cp.blog.a1.s4.li2': 'Ignorar detalles de alojamiento y transporte.',
+      'cp.blog.a1.s4.li3': 'Empezar sin una línea de tiempo clara.',
+      'cp.blog.a1.s4.li4': 'Enviar un expediente de admisión incompleto.',
+      'cp.blog.a1.s5.title': '5) ¿Cuál es el siguiente paso práctico?',
+      'cp.blog.a1.s5.p1':
+        'Empieza con una consulta rápida para definir el programa y el instituto más adecuados para tu caso. Luego preparamos tu expediente y hacemos seguimiento hasta la aceptación final.',
+      'cp.blog.a1.cta1': 'Reservar consulta de admisión',
+      'cp.blog.a1.cta2': 'Ver pasos de registro',
+
+      'cp.blog.a2.meta.title':
+        'Costo de estudio y vida en Filipinas 2026 | Guía de presupuesto para estudiantes del Golfo | YallaStudy',
+      'cp.blog.a2.meta.description':
+        'Comprende los costos de estudio y vida en Filipinas: matrícula, alojamiento, gastos mensuales y consejos prácticos de ahorro.',
+      'cp.blog.a2.breadcrumb': 'Costo de estudio y vida en Filipinas',
+      'cp.blog.a2.h1': 'Costo de estudio y vida en Filipinas 2026: cómo crear un presupuesto inteligente',
+      'cp.blog.a2.meta.updated': 'Actualizado: 23 de febrero de 2026',
+      'cp.blog.a2.meta.category': 'Categoría: Costos y presupuesto',
+      'cp.blog.a2.meta.audience': 'Público: estudiantes saudíes, yemeníes y del Golfo',
+      'cp.blog.a2.p1':
+        'La pregunta principal es el costo real. Para evitar sorpresas, divide tu presupuesto en partidas claras antes del viaje.',
+      'cp.blog.a2.s1.title': '1) Componentes principales del costo',
+      'cp.blog.a2.s1.li1': 'Cuotas del instituto y del programa.',
+      'cp.blog.a2.s1.li2': 'Alojamiento: opciones internas o externas cercanas.',
+      'cp.blog.a2.s1.li3': 'Gastos diarios: comida, transporte, internet y necesidades personales.',
+      'cp.blog.a2.s1.li4': 'Costos previos al viaje: boleto, seguro y cargos administrativos.',
+      'cp.blog.a2.s2.title': '2) Cómo reducir costos sin perder calidad',
+      'cp.blog.a2.s2.li1': 'Elige un programa alineado con tu objetivo real.',
+      'cp.blog.a2.s2.li2': 'Compara ciudades, no solo institutos.',
+      'cp.blog.a2.s2.li3': 'Define una duración realista según tu nivel.',
+      'cp.blog.a2.s2.li4': 'Usa recomendaciones basadas en resultados reales de estudiantes.',
+      'cp.blog.a2.s3.title': '3) Ejemplo de estructura de presupuesto mensual',
+      'cp.blog.a2.s3.p1':
+        'Divide el presupuesto en tres partes: matrícula, alojamiento y gastos diarios. Así tendrás un rango mínimo y promedio claro antes de inscribirte.',
+      'cp.blog.a2.s4.title': '4) ¿Cuándo Filipinas es una opción de mejor valor?',
+      'cp.blog.a2.s4.p1':
+        'Normalmente cuando tu objetivo es mejorar más rápido el idioma con estudio intensivo y un costo de vida manejable frente a otros destinos.',
+      'cp.blog.a2.s5.title': '5) Siguiente paso',
+      'cp.blog.a2.s5.p1':
+        'Envíanos tu presupuesto y objetivo, y te propondremos 2 o 3 institutos adecuados con un desglose claro de costos antes de empezar.',
+      'cp.blog.a2.cta1': 'Solicitar plan de presupuesto y admisión',
+      'cp.blog.a2.cta2': 'Leer artículo de mejores institutos',
+
+      'cp.blog.a3.meta.title':
+        'Mejores institutos acreditados de idiomas en Filipinas 2026 | ¿Cómo elegir el adecuado? | YallaStudy',
+      'cp.blog.a3.meta.description':
+        'Aprende a elegir el mejor instituto acreditado de idiomas en Filipinas según calidad del programa, alojamiento, ciudad y costo.',
+      'cp.blog.a3.breadcrumb': 'Mejores institutos acreditados de idiomas en Filipinas',
+      'cp.blog.a3.h1': 'Mejores institutos acreditados: 7 criterios antes del registro',
+      'cp.blog.a3.meta.updated': 'Actualizado: 23 de febrero de 2026',
+      'cp.blog.a3.meta.category': 'Categoría: Selección de instituto',
+      'cp.blog.a3.meta.audience': 'Público: Arabia Saudita, Yemen y Golfo',
+      'cp.blog.a3.p1':
+        'La pregunta correcta no es cuál es el mejor instituto en general, sino cuál es el mejor para tu caso. La decisión depende de objetivo, presupuesto y duración.',
+      'cp.blog.a3.s1.title': '1) Fortaleza del programa que necesitas',
+      'cp.blog.a3.s1.p1':
+        'Algunos institutos son más fuertes en inglés general y otros en IELTS o rutas académicas. Define tu objetivo primero.',
+      'cp.blog.a3.s2.title': '2) Horas de estudio y calidad del seguimiento',
+      'cp.blog.a3.s2.li1': 'Verifica las horas reales de enseñanza por semana.',
+      'cp.blog.a3.s2.li2': 'Pregunta por el sistema de seguimiento del progreso y reportes.',
+      'cp.blog.a3.s2.li3': 'Revisa tamaño de clase y proporción de estudiantes.',
+      'cp.blog.a3.s3.title': '3) Ciudad adecuada para estudiantes del Golfo',
+      'cp.blog.a3.s3.p1':
+        'La ciudad impacta en estilo de vida, costo y concentración. Algunas ciudades son mejores para estudio intensivo y otras para un entorno más activo.',
+      'cp.blog.a3.s4.title': '4) Alojamiento y servicios de apoyo',
+      'cp.blog.a3.s4.li1': 'Opciones de alojamiento interno y externo.',
+      'cp.blog.a3.s4.li2': 'Nivel de seguridad y distancia al instituto.',
+      'cp.blog.a3.s4.li3': 'Disponibilidad de internet y servicios esenciales.',
+      'cp.blog.a3.s5.title': '5) Costo total, no solo matrícula',
+      'cp.blog.a3.s5.p1':
+        'Comparar el costo mensual completo te da una decisión más precisa y evita sorpresas tras el viaje.',
+      'cp.blog.a3.s6.title': '6) Reseñas y experiencias de estudiantes',
+      'cp.blog.a3.s6.p1':
+        'Las reseñas ayudan, pero deben evaluarse según tus objetivos, porque una solución no sirve para todos.',
+      'cp.blog.a3.s7.title': '7) Plan de admisión claro antes de pagar',
+      'cp.blog.a3.s7.p1':
+        'No inicies ningún trámite sin un plan escrito que incluya programa, costo y cronograma de registro.',
+      'cp.blog.a3.cta1': 'Iniciar registro en el instituto adecuado',
+      'cp.blog.a3.cta2': 'Reservar consulta para elegir instituto',
+
       'cp.page.registration.meta.title': 'Registro en institutos de idioma para saudies | YallaStudy',
       'cp.page.registration.meta.description':
         'Acompanamiento completo para registrar estudiantes saudies en institutos de idioma en Filipinas.',
@@ -412,6 +622,111 @@
       'cp.blog.related.registration': 'Kurum kaydi',
       'cp.blog.related.academic': 'Akademik programlar',
       'cp.blog.related.consulting': 'Kabul danismanligi',
+
+      'cp.blog.a1.meta.title':
+        'Filipinlerde Ingilizce Egitimi 2026 | Suudi ve Yemenli Ogrenciler icin Rehber | YallaStudy',
+      'cp.blog.a1.meta.description':
+        'Filipinlerde Ingilizce egitimi icin kapsamli rehber: programlar, sure, maliyet ve kabul adimlari.',
+      'cp.blog.a1.breadcrumb': 'Filipinlerde Ingilizce Egitimi',
+      'cp.blog.a1.h1': 'Filipinlerde Ingilizce Egitimi 2026: Kayit oncesi pratik rehber',
+      'cp.blog.a1.meta.updated': 'Guncelleme: 23 Subat 2026',
+      'cp.blog.a1.meta.category': 'Kategori: Filipinlerde egitim',
+      'cp.blog.a1.meta.audience': 'Hedef kitle: Suudi Arabistan, Yemen, Korfez',
+      'cp.blog.a1.p1':
+        'Filipinlerde Ingilizce egitimi, kalite ve maliyet dengesi nedeniyle en cok tercih edilen seceneklerden biridir. Sonuc, en basindan dogru program ve kurumu secmeye baglidir.',
+      'cp.blog.a1.s1.title': '1) Hangi dil programi turleri mevcut?',
+      'cp.blog.a1.s1.li1': 'Temel becerileri guclendiren genel Ingilizce programi.',
+      'cp.blog.a1.s1.li2': 'Gunluk ders saatleri daha yuksek olan yogun program.',
+      'cp.blog.a1.s1.li3': 'IELTS gibi sinavlara hazirlik rotasi.',
+      'cp.blog.a1.s1.li4': 'Universite hedefleri icin akademik dil programlari.',
+      'cp.blog.a1.s2.title': '2) Uygun egitim suresi nedir?',
+      'cp.blog.a1.s2.p1':
+        'Sure mevcut seviyene baglidir. Cogu ogrenci belirgin ilerleme icin 3 ile 6 ay arasi sureye ihtiyac duyar. Belirli bir sinav puani hedefleniyorsa planlama daha detayli olmalidir.',
+      'cp.blog.a1.s3.title': '3) Dogru kurum nasil secilir?',
+      'cp.blog.a1.s3.li1': 'Ihtiyacin olan programi net olarak degerlendir (genel, yogun, akademik).',
+      'cp.blog.a1.s3.li2': 'Toplam maliyeti karsilastir: okul ucreti + konaklama + aylik giderler.',
+      'cp.blog.a1.s3.li3': 'Yasam tarzina uygun bir sehir sec.',
+      'cp.blog.a1.s3.li4': 'Duzenli akademik takip oldugunu dogrula.',
+      'cp.blog.a1.s4.title': '4) Kayit oncesi yaygin hatalar',
+      'cp.blog.a1.s4.li1': 'Sadece fiyata gore secim yapmak.',
+      'cp.blog.a1.s4.li2': 'Konaklama ve ulasim detaylarini goz ardi etmek.',
+      'cp.blog.a1.s4.li3': 'Net bir zaman plani olmadan baslamak.',
+      'cp.blog.a1.s4.li4': 'Eksik kabul dosyasi gondermek.',
+      'cp.blog.a1.s5.title': '5) Pratik olarak sonraki adim nedir?',
+      'cp.blog.a1.s5.p1':
+        'Durumuna uygun program ve kurumu belirlemek icin hizli bir danismanlikla basla. Ardindan dosyani hazirlayip nihai kabule kadar sureci takip ediyoruz.',
+      'cp.blog.a1.cta1': 'Kabul danismanligi al',
+      'cp.blog.a1.cta2': 'Kayit adimlarini gor',
+
+      'cp.blog.a2.meta.title':
+        'Filipinlerde Egitim ve Yasam Maliyeti 2026 | Korfez Ogrenci Butce Rehberi | YallaStudy',
+      'cp.blog.a2.meta.description':
+        'Filipinlerde egitim ve yasam maliyetlerini anlayin: okul ucretleri, konaklama, aylik giderler ve pratik tasarruf onerileri.',
+      'cp.blog.a2.breadcrumb': 'Filipinlerde Egitim ve Yasam Maliyeti',
+      'cp.blog.a2.h1': 'Filipinlerde Egitim ve Yasam Maliyeti 2026: Akilli butce nasil kurulur?',
+      'cp.blog.a2.meta.updated': 'Guncelleme: 23 Subat 2026',
+      'cp.blog.a2.meta.category': 'Kategori: Maliyet ve butce',
+      'cp.blog.a2.meta.audience': 'Hedef kitle: Suudi, Yemenli ve Korfez ogrencileri',
+      'cp.blog.a2.p1':
+        'En onemli soru gercek maliyettir. Surprizlerle karsilasmamak icin butceni seyahat oncesinde net kalemlere ayir.',
+      'cp.blog.a2.s1.title': '1) Ana maliyet kalemleri',
+      'cp.blog.a2.s1.li1': 'Kurum ve program ucretleri.',
+      'cp.blog.a2.s1.li2': 'Konaklama: kurum ici veya yakin kurum disi secenekler.',
+      'cp.blog.a2.s1.li3': 'Gunluk giderler: yemek, ulasim, internet ve kisisel ihtiyaclar.',
+      'cp.blog.a2.s1.li4': 'Seyahat oncesi giderler: bilet, sigorta ve idari ucretler.',
+      'cp.blog.a2.s2.title': '2) Kaliteden odun vermeden maliyet nasil dusurulur?',
+      'cp.blog.a2.s2.li1': 'Gercek hedefinle uyumlu bir program sec.',
+      'cp.blog.a2.s2.li2': 'Sadece kurumu degil sehri de karsilastir.',
+      'cp.blog.a2.s2.li3': 'Seviyene gore gercekci bir sure belirle.',
+      'cp.blog.a2.s2.li4': 'Gercek ogrenci sonuclarina dayali onerilerden yararlan.',
+      'cp.blog.a2.s3.title': '3) Ornek aylik butce yapisi',
+      'cp.blog.a2.s3.p1':
+        'Butceni uc bolume ayir: okul ucreti, konaklama ve gunluk giderler. Boylece kayit oncesinde net bir minimum ve ortalama aralik gorursun.',
+      'cp.blog.a2.s4.title': '4) Filipinler ne zaman daha avantajli bir secenek olur?',
+      'cp.blog.a2.s4.p1':
+        'Genellikle hedefin yogun egitimle daha hizli dil gelisimi ve diger destinasyonlara gore yonetilebilir yasam maliyeti oldugunda.',
+      'cp.blog.a2.s5.title': '5) Sonraki adim',
+      'cp.blog.a2.s5.p1':
+        'Butceni ve hedefini bize gonder; baslamadan once 2-3 uygun kurum ve net maliyet dagilimi onerecegiz.',
+      'cp.blog.a2.cta1': 'Butce ve kabul plani iste',
+      'cp.blog.a2.cta2': 'En iyi kurumlar makalesini oku',
+
+      'cp.blog.a3.meta.title':
+        'Filipinlerde En Iyi Akredite Dil Kurumlari 2026 | Dogru kurum nasil secilir? | YallaStudy',
+      'cp.blog.a3.meta.description':
+        'Program kalitesi, konaklama, sehir ve maliyete gore Filipinlerde en iyi akredite dil kurumunu nasil sececeginizi ogrenin.',
+      'cp.blog.a3.breadcrumb': 'Filipinlerde En Iyi Akredite Dil Kurumlari',
+      'cp.blog.a3.h1': 'En Iyi Akredite Dil Kurumlari: Kayit oncesi 7 kriter',
+      'cp.blog.a3.meta.updated': 'Guncelleme: 23 Subat 2026',
+      'cp.blog.a3.meta.category': 'Kategori: Kurum secimi',
+      'cp.blog.a3.meta.audience': 'Hedef kitle: Suudi Arabistan, Yemen, Korfez',
+      'cp.blog.a3.p1':
+        'Dogru soru genel olarak en iyi kurum degil, senin durumun icin en uygun kurumdur. Karar hedefe, butceye ve sureye baglidir.',
+      'cp.blog.a3.s1.title': '1) Ihtiyacin olan programin gucu',
+      'cp.blog.a3.s1.p1':
+        'Bazi kurumlar genel Ingilizcede, bazilari IELTS veya akademik rotalarda daha gucludur. Once hedefini netlestir.',
+      'cp.blog.a3.s2.title': '2) Ders saati ve takip kalitesi',
+      'cp.blog.a3.s2.li1': 'Haftalik gercek ogretim saatini dogrula.',
+      'cp.blog.a3.s2.li2': 'Ilerleme takibi ve raporlama sistemini sor.',
+      'cp.blog.a3.s2.li3': 'Sinif mevcudu ve ogrenci oranini incele.',
+      'cp.blog.a3.s3.title': '3) Korfez ogrencileri icin uygun sehir',
+      'cp.blog.a3.s3.p1':
+        'Sehir secimi yasam tarzi, maliyet ve odagi etkiler. Bazi sehirler yogun egitim icin, bazilari daha hareketli bir ortam icin uygundur.',
+      'cp.blog.a3.s4.title': '4) Konaklama ve destek hizmetleri',
+      'cp.blog.a3.s4.li1': 'Kurum ici ve kurum disi konaklama secenekleri.',
+      'cp.blog.a3.s4.li2': 'Guvenlik seviyesi ve kuruma uzaklik.',
+      'cp.blog.a3.s4.li3': 'Internet ve temel hizmetlerin uygunlugu.',
+      'cp.blog.a3.s5.title': '5) Sadece okul ucreti degil toplam maliyet',
+      'cp.blog.a3.s5.p1':
+        'Aylik toplam maliyeti karsilastirmak daha dogru karar verir ve varistan sonra surprizleri onler.',
+      'cp.blog.a3.s6.title': '6) Yorumlar ve ogrenci deneyimleri',
+      'cp.blog.a3.s6.p1':
+        'Yorumlar faydalidir ancak kendi hedeflerinle birlikte degerlendirilmelidir; tek bir cozum herkese uymaz.',
+      'cp.blog.a3.s7.title': '7) Odemeden once net kabul plani',
+      'cp.blog.a3.s7.p1':
+        'Program, maliyet ve kayit takvimini iceren yazili bir plan olmadan hicbir surece baslama.',
+      'cp.blog.a3.cta1': 'Dogru kurumla kayda basla',
+      'cp.blog.a3.cta2': 'Kurum secimi danismanligi al',
 
       'cp.page.registration.meta.title': 'Suudi ogrenciler icin dil kurumu kaydi | YallaStudy',
       'cp.page.registration.meta.description':
