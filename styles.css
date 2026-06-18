@@ -1342,8 +1342,6 @@ body.is-ltr .proof-list li::before {
 .feedback-slider {
   --feedback-visible: 3;
   --feedback-gap: var(--space-5);
-  display: flex;
-  justify-content: center;
   overflow: hidden;
   border-radius: 0;
   box-shadow: none;
@@ -1362,7 +1360,7 @@ body.is-ltr .proof-list li::before {
   gap: var(--feedback-gap);
   align-items: center;
   transition: transform 0.8s ease;
-  will-change: transform;
+  will-change: transform 0.4s ease;
   direction: ltr;
 }
 
