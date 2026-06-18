@@ -1340,7 +1340,7 @@ body.is-ltr .proof-list li::before {
 }
 
 .feedback-slider {
-  --feedback-visible: 3;
+  --feedback-visible: 6;
   --feedback-gap: var(--space-5);
   overflow: hidden;
   border-radius: 0;
@@ -1360,8 +1360,8 @@ body.is-ltr .proof-list li::before {
   gap: var(--feedback-gap);
   align-items: center;
   transition: transform 0.8s ease;
-  will-change: transform 0.4s ease;
-  direction: ltr;
+  will-change: transform 0.4s;
+ direction: ltr;
 }
 
 .feedback-card {
