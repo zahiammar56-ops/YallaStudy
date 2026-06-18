@@ -1342,6 +1342,8 @@ body.is-ltr .proof-list li::before {
 .feedback-slider {
   --feedback-visible: 3;
   --feedback-gap: var(--space-5);
+  display: flex;
+  justify-content: center;
   overflow: hidden;
   border-radius: 0;
   box-shadow: none;
@@ -1359,8 +1361,8 @@ body.is-ltr .proof-list li::before {
   display: flex;
   gap: var(--feedback-gap);
   align-items: center;
-  transition: transform 0.6s ease;
-  will-change: transform;
+  transition: transform 0.8s ease;
+  will-change: auto;
   direction: ltr;
 }
 
@@ -1463,6 +1465,7 @@ body.is-ltr .proof-list li::before {
     height: 200px;
   }
 }
+
 .site-footer {
   background: var(--color-primary-dark);
   color: #fff;
