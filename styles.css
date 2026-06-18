@@ -1340,7 +1340,7 @@ body.is-ltr .proof-list li::before {
 }
 
 .feedback-slider {
-  --feedback-visible: 6;
+  --feedback-visible: 3;
   --feedback-gap: var(--space-5);
   overflow: hidden;
   border-radius: 0;
@@ -1405,6 +1405,38 @@ body.is-ltr .proof-list li::before {
 
 .feedback-card:nth-child(4n) img {
   animation-delay: 3.6s;
+}
+
+.feedback-card:nth-child(5n) img {
+  animation-delay: 5.8s;
+}
+
+.feedback-card:nth-child(6n) img {
+  animation-delay: 7s;
+}
+
+.feedback-card:nth-child(7n) img {
+  animation-delay: 8.2s;
+}
+
+.feedback-card:nth-child(8n) img {
+  animation-delay: 9.4s;
+}
+
+.feedback-card:nth-child(9n) img {
+  animation-delay: 10.6s;
+}
+
+.feedback-card:nth-child(10n) img {
+  animation-delay: 11.8s;
+}
+
+.feedback-card:nth-child(11n) img {
+  animation-delay: 13s;
+}
+
+.feedback-card:nth-child(12n) img {
+  animation-delay: 14.2s;
 }
 
 @keyframes feedback-scale {
