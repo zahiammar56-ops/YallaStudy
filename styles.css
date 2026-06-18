@@ -1340,7 +1340,7 @@ body.is-ltr .proof-list li::before {
 }
 
 .feedback-slider {
-  --feedback-visible: 3;
+  --feedback-visible: 6;
   --feedback-gap: var(--space-5);
   overflow: hidden;
   border-radius: 0;
