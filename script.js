@@ -1395,11 +1395,12 @@ if (feedbackSlider && feedbackTrack) {
     const gap = Number.parseFloat(trackStyles.gap) || 0;
     const visibleVar = getComputedStyle(feedbackSlider).getPropertyValue('--feedback-visible').trim();
     const visibleParsed = Number.parseInt(visibleVar, 10);
-    const slideWidth = baseSlides[0].getBoundingClientRect().width;
     const containerWidth = feedbackSlider.getBoundingClientRect().width;
-    const visibleCount = Number.isNaN(visibleParsed) || visibleParsed <= 0
-      ? Math.max(1, Math.round(containerWidth / (slideWidth + gap)))
+    const fallbackSlideWidth = baseSlides[0].getBoundingClientRect().width;
+    const visibleCountRaw = Number.isNaN(visibleParsed) || visibleParsed <= 0
+      ? Math.max(1, Math.round(containerWidth / (fallbackSlideWidth + gap)))
       : visibleParsed;
+    const visibleCount = Math.max(1, Math.min(visibleCountRaw, baseSlides.length));
     const cloneCount = Math.min(visibleCount, baseSlides.length);
 
     const prepend = baseSlides.slice(-cloneCount).map((slide) => {
@@ -1426,6 +1427,14 @@ if (feedbackSlider && feedbackTrack) {
     const allSlides = Array.from(feedbackTrack.children);
     let index = cloneCount;
     let timer = null;
+    let resetTimer = null;
+    const transitionDuration = 600;
+
+    const getSlideStep = () => {
+      const currentGap = Number.parseFloat(getComputedStyle(feedbackTrack).gap) || gap;
+      const currentWidth = baseSlides[0].getBoundingClientRect().width || fallbackSlideWidth;
+      return currentWidth + currentGap;
+    };
 
     const updateCenter = () => {
       allSlides.forEach((slide) => slide.classList.remove('is-center'));
@@ -1436,18 +1445,13 @@ if (feedbackSlider && feedbackTrack) {
     };
 
     const setPosition = (animate = true) => {
-      const shift = (slideWidth + gap) * index;
+      const shift = getSlideStep() * index;
       feedbackTrack.style.transition = animate ? 'transform 0.6s ease' : 'none';
       feedbackTrack.style.transform = `translateX(${-shift}px)`;
       updateCenter();
     };
 
-    const step = () => {
-      index += 1;
-      setPosition(true);
-    };
-
-    const handleTransitionEnd = () => {
+    const normalizePosition = () => {
       if (index >= baseSlides.length + cloneCount) {
         index = cloneCount;
         setPosition(false);
@@ -1458,15 +1462,33 @@ if (feedbackSlider && feedbackTrack) {
       }
     };
 
+    const queueNormalize = () => {
+      if (resetTimer) clearTimeout(resetTimer);
+      resetTimer = setTimeout(normalizePosition, transitionDuration + 80);
+    };
+
+    const step = () => {
+      index -= 1;
+      setPosition(true);
+      queueNormalize();
+    };
+
+    const handleTransitionEnd = (event) => {
+      if (event.target !== feedbackTrack || event.propertyName !== 'transform') return;
+      if (resetTimer) clearTimeout(resetTimer);
+      normalizePosition();
+    };
+
     feedbackTrack.addEventListener('transitionend', handleTransitionEnd);
     setPosition(false);
 
-    if (!prefersReducedMotion.matches) {
+    if (baseSlides.length > visibleCount) {
       timer = setInterval(step, 2800);
     }
 
     return () => {
       if (timer) clearInterval(timer);
+      if (resetTimer) clearTimeout(resetTimer);
       feedbackTrack.removeEventListener('transitionend', handleTransitionEnd);
     };
   };

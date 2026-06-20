@@ -747,6 +747,53 @@ body.is-ltr .lang-switcher select {
   color: rgba(255, 255, 255, 0.7);
 }
 
+.offers-entry {
+  position: relative;
+  z-index: 2;
+  margin-top: calc(var(--space-5) * -1);
+  padding: 0 0 var(--space-6);
+}
+
+.offers-entry-card {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: center;
+  gap: var(--space-4);
+  background: var(--color-surface);
+  border: 1px solid rgba(247, 121, 1, 0.22);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-md);
+  padding: var(--space-4);
+}
+
+.offers-entry-copy {
+  display: grid;
+  gap: var(--space-1);
+}
+
+.offers-entry-badge {
+  width: fit-content;
+  padding: 4px 12px;
+  border-radius: 999px;
+  background: rgba(247, 121, 1, 0.14);
+  color: var(--color-accent);
+  font-weight: 800;
+  font-size: 0.86rem;
+}
+
+.offers-entry h2 {
+  font-size: clamp(1.35rem, 2.4vw, 2rem);
+  color: var(--color-primary-dark);
+}
+
+.offers-entry p {
+  max-width: 680px;
+}
+
+.offers-entry-btn {
+  white-space: nowrap;
+}
+
 .stats-strip {
   background: var(--color-primary);
   color: #fff;
@@ -1359,9 +1406,9 @@ body.is-ltr .proof-list li::before {
   display: flex;
   gap: var(--feedback-gap);
   align-items: center;
-  transition: transform 0.8s ease;
-  will-change: transform 0.4s;
- direction: ltr;
+  transition: transform 0.6s ease;
+  will-change: transform;
+  direction: ltr;
 }
 
 .feedback-card {
@@ -1702,6 +1749,21 @@ body.is-ltr .proof-list li::before {
 
   .hero-content {
     padding: var(--space-6) 0 var(--space-7);
+  }
+
+  .offers-entry {
+    margin-top: calc(var(--space-4) * -1);
+    padding-bottom: var(--space-4);
+  }
+
+  .offers-entry-card {
+    grid-template-columns: 1fr;
+    text-align: center;
+    padding: var(--space-3);
+  }
+
+  .offers-entry-badge {
+    margin-inline: auto;
   }
 
   .btn {

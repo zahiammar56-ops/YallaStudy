@@ -1,0 +1,829 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="عروض يالاستادي الحصرية للطلاب السعوديين لدراسة اللغة الإنجليزية في الفلبين مع باقات شاملة ومميزات محدودة."
+    />
+    <title>عروض دراسة اللغة الإنجليزية في الفلبين | YallaStudy</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      :root {
+        --blue-950: #061a33;
+        --blue-900: #082247;
+        --blue-800: #0a376d;
+        --blue-700: #036ec0;
+        --orange-600: #f77901;
+        --orange-500: #ff8a1d;
+        --orange-100: #fff0df;
+        --white: #ffffff;
+        --off-white: #f7fbff;
+        --text: #102033;
+        --muted: #617187;
+        --border: rgba(8, 34, 71, 0.12);
+        --shadow-sm: 0 12px 28px rgba(6, 26, 51, 0.1);
+        --shadow-md: 0 22px 55px rgba(6, 26, 51, 0.16);
+        --shadow-orange: 0 18px 38px rgba(247, 121, 1, 0.34);
+        --radius: 24px;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      html {
+        scroll-behavior: smooth;
+      }
+
+      body {
+        margin: 0;
+        font-family: "Cairo", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        color: var(--text);
+        background: var(--off-white);
+        line-height: 1.75;
+        text-align: right;
+      }
+
+      a {
+        color: inherit;
+        text-decoration: none;
+      }
+
+      .page {
+        overflow: hidden;
+        min-height: 100vh;
+        padding-bottom: 88px;
+      }
+
+      .container {
+        width: min(1120px, calc(100% - 32px));
+        margin-inline: auto;
+      }
+
+      .header {
+        position: relative;
+        z-index: 5;
+        padding: 18px 0;
+        background: rgba(255, 255, 255, 0.9);
+        border-bottom: 1px solid var(--border);
+        backdrop-filter: blur(18px);
+      }
+
+      .brand {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .brand-mark {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        min-height: 52px;
+        padding: 10px 18px;
+        border-radius: 999px;
+        color: var(--white);
+        background: linear-gradient(135deg, var(--blue-950), var(--blue-700));
+        box-shadow: 0 14px 30px rgba(3, 110, 192, 0.22);
+        font-weight: 900;
+        letter-spacing: -0.02em;
+      }
+
+      .brand-dot {
+        width: 12px;
+        height: 12px;
+        border-radius: 999px;
+        background: var(--orange-600);
+        box-shadow: 0 0 0 6px rgba(247, 121, 1, 0.18);
+      }
+
+      .hero {
+        position: relative;
+        isolation: isolate;
+        padding: 54px 0 38px;
+        color: var(--white);
+        background:
+          radial-gradient(circle at 12% 14%, rgba(247, 121, 1, 0.42), transparent 28%),
+          radial-gradient(circle at 88% 8%, rgba(3, 110, 192, 0.55), transparent 30%),
+          linear-gradient(145deg, var(--blue-950) 0%, var(--blue-900) 58%, var(--blue-800) 100%);
+      }
+
+      .hero::before {
+        content: "";
+        position: absolute;
+        inset: auto -80px -160px auto;
+        width: 360px;
+        height: 360px;
+        border-radius: 50%;
+        background: rgba(255, 255, 255, 0.08);
+        z-index: -1;
+      }
+
+      .hero-grid {
+        display: grid;
+        grid-template-columns: 1.1fr 0.9fr;
+        align-items: center;
+        gap: 44px;
+      }
+
+      .hero-copy {
+        display: grid;
+        gap: 18px;
+      }
+
+      .eyebrow {
+        width: fit-content;
+        padding: 8px 16px;
+        border-radius: 999px;
+        background: var(--orange-600);
+        color: var(--white);
+        font-size: 0.95rem;
+        font-weight: 900;
+        box-shadow: var(--shadow-orange);
+      }
+
+      h1 {
+        margin: 0;
+        max-width: 780px;
+        color: var(--white);
+        font-size: clamp(2.05rem, 5.8vw, 4.6rem);
+        font-weight: 900;
+        line-height: 1.15;
+        letter-spacing: -0.045em;
+      }
+
+      .hero-subtitle {
+        margin: 0;
+        max-width: 680px;
+        color: rgba(255, 255, 255, 0.88);
+        font-size: clamp(1.05rem, 2.5vw, 1.35rem);
+        font-weight: 600;
+      }
+
+      .hero-actions {
+        display: grid;
+        gap: 12px;
+        margin-top: 6px;
+      }
+
+      .cta-button {
+        position: relative;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        width: fit-content;
+        min-height: 62px;
+        padding: 16px 28px;
+        border-radius: 999px;
+        color: var(--white);
+        background: linear-gradient(135deg, var(--orange-600), var(--orange-500));
+        font-size: 1.04rem;
+        font-weight: 900;
+        box-shadow: var(--shadow-orange);
+        transition: transform 0.2s ease, box-shadow 0.2s ease;
+        animation: cta-pulse 2.3s ease-in-out infinite;
+      }
+
+      .cta-button:hover,
+      .cta-button:focus-visible {
+        transform: translateY(-2px);
+        box-shadow: 0 22px 46px rgba(247, 121, 1, 0.44);
+        outline: none;
+      }
+
+      .microcopy {
+        margin: 0;
+        color: rgba(255, 255, 255, 0.78);
+        font-size: 0.94rem;
+      }
+
+      .hero-card {
+        position: relative;
+        overflow: hidden;
+        border: 1px solid rgba(255, 255, 255, 0.18);
+        border-radius: 34px;
+        background: rgba(255, 255, 255, 0.1);
+        box-shadow: 0 26px 70px rgba(0, 0, 0, 0.2);
+        backdrop-filter: blur(16px);
+      }
+
+      .hero-card-inner {
+        display: grid;
+        gap: 16px;
+        padding: 28px;
+      }
+
+      .hero-card-title {
+        margin: 0;
+        color: var(--white);
+        font-size: 1.45rem;
+        font-weight: 900;
+      }
+
+      .hero-card-list {
+        display: grid;
+        gap: 12px;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+      }
+
+      .hero-card-list li {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        color: rgba(255, 255, 255, 0.9);
+        font-weight: 700;
+      }
+
+      .check {
+        flex: 0 0 28px;
+        width: 28px;
+        height: 28px;
+        display: inline-grid;
+        place-items: center;
+        border-radius: 50%;
+        color: var(--white);
+        background: var(--orange-600);
+        font-size: 0.9rem;
+      }
+
+      section {
+        padding: 58px 0;
+      }
+
+      .section-heading {
+        display: grid;
+        gap: 10px;
+        max-width: 760px;
+        margin: 0 auto 30px;
+        text-align: center;
+      }
+
+      .section-heading h2 {
+        margin: 0;
+        color: var(--blue-950);
+        font-size: clamp(1.75rem, 4vw, 2.8rem);
+        font-weight: 900;
+        line-height: 1.2;
+        letter-spacing: -0.035em;
+      }
+
+      .section-heading p {
+        margin: 0;
+        color: var(--muted);
+        font-size: 1.05rem;
+        font-weight: 600;
+      }
+
+      .benefits {
+        background: var(--white);
+      }
+
+      .benefits-grid {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        gap: 16px;
+      }
+
+      .benefit-card {
+        min-height: 186px;
+        padding: 22px 16px;
+        border: 1px solid var(--border);
+        border-radius: var(--radius);
+        background: linear-gradient(180deg, var(--white), #fbfdff);
+        box-shadow: var(--shadow-sm);
+        text-align: center;
+      }
+
+      .benefit-icon {
+        width: 58px;
+        height: 58px;
+        display: grid;
+        place-items: center;
+        margin: 0 auto 14px;
+        border-radius: 20px;
+        color: var(--white);
+        background: linear-gradient(135deg, var(--blue-800), var(--blue-700));
+        font-size: 1.55rem;
+      }
+
+      .benefit-card h3 {
+        margin: 0;
+        color: var(--blue-950);
+        font-size: 1.02rem;
+        font-weight: 900;
+        line-height: 1.5;
+      }
+
+      .benefit-card p {
+        margin: 8px 0 0;
+        color: var(--muted);
+        font-size: 0.9rem;
+        font-weight: 600;
+      }
+
+      .packages {
+        background:
+          radial-gradient(circle at 8% 0%, rgba(247, 121, 1, 0.12), transparent 28%),
+          linear-gradient(180deg, #f7fbff, #ffffff);
+      }
+
+      .packages-grid {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        align-items: stretch;
+        gap: 22px;
+      }
+
+      .package-card {
+        position: relative;
+        display: grid;
+        gap: 20px;
+        padding: 30px;
+        border: 1px solid var(--border);
+        border-radius: 30px;
+        background: var(--white);
+        box-shadow: var(--shadow-sm);
+      }
+
+      .package-card.featured {
+        border: 3px solid var(--orange-600);
+        box-shadow: var(--shadow-md), 0 0 0 8px rgba(247, 121, 1, 0.1);
+        transform: translateY(-8px);
+      }
+
+      .popular-badge {
+        position: absolute;
+        inset-inline: 24px auto;
+        top: -18px;
+        padding: 9px 16px;
+        border-radius: 999px;
+        color: var(--white);
+        background: linear-gradient(135deg, var(--orange-600), var(--orange-500));
+        font-size: 0.92rem;
+        font-weight: 900;
+        box-shadow: var(--shadow-orange);
+      }
+
+      .package-header {
+        display: grid;
+        gap: 8px;
+      }
+
+      .package-kicker {
+        width: fit-content;
+        padding: 6px 12px;
+        border-radius: 999px;
+        color: var(--blue-800);
+        background: rgba(3, 110, 192, 0.09);
+        font-size: 0.9rem;
+        font-weight: 900;
+      }
+
+      .package-card.featured .package-kicker {
+        color: #a84f00;
+        background: var(--orange-100);
+      }
+
+      .package-card h3 {
+        margin: 0;
+        color: var(--blue-950);
+        font-size: clamp(1.45rem, 3vw, 2rem);
+        font-weight: 900;
+        line-height: 1.25;
+        letter-spacing: -0.025em;
+      }
+
+      .features-list {
+        display: grid;
+        gap: 14px;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+      }
+
+      .features-list li {
+        display: flex;
+        align-items: flex-start;
+        gap: 12px;
+        color: var(--text);
+        font-size: 1rem;
+        font-weight: 800;
+      }
+
+      .features-list .check {
+        margin-top: 1px;
+        color: var(--white);
+        background: var(--blue-700);
+      }
+
+      .package-card.featured .features-list .check {
+        background: var(--orange-600);
+      }
+
+      .urgency {
+        padding: 34px 0;
+        background: var(--white);
+      }
+
+      .urgency-box {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 14px;
+        padding: 20px 22px;
+        border: 1px solid rgba(247, 121, 1, 0.28);
+        border-radius: var(--radius);
+        color: #693300;
+        background: linear-gradient(135deg, #fff7ed, #ffffff);
+        box-shadow: var(--shadow-sm);
+        text-align: center;
+      }
+
+      .urgency-icon {
+        flex: 0 0 46px;
+        width: 46px;
+        height: 46px;
+        display: grid;
+        place-items: center;
+        border-radius: 16px;
+        color: var(--white);
+        background: var(--orange-600);
+        font-size: 1.35rem;
+      }
+
+      .urgency-box strong {
+        color: #693300;
+        font-size: clamp(1.05rem, 3.2vw, 1.35rem);
+        font-weight: 900;
+      }
+
+      .final-cta {
+        position: relative;
+        color: var(--white);
+        background:
+          radial-gradient(circle at 18% 18%, rgba(247, 121, 1, 0.3), transparent 30%),
+          linear-gradient(145deg, var(--blue-950), var(--blue-800));
+      }
+
+      .final-cta-card {
+        display: grid;
+        justify-items: center;
+        gap: 18px;
+        max-width: 840px;
+        margin: 0 auto;
+        text-align: center;
+      }
+
+      .final-cta h2 {
+        margin: 0;
+        color: var(--white);
+        font-size: clamp(1.75rem, 4.2vw, 3.1rem);
+        font-weight: 900;
+        line-height: 1.2;
+        letter-spacing: -0.035em;
+      }
+
+      .final-cta p {
+        margin: 0;
+        color: rgba(255, 255, 255, 0.82);
+        font-size: 1.05rem;
+        font-weight: 600;
+      }
+
+      .floating-whatsapp {
+        position: fixed;
+        right: 18px;
+        bottom: 18px;
+        z-index: 50;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        gap: 8px;
+        min-height: 56px;
+        padding: 12px 18px;
+        border-radius: 999px;
+        color: var(--white);
+        background: #25d366;
+        box-shadow: 0 18px 38px rgba(37, 211, 102, 0.34);
+        font-weight: 900;
+        animation: whatsapp-bounce 3s ease-in-out infinite;
+      }
+
+      .floating-whatsapp span:first-child {
+        font-size: 1.25rem;
+      }
+
+      @keyframes cta-pulse {
+        0%,
+        100% {
+          box-shadow: var(--shadow-orange), 0 0 0 0 rgba(247, 121, 1, 0.34);
+        }
+        50% {
+          box-shadow: var(--shadow-orange), 0 0 0 12px rgba(247, 121, 1, 0);
+        }
+      }
+
+      @keyframes whatsapp-bounce {
+        0%,
+        100% {
+          transform: translateY(0);
+        }
+        50% {
+          transform: translateY(-5px);
+        }
+      }
+
+      @media (max-width: 980px) {
+        .hero-grid,
+        .packages-grid {
+          grid-template-columns: 1fr;
+        }
+
+        .hero-card {
+          order: -1;
+        }
+
+        .benefits-grid {
+          grid-template-columns: repeat(2, 1fr);
+        }
+
+        .package-card.featured {
+          transform: none;
+        }
+      }
+
+      @media (max-width: 640px) {
+        .page {
+          padding-bottom: 96px;
+        }
+
+        .header {
+          padding: 12px 0;
+        }
+
+        .brand-mark {
+          width: 100%;
+          min-height: 48px;
+          font-size: 0.98rem;
+        }
+
+        .hero {
+          padding: 30px 0 28px;
+        }
+
+        .hero-grid {
+          gap: 24px;
+        }
+
+        .hero-card-inner,
+        .package-card {
+          padding: 22px;
+        }
+
+        .eyebrow {
+          font-size: 0.86rem;
+        }
+
+        .cta-button {
+          width: 100%;
+          min-height: 64px;
+          padding: 15px 18px;
+          text-align: center;
+          font-size: 0.98rem;
+        }
+
+        section {
+          padding: 42px 0;
+        }
+
+        .benefits-grid {
+          grid-template-columns: 1fr;
+        }
+
+        .benefit-card {
+          min-height: auto;
+          display: grid;
+          grid-template-columns: 58px 1fr;
+          align-items: center;
+          gap: 14px;
+          text-align: right;
+        }
+
+        .benefit-icon {
+          margin: 0;
+        }
+
+        .benefit-card p {
+          margin-top: 4px;
+        }
+
+        .urgency-box {
+          align-items: flex-start;
+          text-align: right;
+        }
+
+        .floating-whatsapp {
+          right: 14px;
+          bottom: 14px;
+          min-height: 58px;
+          padding: 12px 16px;
+          font-size: 0.9rem;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="page">
+      <header class="header" aria-label="YallaStudy landing page header">
+        <div class="container brand">
+          <div class="brand-mark" aria-label="YallaStudy | يالاستادي">
+            <span class="brand-dot" aria-hidden="true"></span>
+            <span>YallaStudy | يالاستادي</span>
+          </div>
+        </div>
+      </header>
+
+      <main>
+        <section class="hero">
+          <div class="container hero-grid">
+            <div class="hero-copy">
+              <div class="eyebrow">عروض حصرية وخاصة للطلاب السعوديين</div>
+              <h1>أقوى عروض شركة يالاستادي لدراسة اللغة الإنجليزية في الفلبين!</h1>
+              <p class="hero-subtitle">
+                أقوى العروض في الفلبين ما قد صارت! سجل الآن واستفد من الباقات والمميزات
+                الاستثنائية الشاملة.
+              </p>
+              <div class="hero-actions">
+                <a
+                  class="cta-button"
+                  href="https://wa.me/966561107137?text=أرغب%20في%20الاستفسار%20عن%20عروض%20دراسة%20اللغة%20في%20الفلبين"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  <span>سجل الآن وابدأ رحلتك لتعلم الإنجليزية بثقة</span>
+                  <span aria-hidden="true">↗</span>
+                </a>
+                <p class="microcopy">استشارة سريعة عبر واتساب لاختيار العرض الأنسب لك.</p>
+              </div>
+            </div>
+
+            <aside class="hero-card" aria-label="مميزات سريعة">
+              <div class="hero-card-inner">
+                <p class="hero-card-title">ابدأ رحلتك بخطة واضحة ومميزات فعلية</p>
+                <ul class="hero-card-list">
+                  <li><span class="check">✓</span><span>قبولات لغة في مدن دراسية مناسبة</span></li>
+                  <li><span class="check">✓</span><span>باقات تشمل الدراسة والسكن والدعم</span></li>
+                  <li><span class="check">✓</span><span>متابعة عربية قبل السفر وبعد الوصول</span></li>
+                </ul>
+              </div>
+            </aside>
+          </div>
+        </section>
+
+        <section class="benefits">
+          <div class="container">
+            <div class="section-heading">
+              <h2>لماذا تختار يالاستادي للدراسة في الفلبين؟</h2>
+              <p>كل ما يحتاجه الطالب السعودي لتجربة دراسة لغة مريحة، واضحة، ومدعومة.</p>
+            </div>
+
+            <div class="benefits-grid">
+              <article class="benefit-card">
+                <div class="benefit-icon" aria-hidden="true">📍</div>
+                <div>
+                  <h3>مواقع مميزة في أفضل المدن</h3>
+                  <p>Cebu, Manila, Baguio, Clark</p>
+                </div>
+              </article>
+
+              <article class="benefit-card">
+                <div class="benefit-icon" aria-hidden="true">👨‍🏫</div>
+                <div>
+                  <h3>مدرسين معتمدين</h3>
+                  <p>تعليم عملي يناسب مستواك وهدفك.</p>
+                </div>
+              </article>
+
+              <article class="benefit-card">
+                <div class="benefit-icon" aria-hidden="true">🏠</div>
+                <div>
+                  <h3>سكن مريح وآمن</h3>
+                  <p>خيارات إقامة مناسبة للطلاب.</p>
+                </div>
+              </article>
+
+              <article class="benefit-card">
+                <div class="benefit-icon" aria-hidden="true">📚</div>
+                <div>
+                  <h3>برامج متنوعة لجميع المستويات</h3>
+                  <p>من المبتدئ حتى المتقدم.</p>
+                </div>
+              </article>
+
+              <article class="benefit-card">
+                <div class="benefit-icon" aria-hidden="true">🤝</div>
+                <div>
+                  <h3>مجتمع عربي ودعم 24/7</h3>
+                  <p>متابعة مستمرة بالعربي عند الحاجة.</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <section class="packages">
+          <div class="container">
+            <div class="section-heading">
+              <h2>اختر الباقة المناسبة لمدة دراستك</h2>
+              <p>عروض مباشرة وواضحة حسب مدة التسجيل، مع مميزات تزيد كلما زادت مدة البرنامج.</p>
+            </div>
+
+            <div class="packages-grid">
+              <article class="package-card">
+                <div class="package-header">
+                  <span class="package-kicker">باقة مرنة</span>
+                  <h3>إذا سجلت لمدة 3 أشهر أو أقل</h3>
+                </div>
+                <ul class="features-list">
+                  <li><span class="check">✓</span><span>كورس أونلاين لمدة شهر مجاني</span></li>
+                  <li>
+                    <span class="check">✓</span
+                    ><span>خصومات على تذاكر الطيران تصل إلى 50%</span>
+                  </li>
+                </ul>
+              </article>
+
+              <article class="package-card featured">
+                <span class="popular-badge">الأكثر طلباً / موصى به بشدة</span>
+                <div class="package-header">
+                  <span class="package-kicker">أفضل قيمة للطلاب السعوديين</span>
+                  <h3>إذا سجلت لمدة 5 أشهر أو أكثر</h3>
+                </div>
+                <ul class="features-list">
+                  <li>
+                    <span class="check">✓</span><span>تذاكر طيران مجانية (ذهاب وإياب) ✈️</span>
+                  </li>
+                  <li><span class="check">✓</span><span>شريحة اتصال مجانية 📱</span></li>
+                  <li><span class="check">✓</span><span>استقبال مجاني من المطار 🚘</span></li>
+                  <li>
+                    <span class="check">✓</span
+                    ><span>كورس أونلاين لمدة شهر مجاني قبل بدء دراستك 💻</span>
+                  </li>
+                </ul>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <section class="urgency">
+          <div class="container">
+            <div class="urgency-box">
+              <span class="urgency-icon" aria-hidden="true">⏰</span>
+              <strong>بادرو بالحجز الآن! المقاعد محدودة وفترة قصيرة.</strong>
+            </div>
+          </div>
+        </section>
+
+        <section class="final-cta">
+          <div class="container">
+            <div class="final-cta-card">
+              <h2>جاهز تبدأ دراسة اللغة الإنجليزية في الفلبين؟</h2>
+              <p>تواصل معنا الآن، وسنساعدك في معرفة العرض الأنسب حسب مدتك وميزانيتك.</p>
+              <a
+                class="cta-button"
+                href="https://wa.me/966561107137?text=أرغب%20في%20الاستفسار%20عن%20عروض%20دراسة%20اللغة%20في%20الفلبين"
+                target="_blank"
+                rel="noopener"
+              >
+                <span>سجل الآن وابدأ رحلتك لتعلم الإنجليزية بثقة</span>
+                <span aria-hidden="true">↗</span>
+              </a>
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <a
+      class="floating-whatsapp"
+      href="https://wa.me/966561107137?text=أرغب%20في%20الاستفسار%20عن%20عروض%20دراسة%20اللغة%20في%20الفلبين"
+      target="_blank"
+      rel="noopener"
+      aria-label="تواصل عبر واتساب"
+    >
+      <span aria-hidden="true">💬</span>
+      <span>واتساب الآن</span>
+    </a>
+  </body>
+</html>
