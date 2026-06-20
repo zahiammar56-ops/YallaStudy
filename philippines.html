@@ -80,6 +80,8 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        gap: 14px;
+        flex-wrap: wrap;
       }
 
       .brand-mark {
@@ -95,6 +97,29 @@
         box-shadow: 0 14px 30px rgba(3, 110, 192, 0.22);
         font-weight: 900;
         letter-spacing: -0.02em;
+      }
+
+      .home-button {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 48px;
+        padding: 10px 18px;
+        border: 1px solid rgba(8, 34, 71, 0.14);
+        border-radius: 999px;
+        color: var(--blue-950);
+        background: var(--white);
+        box-shadow: 0 10px 24px rgba(6, 26, 51, 0.08);
+        font-weight: 900;
+        transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+      }
+
+      .home-button:hover,
+      .home-button:focus-visible {
+        transform: translateY(-1px);
+        border-color: rgba(3, 110, 192, 0.32);
+        box-shadow: 0 16px 30px rgba(6, 26, 51, 0.12);
+        outline: none;
       }
 
       .brand-dot {
@@ -651,6 +676,7 @@
             <span class="brand-dot" aria-hidden="true"></span>
             <span>YallaStudy | يالاستادي</span>
           </div>
+          <a class="home-button" href="index.html" aria-label="العودة إلى الصفحة الرئيسية">الصفحة الرئيسية</a>
         </div>
       </header>
 
@@ -688,6 +714,50 @@
                 </ul>
               </div>
             </aside>
+          </div>
+        </section>
+
+        <section class="packages">
+          <div class="container">
+            <div class="section-heading">
+              <h2>اختر الباقة المناسبة لمدة دراستك</h2>
+              <p>عروض مباشرة وواضحة حسب مدة التسجيل، مع مميزات تزيد كلما زادت مدة البرنامج.</p>
+            </div>
+
+            <div class="packages-grid">
+              <article class="package-card">
+                <div class="package-header">
+                  <span class="package-kicker">باقة مرنة</span>
+                  <h3>إذا سجلت لمدة 3 أشهر أو أقل</h3>
+                </div>
+                <ul class="features-list">
+                  <li><span class="check">✓</span><span>كورس أونلاين لمدة شهر مجاني</span></li>
+                  <li>
+                    <span class="check">✓</span
+                    ><span>خصومات على تذاكر الطيران تصل إلى 50%</span>
+                  </li>
+                </ul>
+              </article>
+
+              <article class="package-card featured">
+                <span class="popular-badge">الأكثر طلباً / موصى به بشدة</span>
+                <div class="package-header">
+                  <span class="package-kicker">أفضل قيمة للطلاب السعوديين</span>
+                  <h3>إذا سجلت لمدة 5 أشهر أو أكثر</h3>
+                </div>
+                <ul class="features-list">
+                  <li>
+                    <span class="check">✓</span><span>تذاكر طيران مجانية (ذهاب وإياب) ✈️</span>
+                  </li>
+                  <li><span class="check">✓</span><span>شريحة اتصال مجانية 📱</span></li>
+                  <li><span class="check">✓</span><span>استقبال مجاني من المطار 🚘</span></li>
+                  <li>
+                    <span class="check">✓</span
+                    ><span>كورس أونلاين لمدة شهر مجاني قبل بدء دراستك 💻</span>
+                  </li>
+                </ul>
+              </article>
+            </div>
           </div>
         </section>
 
@@ -737,50 +807,6 @@
                   <h3>مجتمع عربي ودعم 24/7</h3>
                   <p>متابعة مستمرة بالعربي عند الحاجة.</p>
                 </div>
-              </article>
-            </div>
-          </div>
-        </section>
-
-        <section class="packages">
-          <div class="container">
-            <div class="section-heading">
-              <h2>اختر الباقة المناسبة لمدة دراستك</h2>
-              <p>عروض مباشرة وواضحة حسب مدة التسجيل، مع مميزات تزيد كلما زادت مدة البرنامج.</p>
-            </div>
-
-            <div class="packages-grid">
-              <article class="package-card">
-                <div class="package-header">
-                  <span class="package-kicker">باقة مرنة</span>
-                  <h3>إذا سجلت لمدة 3 أشهر أو أقل</h3>
-                </div>
-                <ul class="features-list">
-                  <li><span class="check">✓</span><span>كورس أونلاين لمدة شهر مجاني</span></li>
-                  <li>
-                    <span class="check">✓</span
-                    ><span>خصومات على تذاكر الطيران تصل إلى 50%</span>
-                  </li>
-                </ul>
-              </article>
-
-              <article class="package-card featured">
-                <span class="popular-badge">الأكثر طلباً / موصى به بشدة</span>
-                <div class="package-header">
-                  <span class="package-kicker">أفضل قيمة للطلاب السعوديين</span>
-                  <h3>إذا سجلت لمدة 5 أشهر أو أكثر</h3>
-                </div>
-                <ul class="features-list">
-                  <li>
-                    <span class="check">✓</span><span>تذاكر طيران مجانية (ذهاب وإياب) ✈️</span>
-                  </li>
-                  <li><span class="check">✓</span><span>شريحة اتصال مجانية 📱</span></li>
-                  <li><span class="check">✓</span><span>استقبال مجاني من المطار 🚘</span></li>
-                  <li>
-                    <span class="check">✓</span
-                    ><span>كورس أونلاين لمدة شهر مجاني قبل بدء دراستك 💻</span>
-                  </li>
-                </ul>
               </article>
             </div>
           </div>
