@@ -443,7 +443,7 @@ body.is-ltr .skip-link:focus {
   flex: 0 0 auto;
   display: block;
   object-fit: contain;
-  border-radius: 10px;
+  border-radius: 5px;
 }
 
 .logo-mark {
