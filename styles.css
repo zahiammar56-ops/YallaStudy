@@ -434,6 +434,7 @@ body.is-ltr .skip-link:focus {
   padding: 0;
   background: transparent;
   box-shadow: none;
+  border-radius: 5px;
 }
 
 .logo-image {
@@ -443,7 +444,8 @@ body.is-ltr .skip-link:focus {
   flex: 0 0 auto;
   display: block;
   object-fit: contain;
-  border-radius: 5px;
+  border-radius: 12px;
+  clip-path: inset(0 round 12px);
 }
 
 .logo-mark {
