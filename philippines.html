@@ -90,13 +90,28 @@
         justify-content: center;
         gap: 10px;
         min-height: 52px;
-        padding: 10px 18px;
+        padding: 8px 16px 8px 10px;
         border-radius: 999px;
         color: var(--white);
         background: linear-gradient(135deg, var(--blue-950), var(--blue-700));
         box-shadow: 0 14px 30px rgba(3, 110, 192, 0.22);
         font-weight: 900;
         letter-spacing: -0.02em;
+        white-space: nowrap;
+        overflow: hidden;
+      }
+
+      .brand-logo {
+        width: 42px;
+        height: 42px;
+        flex: 0 0 42px;
+        object-fit: cover;
+        border-radius: 10px;
+        background: var(--white);
+      }
+
+      .brand-text {
+        line-height: 1;
       }
 
       .home-button {
@@ -600,7 +615,14 @@
         .brand-mark {
           width: 100%;
           min-height: 48px;
+          justify-content: flex-start;
           font-size: 0.98rem;
+        }
+
+        .brand-logo {
+          width: 38px;
+          height: 38px;
+          flex-basis: 38px;
         }
 
         .hero {
@@ -673,8 +695,8 @@
       <header class="header" aria-label="YallaStudy landing page header">
         <div class="container brand">
           <div class="brand-mark" aria-label="YallaStudy | يالاستادي">
-            <span class="brand-dot" aria-hidden="true"></span>
-            <span>YallaStudy | يالاستادي</span>
+            <img class="brand-logo" src="/yallastudy-logo.jpeg" alt="YallaStudy" />
+            <span class="brand-text">YallaStudy | يالاستادي</span>
           </div>
           <a class="home-button" href="index.html" aria-label="العودة إلى الصفحة الرئيسية">الصفحة الرئيسية</a>
         </div>

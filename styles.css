@@ -429,25 +429,27 @@ body.is-ltr .skip-link:focus {
 .logo {
   display: flex;
   align-items: center;
-  gap: 0;
+  gap: 10px;
   color: var(--color-primary);
   flex-shrink: 0;
-  padding: 0;
+  padding: 4px 12px;
   background: transparent;
   box-shadow: none;
 }
 
 .logo-image {
-  width: clamp(108px, 9vw, 150px);
-  height: auto;
-  max-height: 40px;
+  width: clamp(36px, 3.2vw, 44px);
+  height: clamp(36px, 3.2vw, 44px);
+  flex: 0 0 auto;
+  border-radius: 10px;
+  background: #fff;
   display: block;
-  object-fit: contain;
+  object-fit: cover;
 }
 
 html:not([data-theme="dark"]) .site-header .logo {
-  padding: 4px 8px;
-  border-radius: 10px;
+  padding: 6px 14px;
+  border-radius: 14px;
   background: linear-gradient(135deg, #013864 0%, #024c86 100%);
   box-shadow: 0 8px 18px rgba(2, 76, 134, 0.22);
 }
@@ -455,6 +457,7 @@ html:not([data-theme="dark"]) .site-header .logo {
 .logo-copy {
   display: grid;
   line-height: 1.1;
+  color: #fff;
 }
 
 .logo-mark {
@@ -472,8 +475,9 @@ html:not([data-theme="dark"]) .site-header .logo {
 }
 
 .logo-text {
-  font-size: 1.1rem;
+  font-size: clamp(1rem, 1.05vw, 1.2rem);
   font-family: var(--font-head);
+  font-weight: 800;
 }
 
 .logo-sub {
