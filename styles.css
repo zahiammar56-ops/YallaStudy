@@ -446,13 +446,6 @@ body.is-ltr .skip-link:focus {
   border-radius: 10px;
 }
 
-html:not([data-theme="dark"]) .site-header .logo {
-  padding: 0;
-  border-radius: 0;
-  background: transparent;
-  box-shadow: none;
-}
-
 .logo-mark {
   width: 44px;
   height: 44px;
