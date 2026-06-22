@@ -88,30 +88,18 @@
         display: inline-flex;
         align-items: center;
         justify-content: center;
-        gap: 10px;
-        min-height: 52px;
-        padding: 8px 16px 8px 10px;
-        border-radius: 999px;
-        color: var(--white);
-        background: linear-gradient(135deg, var(--blue-950), var(--blue-700));
-        box-shadow: 0 14px 30px rgba(3, 110, 192, 0.22);
-        font-weight: 900;
-        letter-spacing: -0.02em;
+        padding: 0;
+        border-radius: 0;
+        background: transparent;
+        box-shadow: none;
         white-space: nowrap;
-        overflow: hidden;
       }
 
       .brand-logo {
-        width: 42px;
-        height: 42px;
-        flex: 0 0 42px;
-        object-fit: cover;
-        border-radius: 10px;
-        background: var(--white);
-      }
-
-      .brand-text {
-        line-height: 1;
+        width: clamp(140px, 26vw, 220px);
+        height: auto;
+        display: block;
+        object-fit: contain;
       }
 
       .home-button {
@@ -139,15 +127,11 @@
 
       .brand-dot {
         width: 12px;
-        height: 12px;
-        border-radius: 999px;
-        background: var(--orange-600);
+          justify-content: flex-start;
         box-shadow: 0 0 0 6px rgba(247, 121, 1, 0.18);
       }
 
-      .hero {
-        position: relative;
-        isolation: isolate;
+          width: min(220px, 74vw);
         padding: 54px 0 38px;
         color: var(--white);
         background:
@@ -695,8 +679,7 @@
       <header class="header" aria-label="YallaStudy landing page header">
         <div class="container brand">
           <div class="brand-mark" aria-label="YallaStudy | يالاستادي">
-            <img class="brand-logo" src="/yallastudy-logo.jpeg" alt="YallaStudy" />
-            <span class="brand-text">YallaStudy | يالاستادي</span>
+            <img class="brand-logo" src="/yallastudy-logo.jpeg" alt="YallaStudy | يالاستادي" />
           </div>
           <a class="home-button" href="index.html" aria-label="العودة إلى الصفحة الرئيسية">الصفحة الرئيسية</a>
         </div>
