@@ -26,6 +26,8 @@
       content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1"
     />
     <meta name="author" content="YallaStudy" />
+    <meta name="application-name" content="YallaStudy" />
+    <meta name="apple-mobile-web-app-title" content="YallaStudy" />
     <meta name="theme-color" content="#0b52c1" />
     <meta name="geo.region" content="SA-RI" />
     <meta name="geo.placename" content="Saudi Arabia" />
@@ -53,6 +55,10 @@
     <meta property="og:url" content="https://www.yallastudy.sa/" />
     <meta property="og:site_name" content="YallaStudy" />
     <meta property="og:image" content="https://www.yallastudy.sa/yallastudy-logo.png" />
+    <meta property="og:image:secure_url" content="https://www.yallastudy.sa/yallastudy-logo.png" />
+    <meta property="og:image:type" content="image/png" />
+    <meta property="og:image:width" content="590" />
+    <meta property="og:image:height" content="295" />
     <meta
       property="og:image:alt"
       content="YallaStudy - الدراسة في الفلبين وقبول معاهد اللغة"
@@ -103,8 +109,26 @@
             "@type": "Organization",
             "@id": "https://www.yallastudy.sa/#organization",
             "name": "YallaStudy",
+            "alternateName": ["يلا ستدي", "Yalla Study"],
             "url": "https://www.yallastudy.sa/",
-            "logo": "https://www.yallastudy.sa/yallastudy-logo.png",
+            "logo": {
+              "@type": "ImageObject",
+              "@id": "https://www.yallastudy.sa/#logo",
+              "url": "https://www.yallastudy.sa/yallastudy-logo.png",
+              "contentUrl": "https://www.yallastudy.sa/yallastudy-logo.png",
+              "caption": "YallaStudy",
+              "width": 590,
+              "height": 295
+            },
+            "image": {
+              "@type": "ImageObject",
+              "@id": "https://www.yallastudy.sa/#brand-image",
+              "url": "https://www.yallastudy.sa/yallastudy-logo.png",
+              "contentUrl": "https://www.yallastudy.sa/yallastudy-logo.png",
+              "caption": "YallaStudy - الدراسة في الفلبين وقبول معاهد اللغة",
+              "width": 590,
+              "height": 295
+            },
             "slogan": "القبول بين يديك",
             "description": "استشارات القبول الدراسي للطلاب السعوديين والإماراتيين الراغبين في الدراسة في الفلبين والتسجيل في معاهد اللغة والبرامج الأكاديمية.",
             "sameAs": [
@@ -135,6 +159,39 @@
             "alternateName": "يلا ستدي",
             "inLanguage": ["ar", "en"],
             "publisher": { "@id": "https://www.yallastudy.sa/#organization" }
+          },
+          {
+            "@type": "WebPage",
+            "@id": "https://www.yallastudy.sa/#webpage",
+            "url": "https://www.yallastudy.sa/",
+            "name": "الدراسة في الفلبين للسعوديين | قبول دراسة اللغة والبرامج الأكاديمية | YallaStudy",
+            "description": "YallaStudy يقدم استشارات القبول الدراسي للطلاب السعوديين والإماراتيين: قبول دراسة اللغة في الفلبين، التسجيل في معاهد اللغة للسعوديين، وبرامج اللغة الأكاديمية مع متابعة كاملة حتى القبول.",
+            "isPartOf": { "@id": "https://www.yallastudy.sa/#website" },
+            "about": { "@id": "https://www.yallastudy.sa/#service" },
+            "publisher": { "@id": "https://www.yallastudy.sa/#organization" },
+            "primaryImageOfPage": { "@id": "https://www.yallastudy.sa/#brand-image" },
+            "image": [
+              { "@id": "https://www.yallastudy.sa/#brand-image" },
+              {
+                "@type": "ImageObject",
+                "@id": "https://www.yallastudy.sa/#commercial-register-image",
+                "url": "https://www.yallastudy.sa/proof-commercial-register.png",
+                "contentUrl": "https://www.yallastudy.sa/proof-commercial-register.png",
+                "caption": "السجل التجاري لشركة YallaStudy لخدمات القبول الدراسي",
+                "width": 962,
+                "height": 679
+              },
+              {
+                "@type": "ImageObject",
+                "@id": "https://www.yallastudy.sa/#student-feedback-image",
+                "url": "https://www.yallastudy.sa/Feedbacks/feedback-1.jpeg",
+                "contentUrl": "https://www.yallastudy.sa/Feedbacks/feedback-1.jpeg",
+                "caption": "تجربة طالب مع YallaStudy في قبول دراسة اللغة في الفلبين",
+                "width": 1179,
+                "height": 1353
+              }
+            ],
+            "dateModified": "2026-07-31"
           },
           {
             "@type": "LocalBusiness",
@@ -443,26 +500,6 @@
               <span data-i18n="hero.point3.title">خطوات واضحة</span>
               <small data-i18n="hero.point3.desc">من التسجيل حتى القبول</small>
             </div>
-          </div>
-        </div>
-      </section>
-
-      <section class="offers-entry" aria-labelledby="offers-entry-title">
-        <div class="container">
-          <div class="offers-entry-card reveal">
-            <div class="offers-entry-copy">
-              <span class="offers-entry-badge" data-i18n="offers.badge">عروض محدودة</span>
-              <h2 id="offers-entry-title" data-i18n="offers.title">
-                شاهد عروض دراسة اللغة الإنجليزية في الفلبين
-              </h2>
-              <p data-i18n="offers.lead">
-                صفحة بسيطة وواضحة تجمع العروض المتاحة للطلاب السعوديين، مع باقات قصيرة
-                وطويلة حسب مدة الدراسة.
-              </p>
-            </div>
-            <a class="btn btn-primary offers-entry-btn" href="philippines.html" data-i18n="offers.cta">
-              عرض الباقات المتاحة
-            </a>
           </div>
         </div>
       </section>
