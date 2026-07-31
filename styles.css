@@ -68,7 +68,8 @@ html[data-theme="dark"] {
 }
 
 html {
-  scroll-behavior:smooth;
+  scroll-behavior: smooth;
+  scroll-padding-top: 92px;
 }
 
 body {

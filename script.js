@@ -1240,6 +1240,62 @@ if (navToggle && nav) {
   });
 }
 
+const getHeaderOffset = () => {
+  const header = document.querySelector('.site-header');
+  return header ? Math.ceil(header.getBoundingClientRect().height + 12) : 0;
+};
+
+const easeInOutCubic = (progress) =>
+  progress < 0.5 ? 4 * progress * progress * progress : 1 - Math.pow(-2 * progress + 2, 3) / 2;
+
+const scrollToPosition = (targetY) => {
+  if (prefersReducedMotion.matches) {
+    window.scrollTo(0, targetY);
+    return;
+  }
+
+  const startY = window.scrollY;
+  const distance = targetY - startY;
+  const duration = Math.min(900, Math.max(450, Math.abs(distance) * 0.45));
+  const startTime = performance.now();
+
+  const step = (currentTime) => {
+    const elapsed = currentTime - startTime;
+    const progress = Math.min(elapsed / duration, 1);
+    window.scrollTo(0, startY + distance * easeInOutCubic(progress));
+
+    if (progress < 1) {
+      requestAnimationFrame(step);
+    }
+  };
+
+  requestAnimationFrame(step);
+};
+
+document.querySelectorAll('a[href^="#"]').forEach((link) => {
+  link.addEventListener('click', (event) => {
+    const hash = link.getAttribute('href');
+    if (!hash || hash === '#') return;
+
+    const targetId = decodeURIComponent(hash.slice(1));
+    const target = targetId === 'top' ? document.querySelector('#top') : document.getElementById(targetId);
+    if (!target) return;
+
+    event.preventDefault();
+    toggleNav(false);
+
+    const offset = targetId === 'top' ? 0 : getHeaderOffset();
+    const targetY = Math.max(0, window.scrollY + target.getBoundingClientRect().top - offset);
+    scrollToPosition(targetY);
+    window.history.pushState(null, '', hash);
+
+    if (!target.hasAttribute('tabindex')) {
+      target.setAttribute('tabindex', '-1');
+    }
+    target.focus({ preventScroll: true });
+  });
+});
+
 applyTheme(currentTheme);
 applyLanguage(currentLang);
 
