@@ -1,0 +1,12 @@
+{
+  "name": "yallastudy-website",
+  "version": "1.0.0",
+  "description": "YallaStudy Educational Advisory Website",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": [],
+  "author": "YallaStudy",
+  "license": "ISC"
+}

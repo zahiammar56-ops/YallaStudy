@@ -497,9 +497,14 @@ body[data-page="blog-index"] .cp-blog-grid {
   .cp-nav a {
     text-align: center;
     width: 100%;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
+    white-space: normal;
+    font-size: 0.85rem;
+    padding: 0.45rem 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 40px;
+    line-height: 1.25;
   }
 
   .cp-home-link {

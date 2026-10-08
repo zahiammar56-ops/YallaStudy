@@ -1,4 +1,4 @@
-﻿<!doctype html>
+<!doctype html>
 <html lang="ar" dir="rtl">
   <head>
   <!-- Google tag (gtag.js) -->
@@ -96,10 +96,10 @@
       href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&family=Changa:wght@600;700&display=swap"
       rel="stylesheet"
     />
-    <link rel="preload" href="styles.min.css" as="style" />
+    <link rel="preload" href="styles.css" as="style" />
+    <link rel="stylesheet" href="styles.css" />
     <link rel="stylesheet" href="styles.min.css" />
     <link rel="stylesheet" href="ui-fixes.css" />
-    <noscript><link rel="stylesheet" href="styles.css" /></noscript>
     <script defer src="script.js"></script>
     <script type="application/ld+json">
       {
@@ -396,6 +396,7 @@
               <li><a href="#services" data-i18n="nav.services">خدماتنا</a></li>
               <li><a href="/blog/" data-i18n="nav.blog">المدونة</a></li>
               <li class="nav-secondary"><a href="#about" data-i18n="nav.about">من نحن</a></li>
+              <li><a href="#location" data-i18n="nav.location">موقعنا</a></li>
               <li><a href="#faq" data-i18n="nav.faq">الأسئلة</a></li>
               <li class="nav-optional"><a href="#proof" data-i18n="nav.proof">الاعتماد</a></li>
               <li class="nav-optional"><a href="#why-us" data-i18n="nav.why">لماذا نحن؟</a></li>
@@ -944,6 +945,117 @@
         </div>
       </section>
 
+      <section class="section location-section" id="location">
+        <div class="container">
+          <div class="section-heading reveal">
+            <div class="location-badge-pill" data-i18n="location.badge">مقر YallaStudy - الرياض</div>
+            <h2 data-i18n="location.title">مقرنا وموقعنا على الخريطة</h2>
+            <p data-i18n="location.lead">
+              نسعد باستقبالكم في مقرنا بالرياض لتقديم الاستشارات ومتابعة إجراءات القبول مباشرة.
+            </p>
+          </div>
+
+          <div class="location-grid reveal">
+            <div class="location-gallery">
+              <div class="location-photo-card">
+                <button
+                  class="location-photo-zoom"
+                  type="button"
+                  aria-label="عرض صورة المقر"
+                  data-i18n-attr="aria-label:location.photo1.caption"
+                >
+                  <img
+                    src="office-pics/office-1.jpeg"
+                    alt="مقر YallaStudy بالرياض"
+                    data-i18n-attr="alt:location.photo1.caption"
+                    loading="lazy"
+                    data-lightbox
+                  />
+                  <span class="location-zoom-indicator">
+                    <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line><line x1="11" y1="8" x2="11" y2="14"></line><line x1="8" y1="11" x2="14" y2="11"></line></svg>
+                    <span data-i18n="location.photo.zoom">انقر للتكبير</span>
+                  </span>
+                </button>
+                <div class="location-photo-meta">
+                  <h3 data-i18n="location.photo1.caption">مقر YallaStudy بالرياض</h3>
+                </div>
+              </div>
+
+              <div class="location-photo-card">
+                <button
+                  class="location-photo-zoom"
+                  type="button"
+                  aria-label="عرض صورة المقر"
+                  data-i18n-attr="aria-label:location.photo2.caption"
+                >
+                  <img
+                    src="office-pics/office-2.jpeg"
+                    alt="صالة الاستقبال وخدمات الطلاب"
+                    data-i18n-attr="alt:location.photo2.caption"
+                    loading="lazy"
+                    data-lightbox
+                  />
+                  <span class="location-zoom-indicator">
+                    <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line><line x1="11" y1="8" x2="11" y2="14"></line><line x1="8" y1="11" x2="14" y2="11"></line></svg>
+                    <span data-i18n="location.photo.zoom">انقر للتكبير</span>
+                  </span>
+                </button>
+                <div class="location-photo-meta">
+                  <h3 data-i18n="location.photo2.caption">صالة الاستقبال وخدمات الطلاب</h3>
+                </div>
+              </div>
+            </div>
+
+            <div class="location-interactive-card">
+              <div class="location-map-wrapper">
+                <iframe
+                  title="خريطة موقع مقر YallaStudy في الرياض"
+                  class="location-map-frame"
+                  src="https://maps.google.com/maps?q=24.7225869,46.7718485&amp;z=16&amp;output=embed"
+                  loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"
+                  allowfullscreen=""
+                ></iframe>
+              </div>
+
+              <div class="location-info-panel">
+                <div class="location-info-row">
+                  <div class="location-info-icon" aria-hidden="true">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                  </div>
+                  <div class="location-info-text">
+                    <strong data-i18n="location.address.title">العنوان</strong>
+                    <p data-i18n="location.address.val">الرياض، المملكة العربية السعودية</p>
+                  </div>
+                </div>
+
+                <div class="location-info-row">
+                  <div class="location-info-icon" aria-hidden="true">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+                  </div>
+                  <div class="location-info-text">
+                    <strong data-i18n="location.hours.title">أوقات العمل</strong>
+                    <p data-i18n="location.hours.val">الأحد - الخميس: 9:00 ص - 6:00 م</p>
+                  </div>
+                </div>
+
+                <div class="location-actions">
+                  <a
+                    href="https://maps.app.goo.gl/w3HEoWT5jjVZmf2G6?g_st=ic"
+                    target="_blank"
+                    rel="noopener"
+                    class="btn btn-primary location-directions-btn"
+                  >
+                    <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="3 11 22 2 13 21 11 13 3 11"></polygon></svg>
+                    <span data-i18n="location.cta">فتح في خرائط Google</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <section class="section soft" id="faq">
         <div class="container faq-grid">
           <div class="contact-card reveal" id="contact">
@@ -967,8 +1079,8 @@
                 <input type="tel" name="phone" required />
               </label>
               <label>
-                <span data-i18n="contact.email">البريد الإلكتروني</span>
-                <input type="email" name="email" required />
+                <span data-i18n="contact.email">البريد الإلكتروني (اختياري)</span>
+                <input type="email" name="email" placeholder="name@example.com (اختياري)" />
               </label>
               <label>
                 <span data-i18n="contact.service">الاستشارة أو الخدمة المطلوبة</span>
@@ -1251,136 +1363,407 @@
         </div>
       </section>
 
-      <section class="section soft" id="feedbacks">
+            <section class="section soft feedbacks-section" id="feedbacks">
         <div class="container">
           <div class="section-heading reveal">
+            <p data-i18n="feedback.badge" style="color: var(--color-accent); font-weight: 700; font-size: 1.1rem; justify-self: center;">أكثر من 28 تجربة موثقة</p>
             <h2 data-i18n="feedback.title">آراء الطلاب عن الدراسة في الفلبين</h2>
-            <p data-i18n="feedback.lead">
-              لقطات حقيقية من طلابنا بعد التسجيل والقبول في معاهد اللغة والبرامج الأكاديمية.
-            </p>
+            <p data-i18n="feedback.lead">لقطات حقيقية من محادثات ورسائل طلابنا بعد التسجيل والقبول في معاهد اللغة والبرامج الأكاديمية.</p>
           </div>
-          <div class="feedback-slider reveal" data-feedback-slider>
-            <div class="feedback-track" data-feedback-track>
-              <div class="feedback-card">
-                <button class="feedback-zoom" type="button">
-                  <img
-                    src="Feedbacks/feedback-1.jpeg"
-                    alt="تجربة طالب سعودي بعد قبول دراسة اللغة في الفلبين"
-                    loading="lazy"
-                    data-lightbox
-                  />
-                </button>
-              </div>
-              <div class="feedback-card">
-                <button class="feedback-zoom" type="button">
-                  <img
-                    src="Feedbacks/feedback-2.jpeg"
-                    alt="رأي طالبة خليجية حول استشارات القبول الدراسي"
-                    loading="lazy"
-                    data-lightbox
-                  />
-                </button>
-              </div>
-              <div class="feedback-card">
-                <button class="feedback-zoom" type="button">
-                  <img
-                    src="Feedbacks/feedback-3.jpeg"
-                    alt="طلاب في معهد لغة معتمد في الفلبين"
-                    loading="lazy"
-                    data-lightbox
-                  />
-                </button>
-              </div>
-              <div class="feedback-card">
-                <button class="feedback-zoom" type="button">
-                  <img
-                    src="Feedbacks/feedback-4.jpeg"
-                    alt="طالب بعد استلام قبول الدراسة في الفلبين"
-                    loading="lazy"
-                    data-lightbox
-                  />
-                </button>
-              </div>
-              <div class="feedback-card">
-                <button class="feedback-zoom" type="button">
-                  <img
-                    src="Feedbacks/feedback-5.jpeg"
-                    alt="طالبة في برنامج لغة أكاديمي في الفلبين"
-                    loading="lazy"
-                    data-lightbox
-                  />
-                </button>
-              </div>
-              <div class="feedback-card">
-                <button class="feedback-zoom" type="button">
-                  <img
-                    src="Feedbacks/feedback-6.jpeg"
-                    alt="مجموعة طلاب سعوديين في معهد لغة بالفلبين"
-                    loading="lazy"
-                    data-lightbox
-                  />
-                </button>
-              </div>
-              <div class="feedback-card">
-                <button class="feedback-zoom" type="button">
-                  <img
-                    src="Feedbacks/feedback-7.jpeg"
-                    alt="آراء طلاب حول التسجيل في معاهد اللغة للسعوديين"
-                    loading="lazy"
-                    data-lightbox
-                  />
-                </button>
-              </div>
-              <div class="feedback-card">
-                <button class="feedback-zoom" type="button">
-                  <img
-                    src="Feedbacks/WhatsApp Image 2026-06-17 at 7.01.04 PM (1).jpeg"
-                    alt="آراء طلاب حول التسجيل في معاهد اللغة للسعوديين"
-                    loading="lazy"
-                    data-lightbox
-                  />
-                </button>
-              </div>
-              <div class="feedback-card">
-                <button class="feedback-zoom" type="button">
-                  <img
-                    src="Feedbacks/WhatsApp Image 2026-06-17 at 7.01.04 PM.jpeg"
-                    alt="آراء طلاب حول التسجيل في معاهد اللغة للسعوديين"
-                    loading="lazy"
-                    data-lightbox
-                  />
-                </button>
-              </div>
-              <div class="feedback-card">
-                <button class="feedback-zoom" type="button">
-                  <img
-                    src="Feedbacks/WhatsApp Image 2026-06-17 at 7.01.05 PM.jpeg"
-                    alt="آراء طلاب حول التسجيل في معاهد اللغة للسعوديين"
-                    loading="lazy"
-                    data-lightbox
-                  />
-                </button>
-              </div>
-              <div class="feedback-card">
-                <button class="feedback-zoom" type="button">
-                  <img
-                    src="Feedbacks/WhatsApp Image 2026-06-17 at 7.03.22 PM.jpeg"
-                    alt="تعليق طالب عن خدمة قبول دراسة اللغة في الفلبين"
-                    loading="lazy"
-                    data-lightbox
-                  />
-                </button>
-              </div>
-              <div class="feedback-card">
-                <button class="feedback-zoom" type="button">
-                  <img
-                    src="Feedbacks/WhatsApp Image 2026-02-09 at 12.22.24 AM.jpeg"
-                    alt="تجربة طالب مع خدمات القبول والدراسة في الفلبين"
-                    loading="lazy"
-                    data-lightbox
-                  />
-                </button>
-              </div>
+        </div>
+        <div class="feedback-mosaic-wrap reveal">
+          <div class="feedback-mosaic-grid">
+            <div class="feedback-card">
+              <button class="feedback-zoom" type="button" aria-label="تجربة طالب بعد قبول دراسة اللغة في الفلبين">
+                <img
+                  src="/Feedbacks/feedback-1.jpeg"
+                  alt="تجربة طالب بعد قبول دراسة اللغة في الفلبين"
+                  loading="lazy"
+                  data-lightbox
+                />
+                <span class="feedback-zoom-badge">
+                  <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line><line x1="11" y1="8" x2="11" y2="14"></line><line x1="8" y1="11" x2="14" y2="11"></line></svg>
+                  <span>تكبير</span>
+                </span>
+              </button>
+            </div>
+            <div class="feedback-card">
+              <button class="feedback-zoom" type="button" aria-label="رأي طالبة خليجية حول استشارات القبول الدراسي">
+                <img
+                  src="/Feedbacks/feedback-2.jpeg"
+                  alt="رأي طالبة خليجية حول استشارات القبول الدراسي"
+                  loading="lazy"
+                  data-lightbox
+                />
+                <span class="feedback-zoom-badge">
+                  <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line><line x1="11" y1="8" x2="11" y2="14"></line><line x1="8" y1="11" x2="14" y2="11"></line></svg>
+                  <span>تكبير</span>
+                </span>
+              </button>
+            </div>
+            <div class="feedback-card">
+              <button class="feedback-zoom" type="button" aria-label="استلام خطاب القبول وسرعة الإجراءات">
+                <img
+                  src="/Feedbacks/feedback-3.jpeg"
+                  alt="استلام خطاب القبول وسرعة الإجراءات"
+                  loading="lazy"
+                  data-lightbox
+                />
+                <span class="feedback-zoom-badge">
+                  <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line><line x1="11" y1="8" x2="11" y2="14"></line><line x1="8" y1="11" x2="14" y2="11"></line></svg>
+                  <span>تكبير</span>
+                </span>
+              </button>
+            </div>
+            <div class="feedback-card">
+              <button class="feedback-zoom" type="button" aria-label="تقييم طالب لخدمة المتابعة والتسجيل">
+                <img
+                  src="/Feedbacks/feedback-4.jpeg"
+                  alt="تقييم طالب لخدمة المتابعة والتسجيل"
+                  loading="lazy"
+                  data-lightbox
+                />
+                <span class="feedback-zoom-badge">
+                  <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line><line x1="11" y1="8" x2="11" y2="14"></line><line x1="8" y1="11" x2="14" y2="11"></line></svg>
+                  <span>تكبير</span>
+                </span>
+              </button>
+            </div>
+            <div class="feedback-card">
+              <button class="feedback-zoom" type="button" aria-label="تجربة دراسة لغة إنجليزية في الفلبين">
+                <img
+                  src="/Feedbacks/feedback-5.jpeg"
+                  alt="تجربة دراسة لغة إنجليزية في الفلبين"
+                  loading="lazy"
+                  data-lightbox
+                />
+                <span class="feedback-zoom-badge">
+                  <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line><line x1="11" y1="8" x2="11" y2="14"></line><line x1="8" y1="11" x2="14" y2="11"></line></svg>
+                  <span>تكبير</span>
+                </span>
+              </button>
+            </div>
+            <div class="feedback-card">
+              <button class="feedback-zoom" type="button" aria-label="تسهيل إجراءات السفر واستقبال الطالب">
+                <img
+                  src="/Feedbacks/feedback-6.jpeg"
+                  alt="تسهيل إجراءات السفر واستقبال الطالب"
+                  loading="lazy"
+                  data-lightbox
+                />
+                <span class="feedback-zoom-badge">
+                  <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line><line x1="11" y1="8" x2="11" y2="14"></line><line x1="8" y1="11" x2="14" y2="11"></line></svg>
+                  <span>تكبير</span>
+                </span>
+              </button>
+            </div>
+            <div class="feedback-card">
+              <button class="feedback-zoom" type="button" aria-label="محادثة طالب يثني على سرعة استخراج القبول">
+                <img
+                  src="/Feedbacks/feedback-7.jpeg"
+                  alt="محادثة طالب يثني على سرعة استخراج القبول"
+                  loading="lazy"
+                  data-lightbox
+                />
+                <span class="feedback-zoom-badge">
+                  <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line><line x1="11" y1="8" x2="11" y2="14"></line><line x1="8" y1="11" x2="14" y2="11"></line></svg>
+                  <span>تكبير</span>
+                </span>
+              </button>
+            </div>
+            <div class="feedback-card">
+              <button class="feedback-zoom" type="button" aria-label="محادثة توثيق استلام القبول الدراسي">
+                <img
+                  src="/Feedbacks/feedback-8.jpeg"
+                  alt="محادثة توثيق استلام القبول الدراسي"
+                  loading="lazy"
+                  data-lightbox
+                />
+                <span class="feedback-zoom-badge">
+                  <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line><line x1="11" y1="8" x2="11" y2="14"></line><line x1="8" y1="11" x2="14" y2="11"></line></svg>
+                  <span>تكبير</span>
+                </span>
+              </button>
+            </div>
+            <div class="feedback-card">
+              <button class="feedback-zoom" type="button" aria-label="رأي طالب في معهد معتمد في الفلبين">
+                <img
+                  src="/Feedbacks/feedback-9.jpeg"
+                  alt="رأي طالب في معهد معتمد في الفلبين"
+                  loading="lazy"
+                  data-lightbox
+                />
+                <span class="feedback-zoom-badge">
+                  <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line><line x1="11" y1="8" x2="11" y2="14"></line><line x1="8" y1="11" x2="14" y2="11"></line></svg>
+                  <span>تكبير</span>
+                </span>
+              </button>
+            </div>
+            <div class="feedback-card">
+              <button class="feedback-zoom" type="button" aria-label="شكر طالب لمستشار القبول على الدعم">
+                <img
+                  src="/Feedbacks/feedback-10.jpeg"
+                  alt="شكر طالب لمستشار القبول على الدعم"
+                  loading="lazy"
+                  data-lightbox
+                />
+                <span class="feedback-zoom-badge">
+                  <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line><line x1="11" y1="8" x2="11" y2="14"></line><line x1="8" y1="11" x2="14" y2="11"></line></svg>
+                  <span>تكبير</span>
+                </span>
+              </button>
+            </div>
+            <div class="feedback-card">
+              <button class="feedback-zoom" type="button" aria-label="توثيق وصول طالب وبداية الدراسة بنجاح">
+                <img
+                  src="/Feedbacks/feedback-11.jpeg"
+                  alt="توثيق وصول طالب وبداية الدراسة بنجاح"
+                  loading="lazy"
+                  data-lightbox
+                />
+                <span class="feedback-zoom-badge">
+                  <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line><line x1="11" y1="8" x2="11" y2="14"></line><line x1="8" y1="11" x2="14" y2="11"></line></svg>
+                  <span>تكبير</span>
+                </span>
+              </button>
+            </div>
+            <div class="feedback-card">
+              <button class="feedback-zoom" type="button" aria-label="محادثة واتساب لترتيب السكن والدراسة">
+                <img
+                  src="/Feedbacks/feedback-12.jpeg"
+                  alt="محادثة واتساب لترتيب السكن والدراسة"
+                  loading="lazy"
+                  data-lightbox
+                />
+                <span class="feedback-zoom-badge">
+                  <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line><line x1="11" y1="8" x2="11" y2="14"></line><line x1="8" y1="11" x2="14" y2="11"></line></svg>
+                  <span>تكبير</span>
+                </span>
+              </button>
+            </div>
+            <div class="feedback-card">
+              <button class="feedback-zoom" type="button" aria-label="انطباع طالب عن كفاءة المعلمين والمعهد">
+                <img
+                  src="/Feedbacks/feedback-13.jpeg"
+                  alt="انطباع طالب عن كفاءة المعلمين والمعهد"
+                  loading="lazy"
+                  data-lightbox
+                />
+                <span class="feedback-zoom-badge">
+                  <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line><line x1="11" y1="8" x2="11" y2="14"></line><line x1="8" y1="11" x2="14" y2="11"></line></svg>
+                  <span>تكبير</span>
+                </span>
+              </button>
+            </div>
+            <div class="feedback-card">
+              <button class="feedback-zoom" type="button" aria-label="رسالة شكر وتقدير لفريق YallaStudy">
+                <img
+                  src="/Feedbacks/feedback-14.jpeg"
+                  alt="رسالة شكر وتقدير لفريق YallaStudy"
+                  loading="lazy"
+                  data-lightbox
+                />
+                <span class="feedback-zoom-badge">
+                  <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line><line x1="11" y1="8" x2="11" y2="14"></line><line x1="8" y1="11" x2="14" y2="11"></line></svg>
+                  <span>تكبير</span>
+                </span>
+              </button>
+            </div>
+            <div class="feedback-card">
+              <button class="feedback-zoom" type="button" aria-label="تأكيد تسجيل طالب في دورة مكثفة">
+                <img
+                  src="/Feedbacks/feedback-15.jpeg"
+                  alt="تأكيد تسجيل طالب في دورة مكثفة"
+                  loading="lazy"
+                  data-lightbox
+                />
+                <span class="feedback-zoom-badge">
+                  <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line><line x1="11" y1="8" x2="11" y2="14"></line><line x1="8" y1="11" x2="14" y2="11"></line></svg>
+                  <span>تكبير</span>
+                </span>
+              </button>
+            </div>
+            <div class="feedback-card">
+              <button class="feedback-zoom" type="button" aria-label="إشادة بسرعة الرد والمتابعة اليومية">
+                <img
+                  src="/Feedbacks/feedback-16.jpeg"
+                  alt="إشادة بسرعة الرد والمتابعة اليومية"
+                  loading="lazy"
+                  data-lightbox
+                />
+                <span class="feedback-zoom-badge">
+                  <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line><line x1="11" y1="8" x2="11" y2="14"></line><line x1="8" y1="11" x2="14" y2="11"></line></svg>
+                  <span>تكبير</span>
+                </span>
+              </button>
+            </div>
+            <div class="feedback-card">
+              <button class="feedback-zoom" type="button" aria-label="استشارة دراسية وتوجيه لاختيار المعهد">
+                <img
+                  src="/Feedbacks/feedback-17.jpeg"
+                  alt="استشارة دراسية وتوجيه لاختيار المعهد"
+                  loading="lazy"
+                  data-lightbox
+                />
+                <span class="feedback-zoom-badge">
+                  <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line><line x1="11" y1="8" x2="11" y2="14"></line><line x1="8" y1="11" x2="14" y2="11"></line></svg>
+                  <span>تكبير</span>
+                </span>
+              </button>
+            </div>
+            <div class="feedback-card">
+              <button class="feedback-zoom" type="button" aria-label="تجربة ناجحة في استخراج الفيزا والقبول">
+                <img
+                  src="/Feedbacks/feedback-18.jpeg"
+                  alt="تجربة ناجحة في استخراج الفيزا والقبول"
+                  loading="lazy"
+                  data-lightbox
+                />
+                <span class="feedback-zoom-badge">
+                  <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line><line x1="11" y1="8" x2="11" y2="14"></line><line x1="8" y1="11" x2="14" y2="11"></line></svg>
+                  <span>تكبير</span>
+                </span>
+              </button>
+            </div>
+            <div class="feedback-card">
+              <button class="feedback-zoom" type="button" aria-label="محادثة طالب سعودي في معاهد سيبو">
+                <img
+                  src="/Feedbacks/feedback-19.jpeg"
+                  alt="محادثة طالب سعودي في معاهد سيبو"
+                  loading="lazy"
+                  data-lightbox
+                />
+                <span class="feedback-zoom-badge">
+                  <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line><line x1="11" y1="8" x2="11" y2="14"></line><line x1="8" y1="11" x2="14" y2="11"></line></svg>
+                  <span>تكبير</span>
+                </span>
+              </button>
+            </div>
+            <div class="feedback-card">
+              <button class="feedback-zoom" type="button" aria-label="متابعة مستمرة حتى بداية الدوام">
+                <img
+                  src="/Feedbacks/feedback-20.jpeg"
+                  alt="متابعة مستمرة حتى بداية الدوام"
+                  loading="lazy"
+                  data-lightbox
+                />
+                <span class="feedback-zoom-badge">
+                  <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line><line x1="11" y1="8" x2="11" y2="14"></line><line x1="8" y1="11" x2="14" y2="11"></line></svg>
+                  <span>تكبير</span>
+                </span>
+              </button>
+            </div>
+            <div class="feedback-card">
+              <button class="feedback-zoom" type="button" aria-label="تقييم ممتاز لجودة الخدمات التعليمية">
+                <img
+                  src="/Feedbacks/feedback-21.jpeg"
+                  alt="تقييم ممتاز لجودة الخدمات التعليمية"
+                  loading="lazy"
+                  data-lightbox
+                />
+                <span class="feedback-zoom-badge">
+                  <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line><line x1="11" y1="8" x2="11" y2="14"></line><line x1="8" y1="11" x2="14" y2="11"></line></svg>
+                  <span>تكبير</span>
+                </span>
+              </button>
+            </div>
+            <div class="feedback-card">
+              <button class="feedback-zoom" type="button" aria-label="تجربة طالب في كورس المحادثة الإنجليزية">
+                <img
+                  src="/Feedbacks/feedback-22.jpeg"
+                  alt="تجربة طالب في كورس المحادثة الإنجليزية"
+                  loading="lazy"
+                  data-lightbox
+                />
+                <span class="feedback-zoom-badge">
+                  <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line><line x1="11" y1="8" x2="11" y2="14"></line><line x1="8" y1="11" x2="14" y2="11"></line></svg>
+                  <span>تكبير</span>
+                </span>
+              </button>
+            </div>
+            <div class="feedback-card">
+              <button class="feedback-zoom" type="button" aria-label="تأكيد صدور القبول في وقت قياسي">
+                <img
+                  src="/Feedbacks/feedback-23.jpeg"
+                  alt="تأكيد صدور القبول في وقت قياسي"
+                  loading="lazy"
+                  data-lightbox
+                />
+                <span class="feedback-zoom-badge">
+                  <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line><line x1="11" y1="8" x2="11" y2="14"></line><line x1="8" y1="11" x2="14" y2="11"></line></svg>
+                  <span>تكبير</span>
+                </span>
+              </button>
+            </div>
+            <div class="feedback-card">
+              <button class="feedback-zoom" type="button" aria-label="محادثة حقيقية لطالب بعد إنهاء دورته">
+                <img
+                  src="/Feedbacks/feedback-24.jpeg"
+                  alt="محادثة حقيقية لطالب بعد إنهاء دورته"
+                  loading="lazy"
+                  data-lightbox
+                />
+                <span class="feedback-zoom-badge">
+                  <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line><line x1="11" y1="8" x2="11" y2="14"></line><line x1="8" y1="11" x2="14" y2="11"></line></svg>
+                  <span>تكبير</span>
+                </span>
+              </button>
+            </div>
+            <div class="feedback-card">
+              <button class="feedback-zoom" type="button" aria-label="رسالة توثيق رضا العميل عن الخدمة">
+                <img
+                  src="/Feedbacks/feedback-25.jpeg"
+                  alt="رسالة توثيق رضا العميل عن الخدمة"
+                  loading="lazy"
+                  data-lightbox
+                />
+                <span class="feedback-zoom-badge">
+                  <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line><line x1="11" y1="8" x2="11" y2="14"></line><line x1="8" y1="11" x2="14" y2="11"></line></svg>
+                  <span>تكبير</span>
+                </span>
+              </button>
+            </div>
+            <div class="feedback-card">
+              <button class="feedback-zoom" type="button" aria-label="تجربة طالب خليجي في دراسة اللغة">
+                <img
+                  src="/Feedbacks/feedback-26.jpeg"
+                  alt="تجربة طالب خليجي في دراسة اللغة"
+                  loading="lazy"
+                  data-lightbox
+                />
+                <span class="feedback-zoom-badge">
+                  <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line><line x1="11" y1="8" x2="11" y2="14"></line><line x1="8" y1="11" x2="14" y2="11"></line></svg>
+                  <span>تكبير</span>
+                </span>
+              </button>
+            </div>
+            <div class="feedback-card">
+              <button class="feedback-zoom" type="button" aria-label="متابعة السكن والوجبات في المعهد">
+                <img
+                  src="/Feedbacks/feedback-27.jpeg"
+                  alt="متابعة السكن والوجبات في المعهد"
+                  loading="lazy"
+                  data-lightbox
+                />
+                <span class="feedback-zoom-badge">
+                  <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line><line x1="11" y1="8" x2="11" y2="14"></line><line x1="8" y1="11" x2="14" y2="11"></line></svg>
+                  <span>تكبير</span>
+                </span>
+              </button>
+            </div>
+            <div class="feedback-card">
+              <button class="feedback-zoom" type="button" aria-label="شكر خاص على المصداقية والوضوح">
+                <img
+                  src="/Feedbacks/feedback-28.jpeg"
+                  alt="شكر خاص على المصداقية والوضوح"
+                  loading="lazy"
+                  data-lightbox
+                />
+                <span class="feedback-zoom-badge">
+                  <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line><line x1="11" y1="8" x2="11" y2="14"></line><line x1="8" y1="11" x2="14" y2="11"></line></svg>
+                  <span>تكبير</span>
+                </span>
+              </button>
             </div>
           </div>
         </div>
@@ -1408,6 +1791,7 @@
           <h4 data-i18n="footer.links">روابط سريعة</h4>
           <ul>
             <li><a href="#about" data-i18n="nav.about">من نحن</a></li>
+            <li><a href="#location" data-i18n="nav.location">موقعنا</a></li>
             <li><a href="#services" data-i18n="nav.services">خدماتنا</a></li>
             <li><a href="#institutes" data-i18n="footer.institutes">المعاهد</a></li>
             <li><a href="#faq" data-i18n="footer.faq">الأسئلة</a></li>

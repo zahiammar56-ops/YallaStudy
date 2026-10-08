@@ -1,4 +1,4 @@
-﻿const navToggle = document.querySelector('[data-nav-toggle]');
+const navToggle = document.querySelector('[data-nav-toggle]');
 const nav = document.querySelector('[data-nav]');
 const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
 const langSelect = document.getElementById('lang-select');
@@ -146,7 +146,7 @@ const translations = {
     'contact.lead': 'اترك بياناتك وسيتواصل معك مستشار قبول دراسي خلال 24 ساعة.',
     'contact.name': 'الاسم الكامل',
     'contact.phone': 'رقم الجوال',
-    'contact.email': 'البريد الإلكتروني',
+    'contact.email': 'البريد الإلكتروني (اختياري)',
     'contact.service': 'الاستشارة أو الخدمة المطلوبة',
     'contact.submit': 'إرسال',
     'faq.title': 'الأسئلة الشائعة حول الدراسة في الفلبين',
@@ -200,7 +200,19 @@ const translations = {
     'whatsapp.label': 'واتساب',
     'whatsapp.text': 'واتساب',
     'lightbox.title': 'عرض الصورة',
-    'lightbox.close': 'إغلاق'
+    'lightbox.close': 'إغلاق',
+    'nav.location': 'موقعنا',
+    'location.badge': 'مقر YallaStudy - الرياض',
+    'location.title': 'مقرنا وموقعنا على الخريطة',
+    'location.lead': 'نسعد باستقبالكم في مقرنا بالرياض لتقديم الاستشارات ومتابعة إجراءات القبول مباشرة.',
+    'location.address.title': 'العنوان',
+    'location.address.val': 'الرياض، المملكة العربية السعودية',
+    'location.hours.title': 'أوقات العمل',
+    'location.hours.val': 'الأحد - الخميس: 9:00 ص - 6:00 م',
+    'location.cta': 'فتح في خرائط Google',
+    'location.photo1.caption': 'مقر YallaStudy بالرياض',
+    'location.photo2.caption': 'صالة الاستقبال وخدمات الطلاب',
+    'location.photo.zoom': 'انقر للتكبير'
   },
   en: {
     'meta.title':
@@ -349,7 +361,7 @@ const translations = {
     'contact.lead': 'Leave your details and we’ll contact you within 24 hours.',
     'contact.name': 'Full name',
     'contact.phone': 'Mobile number',
-    'contact.email': 'Email address',
+    'contact.email': 'Email address (optional)',
     'contact.service': 'Consultation or required service',
     'contact.submit': 'Send',
     'faq.title': 'Frequently Asked Questions',
@@ -401,7 +413,19 @@ const translations = {
     'whatsapp.label': 'WhatsApp',
     'whatsapp.text': 'WhatsApp',
     'lightbox.title': 'Image preview',
-    'lightbox.close': 'Close'
+    'lightbox.close': 'Close',
+    'nav.location': 'Our Location',
+    'location.badge': 'YallaStudy Headquarters - Riyadh',
+    'location.title': 'Our Headquarters & Location on the Map',
+    'location.lead': 'We are delighted to welcome you to our Riyadh headquarters for in-person consultations and direct admission support.',
+    'location.address.title': 'Address',
+    'location.address.val': 'Riyadh, Kingdom of Saudi Arabia',
+    'location.hours.title': 'Working Hours',
+    'location.hours.val': 'Sunday – Thursday: 9:00 AM – 6:00 PM',
+    'location.cta': 'Open in Google Maps',
+    'location.photo1.caption': 'YallaStudy Headquarters in Riyadh',
+    'location.photo2.caption': 'Reception & Student Services Lounge',
+    'location.photo.zoom': 'Click to enlarge'
   },
   fr: {
     'meta.title': 'YallaStudy | L’admission entre vos mains',
@@ -553,7 +577,7 @@ const translations = {
     'contact.lead': 'Laissez vos coordonnées et nous vous contacterons sous 24 h.',
     'contact.name': 'Nom complet',
     'contact.phone': 'Numéro de mobile',
-    'contact.email': 'Adresse e-mail',
+    'contact.email': 'Adresse e-mail (facultatif)',
     'contact.service': 'Consultation ou service demandé',
     'contact.submit': 'Envoyer',
     'faq.title': 'Questions fréquentes',
@@ -563,8 +587,15 @@ const translations = {
     'faq.a2': 'En général 3 à 7 jours ouvrables après réception des documents complets.',
     'faq.q3': 'Y a‑t‑il des frais de consultation ?',
     'faq.a3': 'Non, la consultation et l’étude des options sont gratuites.',
-    'faq.q4': 'Aidez‑vous pour le logement et l’assurance ?',
-    'faq.a4': 'Oui, nous recommandons des options fiables pour le logement et l’assurance santé.',
+    'faq.q4': 'Proposez-vous des programmes de langue académiques après le niveau général ?',
+    'faq.a4':
+      'Oui, nous proposons des cours d’anglais académique, de préparation aux examens et des passerelles universitaires avec des instituts accrédités.',
+    'faq.q5': 'Aidez-vous pour le logement et l’accueil aux Philippines ?',
+    'faq.a5':
+      'Oui, nous offrons des conseils pour le logement, l’assurance santé, l’accueil à l’aéroport et la préparation avant le départ.',
+    'faq.q6': 'Vos services sont-ils réservés aux étudiants saoudiens ?',
+    'faq.a6':
+      'Notre priorité est accordée aux étudiants saoudiens, mais nous accompagnons également les étudiants des Émirats, du Yémen et du Golfe selon les places disponibles.',
     'partners.title': 'Des instituts qui comprennent les objectifs des étudiants saoudiens',
     'partners.lead': 'Des instituts internationaux sélectionnés offrant une éducation de qualité.',
     'partners.card1.desc': 'Parcours intensifs pour préparer les tests de langue.',
@@ -598,7 +629,19 @@ const translations = {
     'whatsapp.label': 'WhatsApp',
     'whatsapp.text': 'WhatsApp',
     'lightbox.title': 'Aperçu de l’image',
-    'lightbox.close': 'Fermer'
+    'lightbox.close': 'Fermer',
+    'nav.location': 'Notre Bureau',
+    'location.badge': 'Siège YallaStudy - Riyad',
+    'location.title': 'Notre Siège et Localisation sur la Carte',
+    'location.lead': 'Nous sommes ravis de vous accueillir dans notre siège à Riyad pour des consultations personnalisées et un suivi direct.',
+    'location.address.title': 'Adresse',
+    'location.address.val': 'Riyad, Royaume d’Arabie Saoudite',
+    'location.hours.title': 'Horaires d’ouverture',
+    'location.hours.val': 'Dimanche – Jeudi : 9h00 – 18h00',
+    'location.cta': 'Ouvrir dans Google Maps',
+    'location.photo1.caption': 'Siège de YallaStudy à Riyad',
+    'location.photo2.caption': 'Espace d’accueil et services aux étudiants',
+    'location.photo.zoom': 'Cliquer pour agrandir'
   },
   es: {
     'meta.title': 'YallaStudy | La admisión en tus manos',
@@ -747,7 +790,7 @@ const translations = {
     'contact.lead': 'Deja tus datos y te contactaremos en 24 horas.',
     'contact.name': 'Nombre completo',
     'contact.phone': 'Número de móvil',
-    'contact.email': 'Correo electrónico',
+    'contact.email': 'Correo electrónico (opcional)',
     'contact.service': 'Consulta o servicio requerido',
     'contact.submit': 'Enviar',
     'faq.title': 'Preguntas frecuentes',
@@ -758,8 +801,15 @@ const translations = {
     'faq.a2': 'Normalmente de 3 a 7 días hábiles tras recibir los documentos completos.',
     'faq.q3': '¿Hay tarifas de consulta?',
     'faq.a3': 'No, la consulta y la revisión de opciones son totalmente gratuitas.',
-    'faq.q4': '¿Ayudan con alojamiento y seguro?',
-    'faq.a4': 'Sí, recomendamos opciones confiables de alojamiento y seguro médico.',
+    'faq.q4': '¿Ofrecen programas de idioma académico después del nivel general?',
+    'faq.a4':
+      'Sí, ofrecemos inglés académico, preparación para exámenes oficiales y vías de acceso universitario a través de institutos acreditados.',
+    'faq.q5': '¿Ayudan con el alojamiento y la recepción en Filipinas?',
+    'faq.a5':
+      'Sí, brindamos orientación completa para alojamiento, seguro médico, recepción y preparación antes del viaje.',
+    'faq.q6': '¿Sus servicios son solo para estudiantes saudíes?',
+    'faq.a6':
+      'Nuestro enfoque principal son los estudiantes saudíes, y también atendemos a estudiantes de Emiratos, Yemen y países del Golfo según disponibilidad.',
     'partners.title': 'Institutos que entienden las metas de los estudiantes saudíes',
     'partners.lead': 'Institutos internacionales destacados con educación de alta calidad.',
     'partners.card1.desc': 'Rutas intensivas para preparar exámenes de idioma.',
@@ -793,7 +843,19 @@ const translations = {
     'whatsapp.label': 'WhatsApp',
     'whatsapp.text': 'WhatsApp',
     'lightbox.title': 'Vista de imagen',
-    'lightbox.close': 'Cerrar'
+    'lightbox.close': 'Cerrar',
+    'nav.location': 'Nuestra Ubicación',
+    'location.badge': 'Sede YallaStudy - Riad',
+    'location.title': 'Nuestra Sede y Ubicación en el Mapa',
+    'location.lead': 'Estaremos encantados de recibirte en nuestra sede en Riad para consultas presenciales y gestión directa de admisiones.',
+    'location.address.title': 'Dirección',
+    'location.address.val': 'Riad, Reino de Arabia Saudita',
+    'location.hours.title': 'Horario de atención',
+    'location.hours.val': 'Domingo – Jueves: 9:00 – 18:00',
+    'location.cta': 'Abrir en Google Maps',
+    'location.photo1.caption': 'Sede de YallaStudy en Riad',
+    'location.photo2.caption': 'Recepción y atención a estudiantes',
+    'location.photo.zoom': 'Clic para ampliar'
   },
   tr: {
     'meta.title': 'YallaStudy | Kabul Elinizde',
@@ -939,7 +1001,7 @@ const translations = {
     'contact.lead': 'Bilgilerinizi bırakın, 24 saat içinde dönüş yapalım.',
     'contact.name': 'Ad soyad',
     'contact.phone': 'Cep telefonu',
-    'contact.email': 'E-posta',
+    'contact.email': 'E-posta adresi (isteğe bağlı)',
     'contact.service': 'Danışmanlık veya gerekli hizmet',
     'contact.submit': 'Gönder',
     'faq.title': 'Sık Sorulan Sorular',
@@ -949,8 +1011,15 @@ const translations = {
     'faq.a2': 'Belgeler tam geldikten sonra genellikle 3–7 iş günü.',
     'faq.q3': 'Danışmanlık ücreti var mı?',
     'faq.a3': 'Hayır, danışmanlık ve seçenek değerlendirmesi tamamen ücretsizdir.',
-    'faq.q4': 'Konaklama ve sigorta desteği var mı?',
-    'faq.a4': 'Evet, güvenilir konaklama ve sağlık sigortası seçenekleri öneriyoruz.',
+    'faq.q4': 'Genel İngilizce sonrası akademik dil programları sunuyor musunuz?',
+    'faq.a4':
+      'Evet, akredite enstitüler aracılığıyla akademik İngilizce, sınav hazırlığı ve üniversite geçiş programları sunuyoruz.',
+    'faq.q5': 'Filipinler’de konaklama ve karşılama desteği sağlıyor musunuz?',
+    'faq.a5':
+      'Evet, konaklama, sağlık sigortası, karşılama ve seyahat öncesi hazırlık planı konusunda tam destek sağlıyoruz.',
+    'faq.q6': 'Hizmetleriniz yalnızca Suudi öğrenciler için mi geçerli?',
+    'faq.a6':
+      'Önceliğimiz Suudi öğrencilerdir; ancak kontenjana bağlı olarak BAE, Yemen ve diğer Körfez ülkelerinden gelen öğrencilere de hizmet veriyoruz.',
     'partners.title': 'Suudi öğrencilerin hedeflerini anlayan kurumlar',
     'partners.lead': 'Yüksek kaliteli eğitim sunan seçkin uluslararası kurumlar.',
     'partners.card1.desc': 'Dil sınavlarına hazırlık için yoğun programlar.',
@@ -984,7 +1053,19 @@ const translations = {
     'whatsapp.label': 'WhatsApp',
     'whatsapp.text': 'WhatsApp',
     'lightbox.title': 'Görsel önizleme',
-    'lightbox.close': 'Kapat'
+    'lightbox.close': 'Kapat',
+    'nav.location': 'Konumumuz',
+    'location.badge': 'YallaStudy Genel Merkezi - Riyad',
+    'location.title': 'Genel Merkezimiz ve Harita Konumu',
+    'location.lead': 'Birebir danışmanlık ve doğrudan kabul takibi için sizi Riyad genel merkezimizde ağırlamaktan mutluluk duyarız.',
+    'location.address.title': 'Adres',
+    'location.address.val': 'Riyad, Suudi Arabistan Krallığı',
+    'location.hours.title': 'Çalışma Saatleri',
+    'location.hours.val': 'Pazar – Perşembe: 09:00 – 18:00',
+    'location.cta': 'Google Haritalar’da Aç',
+    'location.photo1.caption': 'Riyad YallaStudy Genel Merkezi',
+    'location.photo2.caption': 'Karşılama ve Öğrenci Hizmetleri Alanı',
+    'location.photo.zoom': 'Büyütmek için tıklayın'
   }
 };
 
@@ -1398,7 +1479,7 @@ if (revealItems.length) {
 const lightbox = document.querySelector('.lightbox');
 const lightboxImage = document.querySelector('.lightbox-image');
 const lightboxClosers = document.querySelectorAll('[data-lightbox-close]');
-const zoomButtons = document.querySelectorAll('.proof-zoom');
+const zoomButtons = document.querySelectorAll('.proof-zoom, .location-photo-zoom, .feedback-zoom');
 const lightboxTargets = document.querySelectorAll('[data-lightbox]');
 
 const openLightbox = (src, alt) => {
@@ -1556,3 +1637,10 @@ if (feedbackSlider && feedbackTrack) {
     teardown = buildFeedbackSlider();
   });
 }
+
+// Adjust form redirect when testing on localhost
+const formNextInput = document.querySelector('input[name="_next"]');
+if (formNextInput && (window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1')) {
+  formNextInput.value = window.location.origin + '/thank-you.html';
+}
+
