@@ -180,6 +180,7 @@ const translations = {
     'stories.card4': 'متابعة احترافية لضمان سرعة الإجراءات وتجنب الأخطاء الشائعة.',
     'stories.card5': 'خدمة واضحة وتواصل سريع عبر القنوات المناسبة للطالب.',
     'stories.follow': 'تابع قصص طلابنا',
+    'feedback.badge': 'جزء بسيط من آراء وتجارب طلابنا',
     'feedback.title': 'آراء الطلاب عن الدراسة في الفلبين',
     'feedback.lead':
       'لقطات حقيقية من طلابنا بعد التسجيل والقبول في معاهد اللغة والبرامج الأكاديمية.',
@@ -394,6 +395,7 @@ const translations = {
     'stories.card4': 'Professional follow-up to speed up procedures and avoid common mistakes.',
     'stories.card5': 'Clear service and fast communication through the right channels.',
     'stories.follow': 'Follow our student stories',
+    'feedback.badge': "Just a Glimpse of Our Students' Reviews & Experiences",
     'feedback.title': 'Student Feedback',
     'feedback.lead': 'Real snapshots from our students worldwide and their experiences with us.',
     'footer.tagline':
@@ -610,6 +612,7 @@ const translations = {
     'stories.card4': 'Suivi professionnel pour accélérer les démarches.',
     'stories.card5': 'Service clair et communication rapide via les bons canaux.',
     'stories.follow': 'Suivez les témoignages',
+    'feedback.badge': 'Un simple aperçu des avis et retours de nos étudiants',
     'feedback.title': 'Avis des étudiants',
     'feedback.lead': 'Des témoignages authentiques de nos étudiants à travers le monde.',
     'footer.tagline':
@@ -824,6 +827,7 @@ const translations = {
     'stories.card4': 'Seguimiento profesional para acelerar los trámites.',
     'stories.card5': 'Servicio claro y comunicación rápida.',
     'stories.follow': 'Sigue las historias',
+    'feedback.badge': 'Solo una muestra de las opiniones de nuestros estudiantes',
     'feedback.title': 'Opiniones de estudiantes',
     'feedback.lead': 'Testimonios reales de estudiantes de todo el mundo.',
     'footer.tagline':
@@ -1034,6 +1038,7 @@ const translations = {
     'stories.card4': 'İşlemleri hızlandıran profesyonel takip.',
     'stories.card5': 'Net hizmet ve hızlı iletişim.',
     'stories.follow': 'Öğrenci hikayelerini takip edin',
+    'feedback.badge': 'Öğrencilerimizin deneyim ve yorumlarından küçük bir kesit',
     'feedback.title': 'Öğrenci yorumları',
     'feedback.lead': 'Dünya çapındaki öğrencilerimizin gerçek deneyimleri.',
     'footer.tagline':
