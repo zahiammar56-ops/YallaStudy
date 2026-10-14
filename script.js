@@ -1315,6 +1315,12 @@ if (navToggle && nav) {
     link.addEventListener('click', () => toggleNav(false));
   });
 
+  nav.addEventListener('click', (event) => {
+    if (event.target === nav) {
+      toggleNav(false);
+    }
+  });
+
   document.addEventListener('click', (event) => {
     if (!document.body.classList.contains('nav-open')) return;
     if (nav.contains(event.target) || navToggle.contains(event.target)) return;
