@@ -41,7 +41,7 @@ const translations = {
     'about.title': 'استشارات القبول الدراسي للدراسة في الفلبين',
     'about.lead':
       'YallaStudy فريق متخصص في التسجيل في معاهد اللغة والبرامج الأكاديمية، مع تركيز على الدراسة في الفلبين للسعوديين. نساعدك في اختيار المعهد المناسب، تجهيز الملف، ومتابعة القبول خطوة بخطوة حتى السفر.',
-    'about.bullet1': 'استفسارات مجانية للطلاب السعوديين والإماراتيين مع مستشارين محترفين ذوي خبرة.',
+    'about.bullet1': 'استفسارات مجانية للطلاب السعوديين وباقي دول مجلس التعاون الخليجي مع مستشارين سعوديين ذوي خبرة.',
     'about.bullet2': 'خيارات معاهد لغة معتمدة ورسوم واضحة بدون مفاجآت.',
     'about.bullet3': 'متابعة طلب قبول دراسة اللغة في الفلبين حتى إصدار القبول النهائي.',
     'about.bullet4': 'دعم عبر واتساب وإرشاد للسكن والوصول.',
@@ -268,7 +268,7 @@ const translations = {
     'about.title': 'Who we are',
     'about.lead':
       'YallaStudy is a specialized consulting team for language institute enrollment and academic admission worldwide, with a focus on Saudi students planning to study in the Philippines. We help you choose the right institute, prepare documents, and follow up step by step.',
-    'about.bullet1': 'Free inquiries for Saudi and Emirati students with experienced professional advisors.',
+    'about.bullet1': 'Free inquiries for Saudi and GCC students with experienced Saudi advisors.',
     'about.bullet2': 'Clear international options and transparent fees with no surprises.',
     'about.bullet3': 'Follow-up until admission issuance and post-arrival guidance.',
     'about.bullet4': 'WhatsApp support and daily follow-up across time zones.',
@@ -497,7 +497,7 @@ const translations = {
     'about.title': 'Qui sommes-nous',
     'about.lead':
       'YallaStudy est une équipe spécialisée dans l’inscription aux instituts de langues et l’admission académique à l’international, avec un focus sur les étudiants saoudiens qui visent les Philippines.',
-    'about.bullet1': 'Renseignements gratuits pour les étudiants saoudiens et émiratis avec des conseillers professionnels expérimentés.',
+    'about.bullet1': 'Renseignements gratuits pour les étudiants saoudiens et du CCG avec des conseillers saoudiens expérimentés.',
     'about.bullet2': 'Options internationales claires et frais transparents, sans surprises.',
     'about.bullet3': 'Suivi jusqu’à l’émission de l’admission et accompagnement après l’arrivée.',
     'about.bullet4': 'Support WhatsApp et suivi quotidien selon le fuseau horaire.',
@@ -730,7 +730,7 @@ const translations = {
     'about.title': 'Quiénes somos',
     'about.lead':
       'YallaStudy es un equipo de consultoría especializado en inscripción en institutos de idiomas y admisión académica internacional, con enfoque en estudiantes saudíes que planean estudiar en Filipinas.',
-    'about.bullet1': 'Consultas gratuitas para estudiantes saudíes y emiratíes con asesores profesionales experimentados.',
+    'about.bullet1': 'Consultas gratuitas para estudiantes saudíes y del CCG con asesores saudíes experimentados.',
     'about.bullet2': 'Opciones internacionales claras y tarifas transparentes sin sorpresas.',
     'about.bullet3': 'Seguimiento hasta la emisión de la admisión y orientación tras la llegada.',
     'about.bullet4': 'Soporte por WhatsApp y seguimiento diario según zona horaria.',
@@ -961,7 +961,7 @@ const translations = {
     'about.title': 'Hakkımızda',
     'about.lead':
       'YallaStudy, uluslararası dil okulu kayıt ve akademik kabul konusunda uzman bir danışmanlık ekibidir; odağımız Filipinlerde eğitim planlayan Suudi öğrencilerdir.',
-    'about.bullet1': 'Suudi ve BAE öğrencileri için deneyimli profesyonel danışmanlarla ücretsiz danışmanlık.',
+    'about.bullet1': 'Suudi ve Körfez İşbirliği Konseyi öğrencileri için deneyimli Suudi danışmanlarla ücretsiz danışmanlık.',
     'about.bullet2': 'Uluslararası seçenekler, net ve şeffaf ücretler.',
     'about.bullet3': 'Kabul belgesi çıkana kadar takip ve varış sonrası yönlendirme.',
     'about.bullet4': 'WhatsApp desteği ve zaman dilimine uygun günlük takip.',
